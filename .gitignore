@@ -75,3 +75,7 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+SanRockVR/Intermediate/Android/APK/gradle/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/vending/expansion/downloader/impl/CustomIntentService$ServiceHandler.class
+SanRockVR/Intermediate/Android/APK/gradle/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/vending/expansion/downloader/impl/DownloaderService$GenerateSaveFileError.class
+SanRockVR/Intermediate/Android/APK/gradle/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/vending/expansion/downloader/impl/DownloaderService$InnerBroadcastReceiver.class
+SanRockVR/Intermediate/Android/APK/gradle/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/vending/expansion/downloader/impl/DownloadsDB$DownloadsContentDBHelper.class
