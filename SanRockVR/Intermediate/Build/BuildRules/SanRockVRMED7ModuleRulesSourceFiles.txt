@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Source\SanRockVRMED7\SanRockVRMED7.Build.cs
 C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Source\SanRockVRMED7.Target.cs
 C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Source\SanRockVRMED7Editor.Target.cs
+=======
+C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\Source\SanRockVRMED7\SanRockVRMED7.Build.cs
+C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\Source\SanRockVRMED7.Target.cs
+C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\Source\SanRockVRMED7Editor.Target.cs
+>>>>>>> MERLIN-copy
