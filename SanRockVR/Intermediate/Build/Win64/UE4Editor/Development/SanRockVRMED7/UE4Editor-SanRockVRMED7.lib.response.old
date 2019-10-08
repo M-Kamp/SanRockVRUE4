@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-SanRockVRMED7.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Mikke\Documents\Test 4.23\Intermediate\Build\Win64\SanRockVRMED7Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Mikke\Documents\Test 4.23\Intermediate\Build\Win64\UE4Editor\Development\SanRockVRMED7\HelloWorld.cpp.obj"
+"C:\Users\Mikke\Documents\Test 4.23\Intermediate\Build\Win64\UE4Editor\Development\SanRockVRMED7\SanRockVRMED7.cpp.obj"
+"C:\Users\Mikke\Documents\Test 4.23\Intermediate\Build\Win64\UE4Editor\Development\SanRockVRMED7\HelloWorld.gen.cpp.obj"
+"C:\Users\Mikke\Documents\Test 4.23\Intermediate\Build\Win64\UE4Editor\Development\SanRockVRMED7\SanRockVRMED7.init.gen.cpp.obj"
+"C:\Users\Mikke\Documents\Test 4.23\Intermediate\Build\Win64\UE4Editor\Development\SanRockVRMED7\Default.rc2.res"
+/OUT:"C:\Users\Mikke\Documents\Test 4.23\Intermediate\Build\Win64\UE4Editor\Development\SanRockVRMED7\UE4Editor-SanRockVRMED7.lib"
+/INCLUDE:IMPLEMENT_MODULE_SanRockVRMED7
