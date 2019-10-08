@@ -1,1 +1,1 @@
-../../../SanRockVRMED7/SanRockVRMED7.uproject  /Game/VirtualRealityBP/Maps/SanVRROck -Messaging -SessionId=56CF9F5B4339CDA53E96F188A2195C54 -SessionOwner="Mikke" -SessionName="Launch On Device" -iterative
+../../../SanRockVRMED7/SanRockVRMED7.uproject  /Game/VirtualRealityBP/Maps/SanVRROck -Messaging -SessionId=5895F55546367A472ECA35999AB87C16 -SessionOwner="Mikke" -SessionName="Launch On Device" -iterative
