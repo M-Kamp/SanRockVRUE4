@@ -1,4 +1,4 @@
-﻿Log file open, 10/11/19 09:46:08
+﻿Log file open, 10/11/19 12:29:07
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: SanRockVRMED7
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.102697
+LogStats: Stats thread started at 0.087773
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -157,535 +157,869 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.MobileHDR:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:1]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.UsePreExposure:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
-[2019.10.11-07.46.09:164][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
-[2019.10.11-07.46.09:165][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.10.11-07.46.09:165][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
-[2019.10.11-07.46.09:165][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
-[2019.10.11-07.46.09:168][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.10.11-07.46.09:168][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.10.11-07.46.09:169][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.10.11-07.46.09:169][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.11-07.46.09:169][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.10.11-07.46.09:177][  0]LogHAL: Display: Platform has ~ 16 GB [17033236480 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.10.11-07.46.09:177][  0]LogInit: Going up to parent DeviceProfile []
-[2019.10.11-07.46.09:177][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.10.11-07.46.09:177][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.10.11-07.46.09:178][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
-[2019.10.11-07.46.09:179][  0]LogInit: Computer: LAPTOP-KALMUV1E
-[2019.10.11-07.46.09:179][  0]LogInit: User: KampLegion
-[2019.10.11-07.46.09:179][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.10.11-07.46.09:179][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.10.11-07.46.09:179][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.10.11-07.46.09:179][  0]LogMemory: Platform Memory Stats for Windows
-[2019.10.11-07.46.09:179][  0]LogMemory: Process Physical Memory: 100.34 MB used, 100.34 MB peak
-[2019.10.11-07.46.09:179][  0]LogMemory: Process Virtual Memory: 87.89 MB used, 87.89 MB peak
-[2019.10.11-07.46.09:179][  0]LogMemory: Physical Memory: 7276.77 MB used,  8967.39 MB free, 16244.16 MB total
-[2019.10.11-07.46.09:179][  0]LogMemory: Virtual Memory: 4644.43 MB used,  134213080.00 MB free, 134217728.00 MB total
-[2019.10.11-07.46.09:183][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.10.11-07.46.09:218][  0]LogInit: Using OS detected language (en-US).
-[2019.10.11-07.46.09:218][  0]LogInit: Using OS detected locale (en-DK).
-[2019.10.11-07.46.09:219][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.10.11-07.46.09:411][  0]LogInit: Setting process to per monitor DPI aware
-[2019.10.11-07.46.09:455][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.10.11-07.46.09:455][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.10.11-07.46.09:710][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.11-07.46.09:710][  0]LogD3D11RHI: D3D11 adapters:
-[2019.10.11-07.46.09:809][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
-[2019.10.11-07.46.09:809][  0]LogD3D11RHI:       6052/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.10.11-07.46.09:836][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.10.11-07.46.09:836][  0]LogD3D11RHI:       128/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.10.11-07.46.09:838][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.10.11-07.46.09:838][  0]LogD3D11RHI:       0/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.10.11-07.46.09:838][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.10.11-07.46.09:890][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.10.11-07.46.09:891][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
-[2019.10.11-07.46.09:891][  0]LogWindows: EnumDisplayDevices:
-[2019.10.11-07.46.09:891][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2019.10.11-07.46.09:891][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.10.11-07.46.09:892][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.10.11-07.46.09:892][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.10.11-07.46.09:892][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.10.11-07.46.09:892][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.10.11-07.46.09:893][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.10.11-07.46.09:893][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2019.10.11-07.46.09:893][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
-[2019.10.11-07.46.09:893][  0]LogD3D11RHI:   Driver Version: 436.48 (internal:26.21.14.3648, unified:436.48)
-[2019.10.11-07.46.09:893][  0]LogD3D11RHI:      Driver Date: 9-26-2019
-[2019.10.11-07.46.09:893][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2019.10.11-07.46.09:969][  0]LogD3D11RHI: Async texture creation enabled
-[2019.10.11-07.46.09:987][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.10.11-07.46.10:341][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.10.11-07.46.10:354][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.10.11-07.46.10:365][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.10.11-07.46.10:375][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.10.11-07.46.10:389][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.10.11-07.46.10:400][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.10.11-07.46.10:411][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.10.11-07.46.10:422][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.10.11-07.46.10:427][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.10.11-07.46.10:466][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.10.11-07.46.10:466][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.10.11-07.46.10:466][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.10.11-07.46.10:466][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.10.11-07.46.10:466][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.10.11-07.46.10:466][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.10.11-07.46.10:466][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.10.11-07.46.10:466][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.10.11-07.46.10:466][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.10.11-07.46.10:466][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.10.11-07.46.10:466][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.10.11-07.46.10:466][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.10.11-07.46.10:466][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.10.11-07.46.10:466][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.10.11-07.46.10:466][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.10.11-07.46.10:466][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.10.11-07.46.10:466][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.10.11-07.46.10:466][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.10.11-07.46.10:468][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.10.11-07.46.10:489][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.10.11-07.46.10:489][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.10.11-07.46.10:505][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.10.11-07.46.10:505][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.10.11-07.46.10:514][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.10.11-07.46.10:523][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.10.11-07.46.10:531][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.10.11-07.46.10:540][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.10.11-07.46.10:569][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.10.11-07.46.10:569][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.10.11-07.46.10:569][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.10.11-07.46.10:580][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.10.11-07.46.10:644][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Intermediate/Shaders/WorkingDirectory/12024/).
-[2019.10.11-07.46.10:645][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kamp-Legion/AppData/Local/Temp/UnrealShaderWorkingDir/0F34E34E4F01DBEE29637A83D658F423/'.
-[2019.10.11-07.46.10:648][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.10.11-07.46.10:648][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.10.11-07.46.10:648][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.10.11-07.46.11:343][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.10.11-07.46.11:405][  0]LogDerivedDataCache: Loaded boot cache 0.06s 91MB C:/Users/Kamp-Legion/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.10.11-07.46.11:405][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Kamp-Legion/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2019.10.11-07.46.11:406][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.10.11-07.46.11:406][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.10.11-07.46.11:406][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.11-07.46.11:406][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.10.11-07.46.11:418][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.10.11-07.46.11:420][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
-[2019.10.11-07.46.11:422][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kamp-Legion/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.10.11-07.46.11:422][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.10.11-07.46.11:422][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.10.11-07.46.11:445][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.10.11-07.46.11:447][  0]LogSlate: Using FreeType 2.6.0
-[2019.10.11-07.46.11:448][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.10.11-07.46.11:526][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
-[2019.10.11-07.46.11:808][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.11-07.46.11:977][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.10.11-07.46.11:977][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.10.11-07.46.11:977][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.10.11-07.46.11:977][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.10.11-07.46.11:977][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.10.11-07.46.11:995][  0]LogNetVersion: SanRockVRMED7 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2744300009)
-[2019.10.11-07.46.12:464][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.057195 seconds
-[2019.10.11-07.46.12:471][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2019.10.11-07.46.12:471][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2019.10.11-07.46.12:471][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.10.11-07.46.13:573][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.10.11-07.46.13:575][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.10.11-07.46.13:637][  0]SourceControl: Source control is disabled
-[2019.10.11-07.46.13:637][  0]SourceControl: Source control is disabled
-[2019.10.11-07.46.13:639][  0]SourceControl: Source control is disabled
-[2019.10.11-07.46.13:640][  0]SourceControl: Source control is disabled
-[2019.10.11-07.46.13:743][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.10.11-07.46.13:868][  0]LogOcInput: OculusInput pre-init called
-[2019.10.11-07.46.13:876][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2019.10.11-07.46.13:876][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2019.10.11-07.46.13:950][  0]LogEngine: Initializing Engine...
-[2019.10.11-07.46.13:951][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.11-07.46.13:952][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.10.11-07.46.14:215][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.10.11-07.46.14:232][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.10.11-07.46.14:251][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.11-07.46.14:282][  0]LogInit: FAudioDevice initialized.
-[2019.10.11-07.46.14:282][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.10.11-07.46.14:343][  0]LogDerivedDataCache: Saved boot cache 0.06s 91MB C:/Users/Kamp-Legion/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.10.11-07.46.14:358][  0]LogInit: Texture streaming: Enabled
-[2019.10.11-07.46.14:382][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.10.11-07.46.14:452][  0]LogInit: Transaction tracking system initialized
-[2019.10.11-07.46.14:495][  0]BlueprintLog: New page: Editor Load
-[2019.10.11-07.46.14:595][  0]LocalizationService: Localization service is disabled
-[2019.10.11-07.46.14:870][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/' took 0.00s
-[2019.10.11-07.46.14:870][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.10.11-07.46.14:870][  0]LogCook: Display: Mobile HDR setting 0
-[2019.10.11-07.46.15:084][  0]SourceControl: Source control is disabled
-[2019.10.11-07.46.15:084][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Maps/SanVRROck.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.10.11-07.46.15:086][  0]LightingResults: New page: Lighting Build
-[2019.10.11-07.46.15:089][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.10.11-07.46.15:089][  0]MapCheck: New page: Map Check
-[2019.10.11-07.46.15:089][  0]LightingResults: New page: Lighting Build
-[2019.10.11-07.46.15:115][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
-[2019.10.11-07.46.15:465][  0]LogAIModule: Creating AISystem for world SanVRROck
-[2019.10.11-07.46.15:495][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.10.11-07.46.15:526][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
-[2019.10.11-07.46.15:526][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.11-07.46.15:526][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.196ms to complete.
-[2019.10.11-07.46.15:526][  0]LogFileHelpers: Loading map 'SanVRROck' took 0.442
-[2019.10.11-07.46.15:706][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.11-07.46.15:715][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.11-07.46.15:722][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.11-07.46.15:729][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.11-07.46.15:737][  0]LogCollectionManager: Loaded 0 collections in 0.002414 seconds
-[2019.10.11-07.46.15:745][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Collections/' took 0.00s
-[2019.10.11-07.46.15:745][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Developers/KampLegion/Collections/' took 0.00s
-[2019.10.11-07.46.15:745][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Collections/' took 0.00s
-[2019.10.11-07.46.15:745][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2019.10.11-07.46.15:754][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2864 classes and 683 folders.
-[2019.10.11-07.46.15:761][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.10.11-07.46.15:828][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.10.11-07.46.15:841][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2019.10.11-07.46.17:035][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.10.11-07.46.17:057][  0]LogSlate: Took 0.000405 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.10.11-07.46.17:059][  0]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.10.11-07.46.17:064][  0]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.10.11-07.46.17:140][  0]LogRenderer: Reallocating scene render targets to support 812x400 Format 26 NumSamples 1 (Frame:1).
-[2019.10.11-07.46.17:283][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.10.11-07.46.17:283][  0]LogLoad: (Engine Initialization) Total time: 9.62 seconds
-[2019.10.11-07.46.17:283][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.10.11-07.46.17:375][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.10.11-07.46.17:402][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.10.11-07.46.17:445][  1]LogAssetRegistry: Asset discovery search completed in 5.9192 seconds
-[2019.10.11-07.46.17:448][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
-[2019.10.11-07.46.17:448][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000065 seconds (updated 0 objects)
-[2019.10.11-07.46.18:317][ 95]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.10.11-07.46.25:158][898]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.11-07.46.38:912][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.11-07.46.39:063][556]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/VRPlayerController.VRPlayerController
-[2019.10.11-07.46.39:326][556]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
-[2019.10.11-07.46.40:195][556]LogSlate: Took 0.000405 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.10.11-07.46.40:230][557]LogSlate: Took 0.000506 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.10.11-07.46.50:756][751]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/VRPlayerController448322FC4F8BA5DDD48616A3E3DDDC11.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
-[2019.10.11-07.46.51:252][809]BlueprintLog: New page: Compile VRPlayerController
-[2019.10.11-07.46.51:452][809]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
-[2019.10.11-07.46.58:539][649]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.11-07.46.58:558][649]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/SanVRROck.SanVRROck:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/SanVRROck.SanVRROck:PersistentLevel.SanVRROck' with GeneratedClass '/Game/VirtualRealityBP/Maps/SanVRROck.SanVRROck_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/SanVRROck.SanVRROck:PersistentLevel.SanVRROck'
-[2019.10.11-07.46.58:558][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.11-07.46.58:559][649]PIE: New page: PIE session: SanVRROck (Oct 11, 2019, 11:46:58 AM)
-[2019.10.11-07.46.58:560][649]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2019.10.11-07.46.58:561][649]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_SanVRROck
-[2019.10.11-07.46.58:565][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004460s)
-[2019.10.11-07.46.58:566][649]LogAIModule: Creating AISystem for world SanVRROck
-[2019.10.11-07.46.58:567][649]LogPlayLevel: PIE: World Init took: (0.001008s)
-[2019.10.11-07.46.58:567][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/SanVRROck.SanVRROck to /Game/VirtualRealityBP/Maps/UEDPIE_0_SanVRROck.SanVRROck (0.005806s)
-[2019.10.11-07.46.58:602][649]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
-[2019.10.11-07.46.58:613][649]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.11-07.46.58:631][649]LogInit: FAudioDevice initialized.
-[2019.10.11-07.46.58:642][649]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.10.11-07.46.58:645][649]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_SanVRROck.SanVRROck up for play (max tick rate 0) at 2019.10.11-09.46.58
-[2019.10.11-07.46.58:645][649]LogWorld: Bringing up level for play took: 0.001677
-[2019.10.11-07.46.58:645][649]LogOnline: OSS: Creating online subsystem instance for: :Context_3
-[2019.10.11-07.46.58:658][649]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
-[2019.10.11-07.46.58:660][649]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_SanVRROck 0.333
-[2019.10.11-07.46.58:661][649]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/SanVRROck.SanVRROck:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/SanVRROck.SanVRROck:PersistentLevel.SanVRROck' with GeneratedClass '/Game/VirtualRealityBP/Maps/SanVRROck.SanVRROck_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/SanVRROck.SanVRROck:PersistentLevel.SanVRROck'
-[2019.10.11-07.47.01:793][984]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/SanVRROck.SanVRROck:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/SanVRROck.SanVRROck:PersistentLevel.SanVRROck' with GeneratedClass '/Game/VirtualRealityBP/Maps/SanVRROck.SanVRROck_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/SanVRROck.SanVRROck:PersistentLevel.SanVRROck'
-[2019.10.11-07.47.01:793][984]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.11-07.47.01:793][984]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_SanVRROck
-[2019.10.11-07.47.01:793][984]LogWorld: UWorld::CleanupWorld for SanVRROck, bSessionEnded=true, bCleanupResources=true
-[2019.10.11-07.47.01:801][984]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.11-07.47.01:801][984]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/SanVRROck.SanVRROck:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/SanVRROck.SanVRROck:PersistentLevel.SanVRROck' with GeneratedClass '/Game/VirtualRealityBP/Maps/SanVRROck.SanVRROck_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/SanVRROck.SanVRROck:PersistentLevel.SanVRROck'
-[2019.10.11-07.47.01:848][984]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.11-07.47.01:868][984]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
-[2019.10.11-07.47.01:894][986]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2019.10.11-07.47.06:961][590]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.11-07.47.20:898][258]BlueprintLog: New page: Compile VRPlayerController
-[2019.10.11-07.47.21:132][258]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
-[2019.10.11-07.47.21:561][301]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/VRPlayerControllerF6537224446CDEA06FCD05BE5DF2B1C6.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
-[2019.10.11-07.47.29:810][283]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
-[2019.10.11-07.47.29:839][284]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
-[2019.10.11-07.47.29:839][284]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
-[2019.10.11-07.47.29:839][284]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
-[2019.10.11-07.47.37:334][168]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Animations/Animated_Cube.Animated_Cube
-[2019.10.11-07.47.40:104][410]LogSlate: Window 'Animated_Cube' being destroyed
-[2019.10.11-07.48.16:212][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Animated_Cube" FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Animations/Animated_Cube.uasset" SILENT=true
-[2019.10.11-07.48.16:268][730]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Animated_CubeDB70682D44400752AEB33F89BAEC80CF.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Animations/Animated_Cube.uasset'
-[2019.10.11-07.48.17:081][825]BlueprintLog: New page: Compile Animated_Cube
-[2019.10.11-07.48.17:331][825]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
-[2019.10.11-07.48.21:485][308]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
-[2019.10.11-07.48.22:936][308]LogSlate: Window 'Save Content' being destroyed
-[2019.10.11-07.48.23:010][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
-[2019.10.11-07.48.23:269][308]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/SanVRROck16FF8220416F72D6416B7DB0221AF2C3.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Maps/SanVRROck.umap'
-[2019.10.11-07.48.23:306][308]LogFileHelpers: Saving map 'SanVRROck' took 0.339
-[2019.10.11-07.49.09:175][216]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
-[2019.10.11-07.49.09:437][216]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/SanVRROckF79C84D9404F58281C1C33A77C2F6A73.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Maps/SanVRROck.umap'
-[2019.10.11-07.49.09:622][216]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/SanVRROck_BuiltData8465287F468FA6F619C54AA8F4398128.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Maps/SanVRROck_BuiltData.uasset'
-[2019.10.11-07.49.10:620][327]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2019.10.11-10.29.08:067][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.11-10.29.08:067][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.11-10.29.08:067][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.11-10.29.08:067][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.11-10.29.08:067][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2019.10.11-10.29.08:067][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2019.10.11-10.29.08:067][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2019.10.11-10.29.08:067][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2019.10.11-10.29.08:067][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2019.10.11-10.29.08:067][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:1]]
+[2019.10.11-10.29.08:068][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2019.10.11-10.29.08:068][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2019.10.11-10.29.08:068][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2019.10.11-10.29.08:068][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.UsePreExposure:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2019.10.11-10.29.08:071][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.11-10.29.08:072][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.11-10.29.08:072][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.11-10.29.08:073][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.11-10.29.08:073][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.11-10.29.08:077][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.11-10.29.08:078][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.11-10.29.08:079][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.11-10.29.08:079][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.11-10.29.08:079][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.11-10.29.08:079][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-10.29.08:079][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.10.11-10.29.08:079][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.11-10.29.08:079][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.10.11-10.29.08:079][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.10.11-10.29.08:079][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.11-10.29.08:079][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.10.11-10.29.08:079][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.11-10.29.08:079][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.11-10.29.08:079][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.11-10.29.08:079][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.11-10.29.08:079][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.11-10.29.08:079][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.11-10.29.08:079][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.11-10.29.08:079][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-10.29.08:079][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.11-10.29.08:079][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.11-10.29.08:079][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.11-10.29.08:079][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.11-10.29.08:082][  0]LogHAL: Display: Platform has ~ 16 GB [17033236480 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.11-10.29.08:082][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.11-10.29.08:082][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-10.29.08:082][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.11-10.29.08:082][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.11-10.29.08:082][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-10.29.08:082][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.10.11-10.29.08:082][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-10.29.08:082][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.11-10.29.08:082][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.11-10.29.08:082][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.11-10.29.08:082][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.11-10.29.08:082][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.11-10.29.08:082][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.11-10.29.08:082][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.11-10.29.08:082][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.11-10.29.08:082][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.11-10.29.08:082][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.11-10.29.08:083][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.11-10.29.08:084][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.11-10.29.08:084][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.11-10.29.08:084][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.11-10.29.08:084][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.11-10.29.08:084][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.11-10.29.08:084][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.11-10.29.08:084][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.11-10.29.08:084][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.11-10.29.08:084][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.11-10.29.08:084][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.11-10.29.08:084][  0]LogInit: Computer: LAPTOP-KALMUV1E
+[2019.10.11-10.29.08:084][  0]LogInit: User: KampLegion
+[2019.10.11-10.29.08:084][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.10.11-10.29.08:084][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.11-10.29.08:084][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.10.11-10.29.08:084][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.11-10.29.08:084][  0]LogMemory: Process Physical Memory: 99.52 MB used, 99.52 MB peak
+[2019.10.11-10.29.08:084][  0]LogMemory: Process Virtual Memory: 98.66 MB used, 98.66 MB peak
+[2019.10.11-10.29.08:084][  0]LogMemory: Physical Memory: 8700.37 MB used,  7543.79 MB free, 16244.16 MB total
+[2019.10.11-10.29.08:084][  0]LogMemory: Virtual Memory: 4654.86 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.10.11-10.29.08:087][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.10.11-10.29.08:123][  0]LogInit: Using OS detected language (en-US).
+[2019.10.11-10.29.08:123][  0]LogInit: Using OS detected locale (en-DK).
+[2019.10.11-10.29.08:124][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.11-10.29.08:302][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.11-10.29.08:338][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.11-10.29.08:338][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.11-10.29.08:573][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.11-10.29.08:573][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.11-10.29.08:654][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2019.10.11-10.29.08:655][  0]LogD3D11RHI:       6052/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.10.11-10.29.08:670][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.10.11-10.29.08:670][  0]LogD3D11RHI:       128/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.10.11-10.29.08:673][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.11-10.29.08:673][  0]LogD3D11RHI:       0/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.11-10.29.08:673][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.11-10.29.08:708][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.11-10.29.08:708][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.11-10.29.08:708][  0]LogWindows: EnumDisplayDevices:
+[2019.10.11-10.29.08:708][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.10.11-10.29.08:709][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.10.11-10.29.08:709][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.10.11-10.29.08:709][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.10.11-10.29.08:710][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.10.11-10.29.08:711][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.10.11-10.29.08:711][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.10.11-10.29.08:711][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.10.11-10.29.08:711][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2019.10.11-10.29.08:711][  0]LogD3D11RHI:   Driver Version: 436.48 (internal:26.21.14.3648, unified:436.48)
+[2019.10.11-10.29.08:711][  0]LogD3D11RHI:      Driver Date: 9-26-2019
+[2019.10.11-10.29.08:711][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.10.11-10.29.08:762][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.11-10.29.08:780][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.10.11-10.29.09:131][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.11-10.29.09:141][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.11-10.29.09:152][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.11-10.29.09:163][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.11-10.29.09:174][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.11-10.29.09:185][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.11-10.29.09:196][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.11-10.29.09:207][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.11-10.29.09:213][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.11-10.29.09:251][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.11-10.29.09:251][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.11-10.29.09:251][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.11-10.29.09:251][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.11-10.29.09:251][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.11-10.29.09:251][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.11-10.29.09:251][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.11-10.29.09:251][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.11-10.29.09:251][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.11-10.29.09:251][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.11-10.29.09:251][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.11-10.29.09:251][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.11-10.29.09:251][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.11-10.29.09:251][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.11-10.29.09:251][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.11-10.29.09:251][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.11-10.29.09:251][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.11-10.29.09:251][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.11-10.29.09:253][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.11-10.29.09:274][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.11-10.29.09:274][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.11-10.29.09:290][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.11-10.29.09:290][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.11-10.29.09:299][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.11-10.29.09:307][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.11-10.29.09:316][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.11-10.29.09:325][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.11-10.29.09:355][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.11-10.29.09:355][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.11-10.29.09:355][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.11-10.29.09:366][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.11-10.29.09:436][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Intermediate/Shaders/WorkingDirectory/19792/).
+[2019.10.11-10.29.09:436][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kamp-Legion/AppData/Local/Temp/UnrealShaderWorkingDir/B141D2314FD4F784A17634BB4E09BA42/'.
+[2019.10.11-10.29.09:439][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.11-10.29.09:439][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.11-10.29.09:439][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.11-10.29.10:112][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.11-10.29.10:174][  0]LogDerivedDataCache: Loaded boot cache 0.06s 91MB C:/Users/Kamp-Legion/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.11-10.29.10:174][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Kamp-Legion/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.10.11-10.29.10:175][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.11-10.29.10:175][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.11-10.29.10:175][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.11-10.29.10:175][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.11-10.29.10:186][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.11-10.29.10:188][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2019.10.11-10.29.10:190][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kamp-Legion/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.11-10.29.10:191][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.11-10.29.10:191][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.11-10.29.10:214][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.11-10.29.10:217][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.11-10.29.10:217][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.11-10.29.10:287][  0]LogAssetRegistry: FAssetRegistry took 0.0031 seconds to start up
+[2019.10.11-10.29.10:553][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.11-10.29.10:719][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.11-10.29.10:719][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.11-10.29.10:719][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.11-10.29.10:719][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.11-10.29.10:719][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.11-10.29.10:730][  0]LogNetVersion: SanRockVRMED7 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2744300009)
+[2019.10.11-10.29.11:198][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.057047 seconds
+[2019.10.11-10.29.11:204][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.10.11-10.29.11:204][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.10.11-10.29.11:204][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.11-10.29.12:222][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.11-10.29.12:268][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.11-10.29.12:332][  0]SourceControl: Source control is disabled
+[2019.10.11-10.29.12:332][  0]SourceControl: Source control is disabled
+[2019.10.11-10.29.12:334][  0]SourceControl: Source control is disabled
+[2019.10.11-10.29.12:335][  0]SourceControl: Source control is disabled
+[2019.10.11-10.29.12:438][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.11-10.29.12:555][  0]LogOcInput: OculusInput pre-init called
+[2019.10.11-10.29.12:563][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.10.11-10.29.12:563][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.10.11-10.29.12:635][  0]LogEngine: Initializing Engine...
+[2019.10.11-10.29.12:636][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.11-10.29.12:637][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.10.11-10.29.12:898][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.11-10.29.12:915][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.11-10.29.12:930][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.11-10.29.12:961][  0]LogInit: FAudioDevice initialized.
+[2019.10.11-10.29.12:961][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.11-10.29.13:018][  0]LogDerivedDataCache: Saved boot cache 0.06s 91MB C:/Users/Kamp-Legion/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.11-10.29.13:021][  0]LogInit: Texture streaming: Enabled
+[2019.10.11-10.29.13:046][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.11-10.29.13:072][  0]LogInit: Transaction tracking system initialized
+[2019.10.11-10.29.13:113][  0]BlueprintLog: New page: Editor Load
+[2019.10.11-10.29.13:208][  0]LocalizationService: Localization service is disabled
+[2019.10.11-10.29.13:502][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/' took 0.00s
+[2019.10.11-10.29.13:502][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.11-10.29.13:503][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.11-10.29.13:711][  0]SourceControl: Source control is disabled
+[2019.10.11-10.29.13:712][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Maps/SanVRROck.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.11-10.29.13:712][  0]LightingResults: New page: Lighting Build
+[2019.10.11-10.29.13:715][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.10.11-10.29.13:716][  0]MapCheck: New page: Map Check
+[2019.10.11-10.29.13:716][  0]LightingResults: New page: Lighting Build
+[2019.10.11-10.29.13:742][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2019.10.11-10.29.14:264][  0]LogAIModule: Creating AISystem for world SanVRROck
+[2019.10.11-10.29.14:271][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.11-10.29.14:300][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2019.10.11-10.29.14:300][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.11-10.29.14:300][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.189ms to complete.
+[2019.10.11-10.29.14:300][  0]LogFileHelpers: Loading map 'SanVRROck' took 0.589
+[2019.10.11-10.29.14:397][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.11-10.29.14:405][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.11-10.29.14:412][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.11-10.29.14:419][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.11-10.29.14:426][  0]LogCollectionManager: Loaded 0 collections in 0.002034 seconds
+[2019.10.11-10.29.14:435][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Collections/' took 0.00s
+[2019.10.11-10.29.14:435][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Developers/KampLegion/Collections/' took 0.00s
+[2019.10.11-10.29.14:435][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Collections/' took 0.00s
+[2019.10.11-10.29.14:435][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.10.11-10.29.14:445][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2864 classes and 683 folders.
+[2019.10.11-10.29.14:452][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.11-10.29.14:510][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.11-10.29.14:516][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.10.11-10.29.15:705][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.10.11-10.29.15:727][  0]LogSlate: Took 0.000449 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.11-10.29.15:730][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.11-10.29.15:735][  0]LogSlate: Took 0.000329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.11-10.29.15:811][  0]LogRenderer: Reallocating scene render targets to support 812x400 Format 26 NumSamples 1 (Frame:1).
+[2019.10.11-10.29.15:938][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.10.11-10.29.15:939][  0]LogLoad: (Engine Initialization) Total time: 9.33 seconds
+[2019.10.11-10.29.15:939][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.11-10.29.16:029][  0]LogAssetRegistry: Asset discovery search completed in 5.7426 seconds
+[2019.10.11-10.29.16:033][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2019.10.11-10.29.16:033][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
+[2019.10.11-10.29.16:033][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.11-10.29.16:051][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.11-10.29.17:658][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.11-10.29.19:137][183]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2019.10.11-10.29.19:141][183]LogPlayLevel: Launcher Device ID: WindowsNoEditor@LAPTOP-KALMUV1E
+[2019.10.11-10.29.19:151][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.11-10.29.19:151][183]LogCook: Display: Creating asset registry
+[2019.10.11-10.29.19:155][183]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.11-10.29.19:159][183]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.10.11-10.29.19:682][183]LogCook: Display: Discovering localized assets
+[2019.10.11-10.29.19:685][183]LogCook: Display: Cooked content cleared for platform AllDesktop
+[2019.10.11-10.29.19:685][183]LogCook: Display: Unable to read previous cook inisettings for platform AllDesktop invalidating cook
+[2019.10.11-10.29.19:729][183]LogCook: Display: Cooked content cleared for platform MacClient
+[2019.10.11-10.29.19:729][183]LogCook: Display: Unable to read previous cook inisettings for platform MacClient invalidating cook
+[2019.10.11-10.29.19:772][183]LogCook: Display: Cooked content cleared for platform MacNoEditor
+[2019.10.11-10.29.19:773][183]LogCook: Display: Unable to read previous cook inisettings for platform MacNoEditor invalidating cook
+[2019.10.11-10.29.19:815][183]LogCook: Display: Cooked content cleared for platform MacServer
+[2019.10.11-10.29.19:815][183]LogCook: Display: Unable to read previous cook inisettings for platform MacServer invalidating cook
+[2019.10.11-10.29.19:857][183]LogCook: Display: Cooked content cleared for platform Mac
+[2019.10.11-10.29.19:857][183]LogCook: Display: Unable to read previous cook inisettings for platform Mac invalidating cook
+[2019.10.11-10.29.19:893][183]LogCook: Display: Cooked content cleared for platform WindowsClient
+[2019.10.11-10.29.19:893][183]LogCook: Display: Unable to read previous cook inisettings for platform WindowsClient invalidating cook
+[2019.10.11-10.29.19:934][183]LogCook: Display: Cooked content cleared for platform WindowsNoEditor
+[2019.10.11-10.29.19:935][183]LogCook: Display: Unable to read previous cook inisettings for platform WindowsNoEditor invalidating cook
+[2019.10.11-10.29.19:971][183]LogCook: Display: Cooked content cleared for platform WindowsServer
+[2019.10.11-10.29.19:971][183]LogCook: Display: Unable to read previous cook inisettings for platform WindowsServer invalidating cook
+[2019.10.11-10.29.20:012][183]LogCook: Display: Cooked content cleared for platform Windows
+[2019.10.11-10.29.20:012][183]LogCook: Display: Unable to read previous cook inisettings for platform Windows invalidating cook
+[2019.10.11-10.29.20:047][183]LogCook: Display: Cooked content cleared for platform Android
+[2019.10.11-10.29.20:048][183]LogCook: Display: Unable to read previous cook inisettings for platform Android invalidating cook
+[2019.10.11-10.29.20:083][183]LogCook: Display: Cooked content cleared for platform Android_ASTC
+[2019.10.11-10.29.20:084][183]LogCook: Display: Unable to read previous cook inisettings for platform Android_ASTC invalidating cook
+[2019.10.11-10.29.20:125][183]LogCook: Display: Cooked content cleared for platform Android_ATC
+[2019.10.11-10.29.20:125][183]LogCook: Display: Unable to read previous cook inisettings for platform Android_ATC invalidating cook
+[2019.10.11-10.29.20:167][183]LogCook: Display: Cooked content cleared for platform Android_DXT
+[2019.10.11-10.29.20:167][183]LogCook: Display: Unable to read previous cook inisettings for platform Android_DXT invalidating cook
+[2019.10.11-10.29.20:210][183]LogCook: Display: Cooked content cleared for platform Android_ETC1
+[2019.10.11-10.29.20:210][183]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC1 invalidating cook
+[2019.10.11-10.29.20:251][183]LogCook: Display: Cooked content cleared for platform Android_ETC1a
+[2019.10.11-10.29.20:251][183]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC1a invalidating cook
+[2019.10.11-10.29.20:294][183]LogCook: Display: Cooked content cleared for platform Android_ETC2
+[2019.10.11-10.29.20:295][183]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC2 invalidating cook
+[2019.10.11-10.29.20:339][183]LogCook: Display: Cooked content cleared for platform Android_PVRTC
+[2019.10.11-10.29.20:339][183]LogCook: Display: Unable to read previous cook inisettings for platform Android_PVRTC invalidating cook
+[2019.10.11-10.29.20:381][183]LogCook: Display: Cooked content cleared for platform AndroidClient
+[2019.10.11-10.29.20:381][183]LogCook: Display: Unable to read previous cook inisettings for platform AndroidClient invalidating cook
+[2019.10.11-10.29.20:423][183]LogCook: Display: Cooked content cleared for platform Android_ASTCClient
+[2019.10.11-10.29.20:423][183]LogCook: Display: Unable to read previous cook inisettings for platform Android_ASTCClient invalidating cook
+[2019.10.11-10.29.20:463][183]LogCook: Display: Cooked content cleared for platform Android_ATCClient
+[2019.10.11-10.29.20:463][183]LogCook: Display: Unable to read previous cook inisettings for platform Android_ATCClient invalidating cook
+[2019.10.11-10.29.20:506][183]LogCook: Display: Cooked content cleared for platform Android_DXTClient
+[2019.10.11-10.29.20:506][183]LogCook: Display: Unable to read previous cook inisettings for platform Android_DXTClient invalidating cook
+[2019.10.11-10.29.20:548][183]LogCook: Display: Cooked content cleared for platform Android_ETC1Client
+[2019.10.11-10.29.20:548][183]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC1Client invalidating cook
+[2019.10.11-10.29.20:591][183]LogCook: Display: Cooked content cleared for platform Android_ETC1aClient
+[2019.10.11-10.29.20:591][183]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC1aClient invalidating cook
+[2019.10.11-10.29.20:634][183]LogCook: Display: Cooked content cleared for platform Android_ETC2Client
+[2019.10.11-10.29.20:634][183]LogCook: Display: Unable to read previous cook inisettings for platform Android_ETC2Client invalidating cook
+[2019.10.11-10.29.20:675][183]LogCook: Display: Cooked content cleared for platform Android_PVRTCClient
+[2019.10.11-10.29.20:675][183]LogCook: Display: Unable to read previous cook inisettings for platform Android_PVRTCClient invalidating cook
+[2019.10.11-10.29.20:717][183]LogCook: Display: Cooked content cleared for platform Android_Multi
+[2019.10.11-10.29.20:717][183]LogCook: Display: Unable to read previous cook inisettings for platform Android_Multi invalidating cook
+[2019.10.11-10.29.20:763][183]LogCook: Display: Cooked content cleared for platform Android_MultiClient
+[2019.10.11-10.29.20:763][183]LogCook: Display: Unable to read previous cook inisettings for platform Android_MultiClient invalidating cook
+[2019.10.11-10.29.20:808][183]LogCook: Display: Cooked content cleared for platform HTML5
+[2019.10.11-10.29.20:808][183]LogCook: Display: Unable to read previous cook inisettings for platform HTML5 invalidating cook
+[2019.10.11-10.29.20:844][183]LogCook: Display: Cooked content cleared for platform IOSClient
+[2019.10.11-10.29.20:845][183]LogCook: Display: Unable to read previous cook inisettings for platform IOSClient invalidating cook
+[2019.10.11-10.29.20:887][183]LogCook: Display: Cooked content cleared for platform IOS
+[2019.10.11-10.29.20:887][183]LogCook: Display: Unable to read previous cook inisettings for platform IOS invalidating cook
+[2019.10.11-10.29.20:924][183]LogCook: Display: Cooked content cleared for platform TVOSClient
+[2019.10.11-10.29.20:924][183]LogCook: Display: Unable to read previous cook inisettings for platform TVOSClient invalidating cook
+[2019.10.11-10.29.20:966][183]LogCook: Display: Cooked content cleared for platform TVOS
+[2019.10.11-10.29.20:966][183]LogCook: Display: Unable to read previous cook inisettings for platform TVOS invalidating cook
+[2019.10.11-10.29.21:009][183]LogCook: Display: Cooked content cleared for platform LinuxClient
+[2019.10.11-10.29.21:009][183]LogCook: Display: Unable to read previous cook inisettings for platform LinuxClient invalidating cook
+[2019.10.11-10.29.21:049][183]LogCook: Display: Cooked content cleared for platform LinuxNoEditor
+[2019.10.11-10.29.21:050][183]LogCook: Display: Unable to read previous cook inisettings for platform LinuxNoEditor invalidating cook
+[2019.10.11-10.29.21:091][183]LogCook: Display: Cooked content cleared for platform LinuxServer
+[2019.10.11-10.29.21:091][183]LogCook: Display: Unable to read previous cook inisettings for platform LinuxServer invalidating cook
+[2019.10.11-10.29.21:133][183]LogCook: Display: Cooked content cleared for platform Linux
+[2019.10.11-10.29.21:134][183]LogCook: Display: Unable to read previous cook inisettings for platform Linux invalidating cook
+[2019.10.11-10.29.21:168][183]LogCook: Display: Cooked content cleared for platform Lumin
+[2019.10.11-10.29.21:169][183]LogCook: Display: Unable to read previous cook inisettings for platform Lumin invalidating cook
+[2019.10.11-10.29.21:204][183]LogCook: Display: Cooked content cleared for platform LuminClient
+[2019.10.11-10.29.21:204][183]LogCook: Display: Unable to read previous cook inisettings for platform LuminClient invalidating cook
+[2019.10.11-10.29.21:244][183]LogCook: Display: Sandbox cleanup took 1.559 seconds for platforms AllDesktop MacClient MacNoEditor MacServer Mac WindowsClient WindowsNoEditor WindowsServer Windows Android Android_ASTC Android_ATC Android_DXT Android_ETC1 Android_ETC1a Android_ETC2 Android_PVRTC AndroidClient Android_ASTCClient Android_ATCClient Android_DXTClient Android_ETC1Client Android_ETC1aClient Android_ETC2Client Android_PVRTCClient Android_Multi Android_MultiClient HTML5 IOSClient IOS TVOSClient TVOS LinuxClient LinuxNoEditor LinuxServer Linux Lumin LuminClient  iterative false
+[2019.10.11-10.29.22:106][184]LogCook: Display: Cooked packages 0 Packages Remain 408 Total 408
+[2019.10.11-10.29.22:113][184]LogAIModule: Creating AISystem for world Entry
+[2019.10.11-10.29.22:222][185]LogCook: Display: Cooked packages 0 Packages Remain 409 Total 409
+[2019.10.11-10.29.23:008][192]LogContentBrowser: Native class hierarchy updated for 'BlueprintNativeCodeGen' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.11-10.29.23:116][193]LogCook: Display: Cooked packages 11 Packages Remain 408 Total 419
+[2019.10.11-10.29.23:223][194]LogCook: Display: Cooked packages 30 Packages Remain 407 Total 437
+[2019.10.11-10.29.23:248][194]LogTcpMessaging: Started Connection to '127.0.0.1:6666'
+[2019.10.11-10.29.23:333][195]LogCook: Display: Cooked packages 50 Packages Remain 406 Total 456
+[2019.10.11-10.29.23:446][196]LogCook: Display: Cooked packages 51 Packages Remain 405 Total 456
+[2019.10.11-10.29.23:554][197]LogCook: Display: Cooked packages 101 Packages Remain 404 Total 505
+[2019.10.11-10.29.23:663][198]LogCook: Display: Cooked packages 133 Packages Remain 403 Total 536
+[2019.10.11-10.29.23:769][199]LogCook: Display: Cooked packages 167 Packages Remain 402 Total 569
+[2019.10.11-10.29.23:884][200]LogCook: Display: Cooked packages 199 Packages Remain 401 Total 600
+[2019.10.11-10.29.24:218][203]LogCook: Display: Cooked packages 204 Packages Remain 400 Total 604
+[2019.10.11-10.29.24:388][204]LogCook: Display: Cooked packages 234 Packages Remain 399 Total 633
+[2019.10.11-10.29.24:603][206]LogCook: Display: Cooked packages 240 Packages Remain 398 Total 638
+[2019.10.11-10.29.24:708][207]LogCook: Display: Cooked packages 283 Packages Remain 397 Total 680
+[2019.10.11-10.29.24:898][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2019.10.11-10.29.25:029][209]LogCook: Display: Cooked packages 304 Packages Remain 396 Total 700
+[2019.10.11-10.29.25:134][210]LogCook: Display: Cooked packages 330 Packages Remain 395 Total 725
+[2019.10.11-10.29.25:245][211]LogCook: Display: Cooked packages 334 Packages Remain 394 Total 728
+[2019.10.11-10.29.25:362][212]LogCook: Display: Cooked packages 350 Packages Remain 393 Total 743
+[2019.10.11-10.29.25:471][213]LogCook: Display: Cooked packages 372 Packages Remain 392 Total 764
+[2019.10.11-10.29.25:670][214]LogCook: Display: Cooked packages 377 Packages Remain 390 Total 767
+[2019.10.11-10.29.25:759][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2019.10.11-10.29.25:789][215]LogCook: Display: Cooked packages 390 Packages Remain 33 Total 423
+[2019.10.11-10.29.25:793][215]LogCook: Display: Cooked packages 391 Packages Remain 32 Total 423
+[2019.10.11-10.29.25:805][215]LogCook: Display: Cooked packages 392 Packages Remain 31 Total 423
+[2019.10.11-10.29.25:809][215]LogCook: Display: Cooked packages 393 Packages Remain 30 Total 423
+[2019.10.11-10.29.25:813][215]LogCook: Display: Cooked packages 394 Packages Remain 29 Total 423
+[2019.10.11-10.29.25:816][215]LogCook: Display: Cooked packages 395 Packages Remain 28 Total 423
+[2019.10.11-10.29.25:820][215]LogCook: Display: Cooked packages 396 Packages Remain 27 Total 423
+[2019.10.11-10.29.25:824][215]LogCook: Display: Cooked packages 397 Packages Remain 26 Total 423
+[2019.10.11-10.29.25:828][215]LogCook: Display: Cooked packages 398 Packages Remain 25 Total 423
+[2019.10.11-10.29.25:832][215]LogCook: Display: Cooked packages 399 Packages Remain 24 Total 423
+[2019.10.11-10.29.25:835][215]LogCook: Display: Cooked packages 400 Packages Remain 23 Total 423
+[2019.10.11-10.29.25:839][215]LogCook: Display: Cooked packages 401 Packages Remain 22 Total 423
+[2019.10.11-10.29.25:842][215]LogCook: Display: Cooked packages 402 Packages Remain 21 Total 423
+[2019.10.11-10.29.25:846][215]LogCook: Display: Cooked packages 403 Packages Remain 20 Total 423
+[2019.10.11-10.29.25:850][215]LogCook: Display: Cooked packages 404 Packages Remain 19 Total 423
+[2019.10.11-10.29.25:854][215]LogCook: Display: Cooked packages 405 Packages Remain 18 Total 423
+[2019.10.11-10.29.25:858][215]LogCook: Display: Cooked packages 406 Packages Remain 17 Total 423
+[2019.10.11-10.29.25:861][215]LogCook: Display: Cooked packages 407 Packages Remain 16 Total 423
+[2019.10.11-10.29.25:867][215]LogCook: Display: Cooked packages 408 Packages Remain 15 Total 423
+[2019.10.11-10.29.25:873][215]LogCook: Display: Cooked packages 409 Packages Remain 14 Total 423
+[2019.10.11-10.29.25:873][215]LogCook: Display: Cooked packages 409 Packages Remain 0 Total 409
+[2019.10.11-10.29.25:874][215]LogCook: Display: Finishing up...
+[2019.10.11-10.29.25:889][215]LogBlueprintCodeGen: Display: Nativization Summary - AnimBP:
+[2019.10.11-10.29.25:889][215]LogBlueprintCodeGen: Display: Name, Children, Non-empty Functions (Empty Functions), Variables, FunctionUsage, VariableUsage
+[2019.10.11-10.29.25:889][215]LogBlueprintCodeGen: Display: Nativization Summary - Shared Variables From Graph: 0
+[2019.10.11-10.29.25:941][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.25:944][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.25:944][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.25:964][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.25:964][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.25:977][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.25:979][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.25:979][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:003][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:003][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:014][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:016][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:016][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:039][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:039][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:051][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:053][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:053][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:077][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:077][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:089][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:091][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:091][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:113][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:113][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:126][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:128][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:128][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:152][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:152][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:167][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:168][215]LogAssetRegistryGenerator: Chunk: 0, Started with 406 packages, Final after dependency resolve: 406
+[2019.10.11-10.29.26:170][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.11-10.29.26:170][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:185][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 406, size is 173.77kb
+[2019.10.11-10.29.26:186][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:195][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:197][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:197][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:220][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:220][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:232][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:234][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:234][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:258][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:258][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:269][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:272][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:272][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:295][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:295][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:307][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:309][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:309][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:332][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:332][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:343][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:346][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:346][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:369][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:369][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:381][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:383][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:383][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:406][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:406][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:418][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:420][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:420][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:444][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:444][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:455][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:458][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:458][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:481][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:481][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:493][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:495][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:495][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:518][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:518][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:530][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:532][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:532][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:555][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:555][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:567][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:569][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:569][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:592][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:592][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:604][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:606][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:606][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:629][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:629][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:641][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:643][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:643][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:666][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:666][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:678][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:680][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:680][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:703][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:703][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:715][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:717][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:717][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:740][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:740][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:752][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:754][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:754][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:778][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:778][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:789][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:791][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:792][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:814][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:814][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:826][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:828][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:828][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:852][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:852][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:864][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:866][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:866][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:889][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:890][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:902][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:904][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:904][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:927][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:928][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:940][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:942][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:942][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.26:967][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.26:967][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.26:979][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.26:981][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.26:981][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.27:005][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.27:005][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.27:017][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.27:019][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.27:019][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.27:043][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.27:043][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.27:055][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.27:058][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.27:058][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.27:082][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.27:082][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.27:094][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.27:096][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.27:096][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.27:120][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.27:120][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.27:132][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.27:135][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.003 s
+[2019.10.11-10.29.27:135][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.27:157][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.27:157][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.27:170][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.27:172][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.27:172][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.27:196][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.27:196][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.27:208][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.27:210][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.27:210][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.27:236][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.27:236][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.27:251][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.27:254][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.27:254][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.27:277][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.27:278][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.27:289][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.27:292][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.27:292][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.27:315][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.27:315][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.27:327][215]LogAssetRegistryGenerator: Starting FixupPackageDependenciesForChunks...
+[2019.10.11-10.29.27:329][215]LogStats: ... FixupPackageDependenciesForChunks complete. -  0.002 s
+[2019.10.11-10.29.27:329][215]LogAssetRegistryGenerator: Display: Saving asset registry.
+[2019.10.11-10.29.27:353][215]LogAssetRegistryGenerator: Display: Generated asset registry num assets 0, size is  0.04kb
+[2019.10.11-10.29.27:353][215]LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2019.10.11-10.29.27:359][215]LogCook: Display: Cook by the book total time in tick 3.574977s total time 8.207256
+[2019.10.11-10.29.27:359][215]LogCook: Display: Peak Used virtual 2199MB Peak Used physical 1402MB
+[2019.10.11-10.29.27:359][215]LogCook: Display: Hierarchy Timer Information:
+[2019.10.11-10.29.27:359][215]LogCook: Display:   Root: 0.000s (0)
+[2019.10.11-10.29.27:359][215]LogCook: Display:     StartCookByTheBookTime: 2.919s (1)
+[2019.10.11-10.29.27:359][215]LogCook: Display:       GenerateAssetRegistryTime: 0.000s (1)
+[2019.10.11-10.29.27:359][215]LogCook: Display:       CleanSandboxTime: 1.559s (1)
+[2019.10.11-10.29.27:359][215]LogCook: Display:         ProcessingAccessedStrings: 0.197s (38)
+[2019.10.11-10.29.27:359][215]LogCook: Display:       CollectFilesToCook: 0.131s (1)
+[2019.10.11-10.29.27:359][215]LogCook: Display:         CookModificationDelegate: 0.000s (1)
+[2019.10.11-10.29.27:359][215]LogCook: Display:         SearchForPackageOnDisk: 0.000s (1)
+[2019.10.11-10.29.27:359][215]LogCook: Display:         GeneratePackageNames: 0.000s (1)
+[2019.10.11-10.29.27:359][215]LogCook: Display:       GenerateLongPackageName: 0.001s (1)
+[2019.10.11-10.29.27:359][215]LogCook: Display:     TickCookOnTheSide: 3.572s (50)
+[2019.10.11-10.29.27:359][215]LogCook: Display:       LoadPackage: 0.027s (20)
+[2019.10.11-10.29.27:359][215]LogCook: Display:       CallBeginCacheForCookedPlatformData: 0.007s (50)
+[2019.10.11-10.29.27:359][215]LogCook: Display:       PostLoadPackageFixup: 0.000s (50)
+[2019.10.11-10.29.27:359][215]LogCook: Display:       SavingPackages: 1.793s (50)
+[2019.10.11-10.29.27:359][215]LogCook: Display:         EnqueueUnsavedPackages: 0.002s (30)
+[2019.10.11-10.29.27:359][215]LogCook: Display:         PrecachePlatformDataForNextPackage: 0.001s (389)
+[2019.10.11-10.29.27:359][215]LogCook: Display:         PrecachePlatformDataForNextNextPackage: 0.095s (388)
+[2019.10.11-10.29.27:359][215]LogCook: Display:         SaveCookedPackage: 1.663s (409)
+[2019.10.11-10.29.27:359][215]LogCook: Display:           LoadPackage: 0.001s (409)
+[2019.10.11-10.29.27:359][215]LogCook: Display:           GEditorSavePackage: 1.644s (409)
+[2019.10.11-10.29.27:359][215]LogCook: Display:             ConvertingBlueprints: 0.006s (409)
+[2019.10.11-10.29.27:359][215]LogCook: Display:             VerifyCanCookPackage: 0.002s (406)
+[2019.10.11-10.29.27:359][215]LogCook: Display:     GeneratingBlueprintAssets: 0.005s (1)
+[2019.10.11-10.29.27:359][215]LogCook: Display:     SavingCurrentIniSettings: 0.048s (1)
+[2019.10.11-10.29.27:359][215]LogCook: Display:       ProcessingAccessedStrings: 0.005s (1)
+[2019.10.11-10.29.27:360][215]LogCook: Display:     SavingAssetRegistry: 1.421s (1)
+[2019.10.11-10.29.27:360][215]LogCook: Display:       BuildChunkManifest: 0.225s (38)
+[2019.10.11-10.29.27:360][215]LogCook: Display:       SaveManifests: 0.090s (38)
+[2019.10.11-10.29.27:360][215]LogCook: Display:       SaveRealAssetRegistry: 0.882s (38)
+[2019.10.11-10.29.27:360][215]LogCook: Display:       WriteCookerOpenOrder: 0.223s (38)
+[2019.10.11-10.29.27:360][215]LogCook: Display: Done!
+[2019.10.11-10.29.27:419][220]LogPlayLevel: Completed Launch On Stage: Cooking in the editor, Time: 4.335862
+[2019.10.11-10.29.28:102][261]LogPlayLevel: Running AutomationTool...
+[2019.10.11-10.29.28:453][282]LogPlayLevel: Parsing command line: -ScriptsForProject=C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/SanRockVRMED7.uproject BuildCookRun -project=C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/SanRockVRMED7.uproject -noP4 -clientconfig=Development -serverconfig=Development -nocompile -nocompileeditor -installed -ue4exe="C:\Program Files\Epic Games\UE_4.23\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -utf8output -platform=Win64 -targetplatform=Win64 -ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled -build -map=/Game/VirtualRealityBP/Maps/SanVRROck -skipcook -CookInEditor -iterativecooking -compressed -iterativedeploy -stage -deploy -cmdline="/Game/VirtualRealityBP/Maps/SanVRROck -Messaging" -device=WindowsNoEditor@LAPTOP-KALMUV1E -addcmdline="-SessionId=4BAE959849E0271140CB33B558F21640 -SessionOwner='Kamp-Legion' -SessionName='Launch On Device'  " -run
+[2019.10.11-10.29.29:048][315]LogPlayLevel: Setting up ProjectParams for C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\SanRockVRMED7.uproject
+[2019.10.11-10.29.29:065][316]LogPlayLevel: ********** BUILD COMMAND STARTED **********
+[2019.10.11-10.29.29:175][322]LogPlayLevel: Completed Launch On Stage: Build Task, Time: 1.262356
+[2019.10.11-10.29.29:562][333]LogPlayLevel: Running: C:\Program Files\Epic Games\UE_4.23\Engine\Binaries\DotNET\UnrealBuildTool.exe SanRockVRMED7 Win64 Development -Project=C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\SanRockVRMED7.uproject  C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\SanRockVRMED7.uproject -NoUBTMakefiles  -remoteini="C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR" -skipdeploy -ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled -Manifest=C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\Intermediate\Build\Manifest.xml -NoHotReload -log="C:\Users\Kamp-Legion\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.23\UBT-SanRockVRMED7-Win64-Development.txt"
+[2019.10.11-10.29.29:883][348]LogPlayLevel:   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Kamp-Legion\Documents\SanRockVRUE4).
+[2019.10.11-10.29.29:884][348]LogPlayLevel: Error:   ERROR: Unhandled exception: System.ArgumentException: Illegal characters in path.
+[2019.10.11-10.29.29:884][348]LogPlayLevel:             at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)
+[2019.10.11-10.29.29:884][348]LogPlayLevel:             at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+[2019.10.11-10.29.29:884][348]LogPlayLevel:             at System.IO.Path.GetFullPathInternal(String path)
+[2019.10.11-10.29.29:884][348]LogPlayLevel:             at Tools.DotNETCommon.FileReference..ctor(String InPath) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\DotNETCommon\DotNETUtilities\FileReference.cs:line 31
+[2019.10.11-10.29.29:884][348]LogPlayLevel:             at UnrealBuildTool.DynamicCompilation.RequiresCompilation(HashSet`1 SourceFiles, FileReference AssemblySourceListFilePath, FileReference OutputAssemblyPath) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\DynamicCompilation.cs:line 71
+[2019.10.11-10.29.29:884][348]LogPlayLevel:             at UnrealBuildTool.DynamicCompilation.CompileAndLoadAssembly(FileReference OutputAssemblyPath, HashSet`1 SourceFileNames, List`1 ReferencedAssembies, List`1 PreprocessorDefines, Boolean DoNotCompile, Boolean TreatWarningsAsErrors) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\DynamicCompilation.cs:line 391
+[2019.10.11-10.29.29:884][348]LogPlayLevel:             at UnrealBuildTool.RulesAssembly..ctor(RulesScope Scope, DirectoryReference BaseDir, IReadOnlyList`1 Plugins, Dictionary`2 ModuleFileToContext, List`1 TargetFiles, FileReference AssemblyFileName, Boolean bContainsEngineModules, Boolean bUseBackwardsCompatibleDefaults, Boolean bReadOnly, Boolean bSkipCompile, RulesAssembly Parent) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:line 115
+[2019.10.11-10.29.29:884][348]LogPlayLevel:             at UnrealBuildTool.RulesCompiler.CreateProjectRulesAssembly(FileReference ProjectFileName, Boolean bUsePrecompiled, Boolean bSkipCompile) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesCompiler.cs:line 582
+[2019.10.11-10.29.29:884][348]LogPlayLevel:             at UnrealBuildTool.RulesCompiler.CreateTargetRulesAssembly(FileReference ProjectFile, String TargetName, Boolean bSkipRulesCompile, Boolean bUsePrecompiled, FileReference ForeignPlugin) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesCompiler.cs:line 644
+[2019.10.11-10.29.29:885][348]LogPlayLevel:             at UnrealBuildTool.UEBuildTarget.Create(TargetDescriptor Descriptor, Boolean bSkipRulesCompile, Boolean bUsePrecompiled) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Configuration\UEBuildTarget.cs:line 599
+[2019.10.11-10.29.29:885][348]LogPlayLevel:             at UnrealBuildTool.BuildMode.CreateMakefile(BuildConfiguration BuildConfiguration, TargetDescriptor TargetDescriptor, ISourceFileWorkingSet WorkingSet) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Modes\BuildMode.cs:line 427
+[2019.10.11-10.29.29:885][348]LogPlayLevel:             at UnrealBuildTool.BuildMode.Build(List`1 TargetDescriptors, BuildConfiguration BuildConfiguration, ISourceFileWorkingSet WorkingSet, BuildOptions Options, FileReference WriteOutdatedActionsFile) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Modes\BuildMode.cs:line 225
+[2019.10.11-10.29.29:885][348]LogPlayLevel:             at UnrealBuildTool.BuildMode.Execute(CommandLineArguments Arguments) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Modes\BuildMode.cs:line 197
+[2019.10.11-10.29.29:902][349]LogPlayLevel:             at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:line 477
+[2019.10.11-10.29.29:902][349]LogPlayLevel: Took 0,8372263s to run UnrealBuildTool.exe, ExitCode=5
+[2019.10.11-10.29.29:917][350]LogPlayLevel: UnrealBuildTool failed. See log for more details. (C:\Users\Kamp-Legion\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.23\UBT-SanRockVRMED7-Win64-Development.txt)
+[2019.10.11-10.29.29:950][352]LogPlayLevel: AutomationTool exiting with ExitCode=5 (5)
+[2019.10.11-10.29.30:187][366]LogPlayLevel: Completed Launch On Stage: Build Task, Time: 0.501114
+[2019.10.11-10.29.30:187][366]LogPlayLevel: BUILD FAILED
+
+[2019.10.11-10.29.30:187][366]PackagingResults: Error: Launch failed! Unknown Error
+[2019.10.11-10.29.32:598][510]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.11-10.29.32:698][515]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.10.11-10.29.52:396][692]LogSlate: Window 'Output Log' being destroyed
+[2019.10.11-10.29.52:403][692]LogSlate: Window 'Output Log' being destroyed
+[2019.10.11-10.29.53:929][784]LogSlate: FSceneViewport::OnFocusLost() reason 0
