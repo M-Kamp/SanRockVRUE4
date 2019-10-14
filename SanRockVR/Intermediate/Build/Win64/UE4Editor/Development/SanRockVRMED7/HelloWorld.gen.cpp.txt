@@ -1,5 +1,0 @@
-C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockVRMED7\Definitions.SanRockVRMED7.h
-C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\Source\SanRockVRMED7/Public/HelloWorld.h
-C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\Intermediate\Build\Win64\UE4Editor\Inc\SanRockVRMED7\HelloWorld.generated.h

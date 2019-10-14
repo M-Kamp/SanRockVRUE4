@@ -1,2 +1,0 @@
-C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockVRMED7\Definitions.SanRockVRMED7.h
-C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\Source\SanRockVRMED7\SanRockVRMED7.h
