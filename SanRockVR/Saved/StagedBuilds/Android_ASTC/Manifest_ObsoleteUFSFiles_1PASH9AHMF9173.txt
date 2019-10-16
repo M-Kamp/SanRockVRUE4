@@ -1,2 +1,2 @@
-irtualRealityBP/Blueprints/VRPlayerController.uexp
+irtualRealityBP/Blueprints/VRGameMode.uasset
 SanRockArtVRMED7/Saved/Logs/SanRockArtVRMED7-backup-0001.01.01-00.00.00.log

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Oct 15 14:32:12 CEST 2019
+#Wed Oct 16 14:24:57 CEST 2019
 2.base=Z\:\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
 5.set=NATIVE_RESOURCE
 0.path=lib/armeabi-v7a/libvrintegrationloader.so
