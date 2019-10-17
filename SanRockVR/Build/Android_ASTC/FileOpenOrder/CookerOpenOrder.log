@@ -154,345 +154,331 @@
 "../../../Engine/Content/EditorResources/EmptyActor.uasset" 153
 "../../../Engine/Content/EditorResources/MatInstActSprite.uasset" 154
 "../../../Engine/Content/EditorResources/SceneManager.uasset" 155
-"../../../Engine/Content/EditorResources/SimplygonLogo.uasset" 156
-"../../../Engine/Content/EditorResources/SmallFont.uasset" 157
-"../../../Engine/Content/EditorResources/S_Actor.uasset" 158
-"../../../Engine/Content/EditorResources/S_DecalActorIcon.uasset" 159
-"../../../Engine/Content/EditorResources/S_Emitter.uasset" 160
-"../../../Engine/Content/EditorResources/S_ExpoHeightFog.uasset" 161
-"../../../Engine/Content/EditorResources/S_FTest.uasset" 162
-"../../../Engine/Content/EditorResources/S_KBSJoint.uasset" 163
-"../../../Engine/Content/EditorResources/S_KHinge.uasset" 164
-"../../../Engine/Content/EditorResources/S_KPrismatic.uasset" 165
-"../../../Engine/Content/EditorResources/S_LevelSequence.uasset" 166
-"../../../Engine/Content/EditorResources/S_NavP.uasset" 167
-"../../../Engine/Content/EditorResources/S_Note.uasset" 168
-"../../../Engine/Content/EditorResources/S_Player.uasset" 169
-"../../../Engine/Content/EditorResources/S_PortalActorIcon2.uasset" 170
-"../../../Engine/Content/EditorResources/S_RadForce.uasset" 171
-"../../../Engine/Content/EditorResources/S_ReflActorIcon.uasset" 172
-"../../../Engine/Content/EditorResources/S_Solver.uasset" 173
-"../../../Engine/Content/EditorResources/S_Terrain.uasset" 174
-"../../../Engine/Content/EditorResources/S_TextRenderActorIcon.uasset" 175
-"../../../Engine/Content/EditorResources/S_Thruster.uasset" 176
-"../../../Engine/Content/EditorResources/S_Trigger.uasset" 177
-"../../../Engine/Content/EditorResources/S_VectorFieldVol.uasset" 178
-"../../../Engine/Content/EditorResources/S_WindDirectional.uasset" 179
-"../../../Engine/Content/EditorResources/AI/S_NavLink.uasset" 180
-"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uasset" 181
-"../../../Engine/Content/EditorResources/LightIcons/SkyLight.uasset" 182
-"../../../Engine/Content/EditorResources/LightIcons/S_LightDirectional.uasset" 183
-"../../../Engine/Content/EditorResources/LightIcons/S_LightDirectionalMove.uasset" 184
-"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 185
-"../../../Engine/Content/EditorResources/LightIcons/S_LightPoint.uasset" 186
-"../../../Engine/Content/EditorResources/LightIcons/S_LightPointMove.uasset" 187
-"../../../Engine/Content/EditorResources/LightIcons/S_LightSpot.uasset" 188
-"../../../Engine/Content/EditorResources/LightIcons/S_LightSpotMove.uasset" 189
-"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 190
-"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 191
-"../../../Engine/Content/EditorResources/Spline/T_Loft_Spline.uasset" 192
-"../../../Engine/Content/EditorSounds/GamePreview/PossessPlayer.uasset" 193
-"../../../Engine/Content/EditorSounds/GamePreview/PossessPlayer_Cue.uasset" 194
-"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 195
-"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 196
-"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 197
-"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 198
-"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 199
-"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 200
-"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 201
-"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 202
-"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 203
-"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 204
-"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 205
-"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 206
-"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 207
-"../../../Engine/Content/EngineDebugMaterials/LevelColorationLitMaterial.uasset" 208
-"../../../Engine/Content/EngineDebugMaterials/LevelColorationUnlitMaterial.uasset" 209
-"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 210
-"../../../Engine/Content/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.uasset" 211
-"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 212
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.uasset" 213
-"../../../Engine/Content/EngineDebugMaterials/VolumeToRender.uasset" 214
-"../../../Engine/Content/EngineDebugMaterials/M_VolumeRenderSphereTracePP.uasset" 215
-"../../../Engine/Content/EngineDebugMaterials/ShadedLevelColorationLitMaterial.uasset" 216
-"../../../Engine/Content/EngineDebugMaterials/ShadedLevelColorationUnlitMateri.uasset" 217
-"../../../Engine/Content/EngineDebugMaterials/VertexColorMaterial.uasset" 218
-"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_AlphaAsColor.uasset" 219
-"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_BlueOnly.uasset" 220
-"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_ColorOnly.uasset" 221
-"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_GreenOnly.uasset" 222
-"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_RedOnly.uasset" 223
-"../../../Engine/Content/EngineDebugMaterials/WireframeMaterial.uasset" 224
-"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 225
-"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 226
-"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 227
-"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 228
-"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 229
-"../../../Engine/Content/EngineFonts/Roboto.uasset" 230
-"../../../Engine/Content/EngineFonts/Faces/RobotoTiny.uasset" 231
-"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 232
-"../../../Engine/Content/EngineFonts/SmallFont.uasset" 233
-"../../../Engine/Content/EngineFonts/TinyFont.uasset" 234
-"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 235
-"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 236
-"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 237
-"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 238
-"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 239
-"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 240
-"../../../Engine/Content/EngineMaterials/BlinkingCaret.uasset" 241
-"../../../Engine/Content/EngineMaterials/BlueNoise.uasset" 242
-"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 243
-"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 244
-"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 245
-"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 246
-"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 247
-"../../../Engine/Content/EngineMaterials/DefaultNormal.uasset" 248
-"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 249
-"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 250
-"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 251
-"../../../Engine/Content/EngineMaterials/DefaultVirtualTextureMaterial.uasset" 252
-"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 253
-"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid_Low.uasset" 254
-"../../../Engine/Content/EngineMaterials/EmissiveMeshMaterial.uasset" 255
-"../../../Engine/Content/EngineMaterials/Grid_N.uasset" 256
-"../../../Engine/Content/EngineMaterials/HighResolutionScreenshotMaskFunction.uasset" 257
-"../../../Engine/Content/EngineMaterials/HighResScreenshot.uasset" 258
-"../../../Engine/Content/EngineMaterials/HighResScreenshotCaptureRegion.uasset" 259
-"../../../Engine/Content/EngineMaterials/HighResScreenshotMask.uasset" 260
-"../../../Engine/Content/EngineMaterials/LandscapeHolePhysicalMaterial.uasset" 261
-"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 262
-"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 263
-"../../../Engine/Content/EngineMaterials/PaperDiffuse.uasset" 264
-"../../../Engine/Content/EngineMaterials/PaperNormal.uasset" 265
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 266
-"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 267
-"../../../Engine/Content/EngineMaterials/PhysMat_Rubber.uasset" 268
-"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 269
-"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 270
-"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 271
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 272
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 273
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 274
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 275
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 276
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 277
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 278
-"../../../Engine/Content/EngineMeshes/Cube.uasset" 279
-"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 280
-"../../../Engine/Content/EngineMeshes/Sphere.uasset" 281
-"../../../Engine/Content/EngineResources/Black.uasset" 282
-"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 283
-"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 284
-"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 285
-"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 286
-"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 287
-"../../../Engine/Content/EngineResources/StreamingPauseIcon.uasset" 288
-"../../../Engine/Content/EngineResources/M_StreamingPause.uasset" 289
-"../../../Engine/Content/EngineSounds/Master.uasset" 290
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 291
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Blueprints/PickupActorInterface.uasset" 292
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Materials/M_BaseMaterial.uasset" 293
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Materials/MI_SmallCubes.uasset" 294
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Blueprints/BP_PickupCube.uasset" 295
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/Thumbnail/newdocicon.uasset" 296
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/Thumbnail/M_Thumbnail.uasset" 297
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/Thumbnail/BP_ThumbnailPainting.uasset" 298
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/DrawingAssets/FirstPersonCharacter.uasset" 299
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/FirstPerson/Textures/FirstPersonCrosshair.uasset" 300
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/DrawingAssets/FirstPersonHUD.uasset" 301
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/DrawingAssets/FirstPersonGameMode.uasset" 302
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/BackgroundTerrain/BlendAngleCorrectedNormals.uasset" 303
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/DrawingAssets/Paint_RT.uasset" 304
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/StarterContent/Textures/T_MacroVariation.uasset" 305
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" 306
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" 307
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/DrawingAssets/PaintCanvas_M.uasset" 308
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/DrawingAssets/instance.uasset" 309
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/DrawingAssets/Paint_M.uasset" 310
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/DrawingAssets/Paint_BP.uasset" 311
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" 312
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" 313
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/StarterContent/Materials/M_Concrete_Grime.uasset" 314
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" 315
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" 316
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/StarterContent/Textures/T_RockMesh_M.uasset" 317
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/StarterContent/Textures/T_RockMesh_N.uasset" 318
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/StarterContent/Props/Materials/M_Rock.uasset" 319
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/StarterContent/Props/SM_Rock.uasset" 320
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/BackgroundTerrain/canyon_c_n.uasset" 321
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/BackgroundTerrain/canyon_c_SPLAT.uasset" 322
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/BackgroundTerrain/SM_ground_gravel_b_d.uasset" 323
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/BackgroundTerrain/SM_ground_gravel_b_n.uasset" 324
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/BackgroundTerrain/SM_sand_pebbles_a_d.uasset" 325
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/BackgroundTerrain/SM_sand_pebbles_a_n.uasset" 326
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/BackgroundTerrain/SM_soil_desert_a_d.uasset" 327
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/BackgroundTerrain/SM_soil_desert_a_n.uasset" 328
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/BackgroundTerrain/canyon_outer_mesh_3_splat_map.uasset" 329
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/BackgroundTerrain/PR_canyon_c_D.uasset" 330
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 331
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 332
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 333
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 334
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 335
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 336
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 337
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 338
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 339
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 340
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 341
-"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 342
-"../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset" 343
-"../../../Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset" 344
-"../../../Engine/Content/Tutorial/Basics/LevelEditorOverview.uasset" 345
-"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset" 346
-"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset" 347
-"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.uasset" 348
-"../../../Engine/Content/Tutorial/SubEditors/MaterialEditorTutorial.uasset" 349
-"../../../Engine/Content/Tutorial/SubEditors/StaticMeshEditorTutorial.uasset" 350
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.uasset" 351
-"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 352
-"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 353
-"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 354
-"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 355
-"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 356
-"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 357
-"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 358
-"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 359
-"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 360
-"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 361
-"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 362
-"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 363
-"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 364
-"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset" 365
-"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 366
-"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 367
-"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 368
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 369
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 370
-"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 371
-"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 372
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 373
-"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 374
-"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 375
-"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 376
-"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 377
-"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 378
-"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 379
-"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/ArrayOfActor.uasset" 380
-"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/ArrayOfSwitch.uasset" 381
-"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/BP_SceneNode.uasset" 382
-"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/BP_Switch.uasset" 383
-"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/BP_SceneRoot.uasset" 384
-"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/FBXImporterUtils.uasset" 385
-"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/Animation/DeltaGenAnimationTrackType.uasset" 386
-"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/Animation/VREDAnimationTrackComponent.uasset" 387
-"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/Animation/VREDAnimationTrackType.uasset" 388
-"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/Animation/VREDAnimCurveComponent.uasset" 389
-"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/Animation/VREDAnimCurveType.uasset" 390
-"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/Variants/VariantSwitchType.uasset" 391
-"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/Variants/VREDVariantSwitchType.uasset" 392
-"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/Variants/VREDVariantType.uasset" 393
-"../../Plugins/Runtime/Oculus/OculusVR/Content/OculusMR_RenderTarget.uasset" 394
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 395
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 396
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey_Lit.uasset" 397
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 398
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_WhiteMaterial.uasset" 399
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 400
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset" 401
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset" 402
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset" 403
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset" 404
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset" 405
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo.uasset" 406
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap.uasset" 407
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/touchController_mat.uasset" 408
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchController.uasset" 409
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftHMD.uasset" 410
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController.uasset" 411
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset" 412
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/Animations/FlipBook_LF.uasset" 413
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Textures/Rock01/RockPiences01_low_Rock01_BaseColor.uasset" 414
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Textures/Rock01/RockPiences01_low_Rock01_Normal.uasset" 415
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Textures/Rock01/RockPiences01_low_Rock01_OcclusionRoughnessMetallic.uasset" 416
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/Animations/Betty.uasset" 417
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/Animations/AnimatedRock_M.uasset" 418
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Meshes/plane.uasset" 419
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/Animations/Sound_Cues/Thunder_Strike.uasset" 420
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/Animations/Animated_Cube.uasset" 421
-"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 422
-"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 423
-"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 424
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 425
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 426
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 427
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 428
-"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 429
-"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 430
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/DrawingAssets/PaintableRock.uasset" 431
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Textures/RockCanvas/RockPiences_Canvas_low_CanvasWall_BaseColor.uasset" 432
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Textures/RockCanvas/RockPiences_Canvas_low_CanvasWall_Normal.uasset" 433
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Textures/RockCanvas/RockPiences_Canvas_low_CanvasWall_OcclusionRoughnessMetallic.uasset" 434
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/DrawingAssets/M_PaintAbleRock_Master.uasset" 435
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/DrawingAssets/M_Rock01_Instance.uasset" 436
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Meshes/RockPiences01_low.uasset" 437
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/DrawingAssets/PaintableRock_Rock01.uasset" 438
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Textures/Rock02/RockPiences02_low_Rock02_BaseColor.uasset" 439
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Textures/Rock02/RockPiences02_low_Rock02_Normal.uasset" 440
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Textures/Rock02/RockPiences02_low_Rock02_OcclusionRoughnessMetallic.uasset" 441
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/DrawingAssets/M_Rock02_Instance.uasset" 442
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Materials/M_Rock02.uasset" 443
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Materials/M_Rock02_Inst.uasset" 444
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Meshes/RockPiences02_low.uasset" 445
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/DrawingAssets/PaintableRock_Rock02.uasset" 446
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_Skeleton.uasset" 447
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.uasset" 448
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.uasset" 449
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.uasset" 450
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Mannequin/Animations/RightGrip_BS.uasset" 451
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Blueprints/GripEnum.uasset" 452
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset" 453
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Blueprints/MotionControllerHaptics.uasset" 454
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DepthFromWorldPosition.uasset" 455
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Materials/MF_OccludedPixels.uasset" 456
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Materials/TeleportMCP.uasset" 457
-"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 458
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Materials/M_ArcEndpoint.uasset" 459
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Materials/M_SplineArcMat.uasset" 460
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Materials/M_TeleportPreviews.uasset" 461
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Materials/MI_ChaperoneOutline.uasset" 462
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Materials/MI_TeleportCylinderPreview.uasset" 463
-"../../../Engine/Content/BasicShapes/Cylinder.uasset" 464
-"../../../Engine/Content/BasicShapes/Sphere.uasset" 465
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset" 466
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 467
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Mannequin/Character/Materials/M_HandMat.uasset" 468
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_PhysicsAsset.uasset" 469
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right.uasset" 470
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Meshes/1x1_cube.uasset" 471
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Meshes/BeaconDirection.uasset" 472
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Meshes/BeamMesh.uasset" 473
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Meshes/SM_FatCylinder.uasset" 474
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset" 475
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset" 476
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Blueprints/VRGameMode.uasset" 477
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/BackgroundTerrain/canyon_outer_mesh_3_splat_map_Inst.uasset" 478
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/BackgroundTerrain/PR_canyon_c_R.uasset" 479
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Textures/Rock03/RockPiences03_low_Rock03_BaseColor.uasset" 480
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Textures/Rock03/RockPiences03_low_Rock03_Normal.uasset" 481
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Textures/Rock03/RockPiences03_low_Rock03_OcclusionRoughnessMetallic.uasset" 482
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Materials/M_Rock03.uasset" 483
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Materials/M_Rock03_Inst.uasset" 484
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Meshes/RockPiences03_low.uasset" 485
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Maps/SanVRROck.umap" 486
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Materials/M_ColorMaterial.uasset" 487
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Materials/M_ColorMaterial_Red_Inst.uasset" 488
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Blueprints/BP_Painter.uasset" 489
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/DrawingAssets/M_RenderTargetPreview.uasset" 490
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/DrawingAssets/M_RockCanvas_Instance.uasset" 491
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/3DAssets/Meshes/RockPiences_Canvas_low.uasset" 492
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/DrawingAssets/PaintableRock_RockCanvas.uasset" 493
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset" 494
-"../../../../../../Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap" 495
-"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 496
-"../../../Engine/Content/Maps/Entry.umap" 497
+"../../../Engine/Content/EditorResources/SmallFont.uasset" 156
+"../../../Engine/Content/EditorResources/S_Actor.uasset" 157
+"../../../Engine/Content/EditorResources/S_DecalActorIcon.uasset" 158
+"../../../Engine/Content/EditorResources/S_Emitter.uasset" 159
+"../../../Engine/Content/EditorResources/S_ExpoHeightFog.uasset" 160
+"../../../Engine/Content/EditorResources/S_FTest.uasset" 161
+"../../../Engine/Content/EditorResources/S_KBSJoint.uasset" 162
+"../../../Engine/Content/EditorResources/S_KHinge.uasset" 163
+"../../../Engine/Content/EditorResources/S_KPrismatic.uasset" 164
+"../../../Engine/Content/EditorResources/S_LevelSequence.uasset" 165
+"../../../Engine/Content/EditorResources/S_NavP.uasset" 166
+"../../../Engine/Content/EditorResources/S_Note.uasset" 167
+"../../../Engine/Content/EditorResources/S_Player.uasset" 168
+"../../../Engine/Content/EditorResources/S_PortalActorIcon2.uasset" 169
+"../../../Engine/Content/EditorResources/S_RadForce.uasset" 170
+"../../../Engine/Content/EditorResources/S_ReflActorIcon.uasset" 171
+"../../../Engine/Content/EditorResources/S_Solver.uasset" 172
+"../../../Engine/Content/EditorResources/S_Terrain.uasset" 173
+"../../../Engine/Content/EditorResources/S_TextRenderActorIcon.uasset" 174
+"../../../Engine/Content/EditorResources/S_Thruster.uasset" 175
+"../../../Engine/Content/EditorResources/S_Trigger.uasset" 176
+"../../../Engine/Content/EditorResources/S_VectorFieldVol.uasset" 177
+"../../../Engine/Content/EditorResources/S_WindDirectional.uasset" 178
+"../../../Engine/Content/EditorResources/AI/S_NavLink.uasset" 179
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uasset" 180
+"../../../Engine/Content/EditorResources/LightIcons/SkyLight.uasset" 181
+"../../../Engine/Content/EditorResources/LightIcons/S_LightDirectional.uasset" 182
+"../../../Engine/Content/EditorResources/LightIcons/S_LightDirectionalMove.uasset" 183
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 184
+"../../../Engine/Content/EditorResources/LightIcons/S_LightPoint.uasset" 185
+"../../../Engine/Content/EditorResources/LightIcons/S_LightPointMove.uasset" 186
+"../../../Engine/Content/EditorResources/LightIcons/S_LightSpot.uasset" 187
+"../../../Engine/Content/EditorResources/LightIcons/S_LightSpotMove.uasset" 188
+"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 189
+"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 190
+"../../../Engine/Content/EditorResources/Spline/T_Loft_Spline.uasset" 191
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 192
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 193
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 194
+"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 195
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 196
+"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 197
+"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 198
+"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 199
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 200
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 201
+"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 202
+"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 203
+"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 204
+"../../../Engine/Content/EngineDebugMaterials/LevelColorationLitMaterial.uasset" 205
+"../../../Engine/Content/EngineDebugMaterials/LevelColorationUnlitMaterial.uasset" 206
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 207
+"../../../Engine/Content/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.uasset" 208
+"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 209
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.uasset" 210
+"../../../Engine/Content/EngineDebugMaterials/VolumeToRender.uasset" 211
+"../../../Engine/Content/EngineDebugMaterials/M_VolumeRenderSphereTracePP.uasset" 212
+"../../../Engine/Content/EngineDebugMaterials/ShadedLevelColorationLitMaterial.uasset" 213
+"../../../Engine/Content/EngineDebugMaterials/ShadedLevelColorationUnlitMateri.uasset" 214
+"../../../Engine/Content/EngineDebugMaterials/VertexColorMaterial.uasset" 215
+"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_AlphaAsColor.uasset" 216
+"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_BlueOnly.uasset" 217
+"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_ColorOnly.uasset" 218
+"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_GreenOnly.uasset" 219
+"../../../Engine/Content/EngineDebugMaterials/VertexColorViewMode_RedOnly.uasset" 220
+"../../../Engine/Content/EngineDebugMaterials/WireframeMaterial.uasset" 221
+"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 222
+"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 223
+"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 224
+"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 225
+"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 226
+"../../../Engine/Content/EngineFonts/Roboto.uasset" 227
+"../../../Engine/Content/EngineFonts/Faces/RobotoTiny.uasset" 228
+"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 229
+"../../../Engine/Content/EngineFonts/SmallFont.uasset" 230
+"../../../Engine/Content/EngineFonts/TinyFont.uasset" 231
+"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 232
+"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 233
+"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 234
+"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 235
+"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 236
+"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 237
+"../../../Engine/Content/EngineMaterials/BlinkingCaret.uasset" 238
+"../../../Engine/Content/EngineMaterials/BlueNoise.uasset" 239
+"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 240
+"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 241
+"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 242
+"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 243
+"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 244
+"../../../Engine/Content/EngineMaterials/DefaultNormal.uasset" 245
+"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 246
+"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 247
+"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 248
+"../../../Engine/Content/EngineMaterials/DefaultVirtualTextureMaterial.uasset" 249
+"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 250
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid_Low.uasset" 251
+"../../../Engine/Content/EngineMaterials/EmissiveMeshMaterial.uasset" 252
+"../../../Engine/Content/EngineMaterials/Grid_N.uasset" 253
+"../../../Engine/Content/EngineMaterials/HighResolutionScreenshotMaskFunction.uasset" 254
+"../../../Engine/Content/EngineMaterials/HighResScreenshot.uasset" 255
+"../../../Engine/Content/EngineMaterials/HighResScreenshotCaptureRegion.uasset" 256
+"../../../Engine/Content/EngineMaterials/HighResScreenshotMask.uasset" 257
+"../../../Engine/Content/EngineMaterials/LandscapeHolePhysicalMaterial.uasset" 258
+"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 259
+"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 260
+"../../../Engine/Content/EngineMaterials/PaperDiffuse.uasset" 261
+"../../../Engine/Content/EngineMaterials/PaperNormal.uasset" 262
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 263
+"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 264
+"../../../Engine/Content/EngineMaterials/PhysMat_Rubber.uasset" 265
+"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 266
+"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 267
+"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 268
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 269
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 270
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 271
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 272
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 273
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 274
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 275
+"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 276
+"../../../Engine/Content/EngineMeshes/Sphere.uasset" 277
+"../../../Engine/Content/EngineResources/Black.uasset" 278
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 279
+"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 280
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 281
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 282
+"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 283
+"../../../Engine/Content/EngineResources/StreamingPauseIcon.uasset" 284
+"../../../Engine/Content/EngineResources/M_StreamingPause.uasset" 285
+"../../../Engine/Content/EngineSounds/Master.uasset" 286
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 287
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 288
+"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 289
+"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 290
+"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 291
+"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset" 292
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 293
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 294
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 295
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 296
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 297
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 298
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 299
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 300
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 301
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 302
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 303
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 304
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 305
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 306
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 307
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 308
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 309
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 310
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 311
+"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 312
+"../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset" 313
+"../../../Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset" 314
+"../../../Engine/Content/Tutorial/Basics/LevelEditorOverview.uasset" 315
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset" 316
+"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset" 317
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.uasset" 318
+"../../../Engine/Content/Tutorial/Mobile/TutorialAssets/android_Icon.uasset" 319
+"../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset" 320
+"../../../Engine/Content/Tutorial/SubEditors/GettingSubstance.uasset" 321
+"../../../Engine/Content/Tutorial/SubEditors/MaterialEditorTutorial.uasset" 322
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.uasset" 323
+"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 324
+"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 325
+"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 326
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 327
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 328
+"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 329
+"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 330
+"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 331
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 332
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 333
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/newdocicon.uasset" 334
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/M_Thumbnail.uasset" 335
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_ThumbnailPainting.uasset" 336
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/FirstPersonCharacter.uasset" 337
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/FirstPerson/Textures/FirstPersonCrosshair.uasset" 338
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/FirstPersonHUD.uasset" 339
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/FirstPersonGameMode.uasset" 340
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/BackgroundTerrain/BlendAngleCorrectedNormals.uasset" 341
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/Paint_RT.uasset" 342
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/StarterContent/Textures/T_MacroVariation.uasset" 343
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" 344
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" 345
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintCanvas_M.uasset" 346
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/instance.uasset" 347
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/Paint_M.uasset" 348
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/Paint_BP.uasset" 349
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/ParticleSystems/Lightning/Beam_M.uasset" 350
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" 351
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" 352
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/StarterContent/Materials/M_Concrete_Grime.uasset" 353
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" 354
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" 355
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/StarterContent/Textures/T_RockMesh_M.uasset" 356
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/StarterContent/Textures/T_RockMesh_N.uasset" 357
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/StarterContent/Props/Materials/M_Rock.uasset" 358
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/StarterContent/Props/SM_Rock.uasset" 359
+"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 360
+"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 361
+"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 362
+"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 363
+"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 364
+"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 365
+"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/ArrayOfActor.uasset" 366
+"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/ArrayOfSwitch.uasset" 367
+"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/BP_SceneNode.uasset" 368
+"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/BP_Switch.uasset" 369
+"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/BP_SceneRoot.uasset" 370
+"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/FBXImporterUtils.uasset" 371
+"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/Animation/DeltaGenAnimationTrackType.uasset" 372
+"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/Animation/VREDAnimationTrackComponent.uasset" 373
+"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/Animation/VREDAnimationTrackType.uasset" 374
+"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/Animation/VREDAnimCurveComponent.uasset" 375
+"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/Animation/VREDAnimCurveType.uasset" 376
+"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/Variants/VariantSwitchType.uasset" 377
+"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/Variants/VREDVariantSwitchType.uasset" 378
+"../../Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/Variants/VREDVariantType.uasset" 379
+"../../Plugins/Runtime/Oculus/OculusVR/Content/OculusMR_RenderTarget.uasset" 380
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 381
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 382
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey_Lit.uasset" 383
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 384
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_WhiteMaterial.uasset" 385
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset" 386
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Animations/FlipBook_LF.uasset" 387
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Textures/Rock01/RockPiences01_low_Rock01_BaseColor.uasset" 388
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Textures/Rock01/RockPiences01_low_Rock01_Normal.uasset" 389
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Textures/Rock01/RockPiences01_low_Rock01_OcclusionRoughnessMetallic.uasset" 390
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Animations/Betty.uasset" 391
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Animations/AnimatedRock_M.uasset" 392
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Meshes/plane.uasset" 393
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Animations/Sound_Cues/Thunder_Strike.uasset" 394
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Animations/Animated_Cube.uasset" 395
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 396
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 397
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 398
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 399
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 400
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 401
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 402
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 403
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 404
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock.uasset" 405
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Textures/RockCanvas/RockPiences_Canvas_low_CanvasWall_BaseColor.uasset" 406
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Textures/RockCanvas/RockPiences_Canvas_low_CanvasWall_Normal.uasset" 407
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Textures/RockCanvas/RockPiences_Canvas_low_CanvasWall_OcclusionRoughnessMetallic.uasset" 408
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/M_PaintAbleRock_Master.uasset" 409
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/M_Rock01_Instance.uasset" 410
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Meshes/RockPiences01_low.uasset" 411
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock_Rock01.uasset" 412
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Textures/Rock02/RockPiences02_low_Rock02_BaseColor.uasset" 413
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Textures/Rock02/RockPiences02_low_Rock02_Normal.uasset" 414
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Textures/Rock02/RockPiences02_low_Rock02_OcclusionRoughnessMetallic.uasset" 415
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/M_Rock02_Instance.uasset" 416
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Materials/M_Rock02.uasset" 417
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Materials/M_Rock02_Inst.uasset" 418
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Meshes/RockPiences02_low.uasset" 419
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock_Rock02.uasset" 420
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_Skeleton.uasset" 421
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.uasset" 422
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.uasset" 423
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.uasset" 424
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Mannequin/Animations/RightGrip_BS.uasset" 425
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/GripEnum.uasset" 426
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset" 427
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/PickupActorInterface.uasset" 428
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/MotionControllerHaptics.uasset" 429
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DepthFromWorldPosition.uasset" 430
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Materials/MF_OccludedPixels.uasset" 431
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Materials/TeleportMCP.uasset" 432
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 433
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Materials/M_ArcEndpoint.uasset" 434
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Materials/M_SplineArcMat.uasset" 435
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Materials/M_TeleportPreviews.uasset" 436
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Materials/MI_ChaperoneOutline.uasset" 437
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Materials/MI_TeleportCylinderPreview.uasset" 438
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 439
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 440
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset" 441
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 442
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Mannequin/Character/Materials/M_HandMat.uasset" 443
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_PhysicsAsset.uasset" 444
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right.uasset" 445
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Meshes/1x1_cube.uasset" 446
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Meshes/BeaconDirection.uasset" 447
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Meshes/BeamMesh.uasset" 448
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualReality/Meshes/SM_FatCylinder.uasset" 449
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset" 450
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset" 451
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRGameMode.uasset" 452
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/SanVRROck_BuiltData.uasset" 453
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/BackgroundTerrain/canyon_c_n.uasset" 454
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/BackgroundTerrain/canyon_c_SPLAT.uasset" 455
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/BackgroundTerrain/SM_ground_gravel_b_d.uasset" 456
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/BackgroundTerrain/SM_ground_gravel_b_n.uasset" 457
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/BackgroundTerrain/SM_sand_pebbles_a_d.uasset" 458
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/BackgroundTerrain/SM_sand_pebbles_a_n.uasset" 459
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/BackgroundTerrain/SM_soil_desert_a_d.uasset" 460
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/BackgroundTerrain/SM_soil_desert_a_n.uasset" 461
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/BackgroundTerrain/canyon_outer_mesh_3_splat_map.uasset" 462
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/BackgroundTerrain/canyon_outer_mesh_3_splat_map_Inst.uasset" 463
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/BackgroundTerrain/PR_canyon_c_R.uasset" 464
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Textures/Rock03/RockPiences03_low_Rock03_BaseColor.uasset" 465
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Textures/Rock03/RockPiences03_low_Rock03_Normal.uasset" 466
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Textures/Rock03/RockPiences03_low_Rock03_OcclusionRoughnessMetallic.uasset" 467
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Materials/M_Rock03.uasset" 468
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Materials/M_Rock03_Inst.uasset" 469
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Meshes/RockPiences03_low.uasset" 470
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/SanVRROck.umap" 471
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Materials/M_ColorMaterial.uasset" 472
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Materials/M_ColorMaterial_Red_Inst.uasset" 473
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/BP_Painter.uasset" 474
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/M_RenderTargetPreview.uasset" 475
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/M_RockCanvas_Instance.uasset" 476
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/3DAssets/Meshes/RockPiences_Canvas_low.uasset" 477
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock_RockCanvas.uasset" 478
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset" 479
+"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/GeneratedBand.uasset" 480
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/ParticleSystems/Lightning/Lightning1_M.uasset" 481
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/ParticleSystems/Lightning/Lightning1_P.uasset" 482
+"../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap" 483
