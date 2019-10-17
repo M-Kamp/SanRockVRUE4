@@ -55,6 +55,6 @@ void UImageSaveLoad::SaveRenderTargetToDisk(UTextureRenderTarget2D* InRenderTarg
 
 	FString ResultPath;
 	FHighResScreenshotConfig& HighResScreenshotConfig = GetHighResScreenshotConfig();
-	HighResScreenshotConfig.SaveImage(Filename, OutBMP, DestSize, &ResultPath);
+	//HighResScreenshotConfig.SaveImage(Filename, OutBMP, DestSize, &ResultPath);
 }
 
