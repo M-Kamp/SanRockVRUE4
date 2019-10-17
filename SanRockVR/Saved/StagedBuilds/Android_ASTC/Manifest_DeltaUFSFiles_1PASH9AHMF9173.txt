@@ -11,8 +11,6 @@ SanRockArtVRMED7/Content/3DAssets/BackgroundTerrain/canyon_outer_mesh_3_splat_ma
 SanRockArtVRMED7/Content/3DAssets/BackgroundTerrain/canyon_outer_mesh_3_splat_map.uexp
 SanRockArtVRMED7/Content/3DAssets/BackgroundTerrain/canyon_outer_mesh_3_splat_map_Inst.uasset
 SanRockArtVRMED7/Content/3DAssets/BackgroundTerrain/canyon_outer_mesh_3_splat_map_Inst.uexp
-SanRockArtVRMED7/Content/3DAssets/BackgroundTerrain/PR_canyon_c_D.uasset
-SanRockArtVRMED7/Content/3DAssets/BackgroundTerrain/PR_canyon_c_D.uexp
 SanRockArtVRMED7/Content/3DAssets/BackgroundTerrain/PR_canyon_c_R.uasset
 SanRockArtVRMED7/Content/3DAssets/BackgroundTerrain/PR_canyon_c_R.uexp
 SanRockArtVRMED7/Content/3DAssets/BackgroundTerrain/SM_ground_gravel_b_d.uasset
@@ -137,6 +135,12 @@ SanRockArtVRMED7/Content/DrawingAssets/Paint_RT.uasset
 SanRockArtVRMED7/Content/DrawingAssets/Paint_RT.uexp
 SanRockArtVRMED7/Content/FirstPerson/Textures/FirstPersonCrosshair.uasset
 SanRockArtVRMED7/Content/FirstPerson/Textures/FirstPersonCrosshair.uexp
+SanRockArtVRMED7/Content/ParticleSystems/Lightning/Beam_M.uasset
+SanRockArtVRMED7/Content/ParticleSystems/Lightning/Beam_M.uexp
+SanRockArtVRMED7/Content/ParticleSystems/Lightning/Lightning1_M.uasset
+SanRockArtVRMED7/Content/ParticleSystems/Lightning/Lightning1_M.uexp
+SanRockArtVRMED7/Content/ParticleSystems/Lightning/Lightning1_P.uasset
+SanRockArtVRMED7/Content/ParticleSystems/Lightning/Lightning1_P.uexp
 SanRockArtVRMED7/Content/StarterContent/Materials/M_Concrete_Grime.uasset
 SanRockArtVRMED7/Content/StarterContent/Materials/M_Concrete_Grime.uexp
 SanRockArtVRMED7/Content/StarterContent/Props/SM_Rock.uasset
@@ -204,14 +208,10 @@ SanRockArtVRMED7/Content/VirtualReality/Materials/MF_OccludedPixels.uasset
 SanRockArtVRMED7/Content/VirtualReality/Materials/MF_OccludedPixels.uexp
 SanRockArtVRMED7/Content/VirtualReality/Materials/MI_ChaperoneOutline.uasset
 SanRockArtVRMED7/Content/VirtualReality/Materials/MI_ChaperoneOutline.uexp
-SanRockArtVRMED7/Content/VirtualReality/Materials/MI_SmallCubes.uasset
-SanRockArtVRMED7/Content/VirtualReality/Materials/MI_SmallCubes.uexp
 SanRockArtVRMED7/Content/VirtualReality/Materials/MI_TeleportCylinderPreview.uasset
 SanRockArtVRMED7/Content/VirtualReality/Materials/MI_TeleportCylinderPreview.uexp
 SanRockArtVRMED7/Content/VirtualReality/Materials/M_ArcEndpoint.uasset
 SanRockArtVRMED7/Content/VirtualReality/Materials/M_ArcEndpoint.uexp
-SanRockArtVRMED7/Content/VirtualReality/Materials/M_BaseMaterial.uasset
-SanRockArtVRMED7/Content/VirtualReality/Materials/M_BaseMaterial.uexp
 SanRockArtVRMED7/Content/VirtualReality/Materials/M_SplineArcMat.uasset
 SanRockArtVRMED7/Content/VirtualReality/Materials/M_SplineArcMat.uexp
 SanRockArtVRMED7/Content/VirtualReality/Materials/M_TeleportPreviews.uasset
@@ -230,8 +230,6 @@ SanRockArtVRMED7/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset
 SanRockArtVRMED7/Content/VirtualRealityBP/Blueprints/BP_MotionController.uexp
 SanRockArtVRMED7/Content/VirtualRealityBP/Blueprints/BP_Painter.uasset
 SanRockArtVRMED7/Content/VirtualRealityBP/Blueprints/BP_Painter.uexp
-SanRockArtVRMED7/Content/VirtualRealityBP/Blueprints/BP_PickupCube.uasset
-SanRockArtVRMED7/Content/VirtualRealityBP/Blueprints/BP_PickupCube.uexp
 SanRockArtVRMED7/Content/VirtualRealityBP/Blueprints/GripEnum.uasset
 SanRockArtVRMED7/Content/VirtualRealityBP/Blueprints/GripEnum.uexp
 SanRockArtVRMED7/Content/VirtualRealityBP/Blueprints/MotionControllerHaptics.uasset
@@ -246,6 +244,9 @@ SanRockArtVRMED7/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset
 SanRockArtVRMED7/Content/VirtualRealityBP/Blueprints/VRPlayerController.uexp
 SanRockArtVRMED7/Content/VirtualRealityBP/Maps/SanVRROck.uexp
 SanRockArtVRMED7/Content/VirtualRealityBP/Maps/SanVRROck.umap
+SanRockArtVRMED7/Content/VirtualRealityBP/Maps/SanVRROck_BuiltData.uasset
+SanRockArtVRMED7/Content/VirtualRealityBP/Maps/SanVRROck_BuiltData.ubulk
+SanRockArtVRMED7/Content/VirtualRealityBP/Maps/SanVRROck_BuiltData.uexp
 SanRockArtVRMED7/Content/VirtualRealityBP/Maps/TestWorld.uexp
 SanRockArtVRMED7/Content/VirtualRealityBP/Maps/TestWorld.umap
 SanRockArtVRMED7/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset

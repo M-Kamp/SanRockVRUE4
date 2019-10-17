@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SanRockArtVRMED7.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{4BAB1225-B83D-456E-9B9A-C26F2CF593E8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SanRockArtVRMED7.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SanRockArtVRMED7Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{3F4F6318-6F56-4927-B31C-4DD28FF30B48}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{C92AF95F-59ED-4CD3-B0E5-23C5F3AD6D46}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{624E82F7-9378-4637-8F6B-4364D09BE73D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{D33C292F-2CB6-4888-9301-99B42C54D712}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{8ECFD24A-05FE-46E9-8F6B-B5FBAC94D78B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\PS4">
+      <UniqueIdentifier>{EE6D4235-13B7-450D-A315-A4BA928D202B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\PS4\PS4Engine.ini">
+      <Filter>Config\PS4</Filter>
+    </None>
+    <Filter Include="Config\Switch">
+      <UniqueIdentifier>{5782BF1F-1B50-43B6-B1F8-DAB8DAAA7F92}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Switch\SwitchEngine.ini">
+      <Filter>Config\Switch</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{0F8261BF-DE90-4977-BCD3-3F69312A6A6D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\XboxOne">
+      <UniqueIdentifier>{53E059D0-226F-47B2-B441-AF87ECDE4BEC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
+      <Filter>Config\XboxOne</Filter>
+    </None>
+    <Filter Include="Source\SanRockArtVRMED7">
+      <UniqueIdentifier>{EDF89FD1-D989-4977-B34B-71B05EDF0241}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SanRockArtVRMED7\SanRockArtVRMED7.Build.cs">
+      <Filter>Source\SanRockArtVRMED7</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SanRockArtVRMED7\SanRockArtVRMED7.cpp">
+      <Filter>Source\SanRockArtVRMED7</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SanRockArtVRMED7\SanRockArtVRMED7.h">
+      <Filter>Source\SanRockArtVRMED7</Filter>
+    </ClInclude>
+    <Filter Include="Source\SanRockArtVRMED7\Private">
+      <UniqueIdentifier>{DB2AFD4F-B3F1-4273-A921-545C22A1BA85}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SanRockArtVRMED7\Private\ImageSaveLoad.cpp">
+      <Filter>Source\SanRockArtVRMED7\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\SanRockArtVRMED7\Public">
+      <UniqueIdentifier>{78A05CCC-823B-4F09-A5D0-EB915207E28B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SanRockArtVRMED7\Public\ImageSaveLoad.h">
+      <Filter>Source\SanRockArtVRMED7\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
