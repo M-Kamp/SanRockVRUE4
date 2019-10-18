@@ -6,4 +6,8 @@ C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/TextureRenderTarget.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextureRenderTarget.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextureRenderTarget2D.generated.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\ImageWriteQueue/Public/ImageWriteQueue.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\imagewritequeue\public\ImageWriteTask.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\ImageWrapper\Public\IImageWrapper.h
+c:\program files\epic games\ue_4.23\engine\source\runtime\imagewritequeue\public\ImagePixelData.h
 c:\users\mikke\documents\unreal projects\sanrockart-repo\sanrockvr\intermediate\build\win64\ue4editor\inc\sanrockartvrmed7\ImageSaveLoad.generated.h

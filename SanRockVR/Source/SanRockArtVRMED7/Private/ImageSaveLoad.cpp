@@ -2,6 +2,10 @@
 
 #include "ImageSaveLoad.h"
 #include "HighResScreenshot.h"
+#include "Runtime/ImageWriteQueue/Public/ImageWriteQueue.h"
+#include "Runtime/ImageWriteQueue/Public/ImageWriteTask.h"
+#include "Templates/UniquePtr.h"
+
 
 // Sets default values for this component's properties
 UImageSaveLoad::UImageSaveLoad()
@@ -32,29 +36,61 @@ void UImageSaveLoad::TickComponent(float DeltaTime, ELevelTick TickType, FActorC
 	// ...
 }
 
-void UImageSaveLoad::SaveRenderTargetToDisk(UTextureRenderTarget2D* InRenderTarget, FString Filename)
+void UImageSaveLoad::SaveRenderTargetToDisk(UTextureRenderTarget2D* InRenderTarget, FString path, FString Filename)
 {
 	FTextureRenderTargetResource* RTResource = InRenderTarget->GameThread_GetRenderTargetResource();
 
-	FReadSurfaceDataFlags ReadPixelFlags(RCM_UNorm);
-	ReadPixelFlags.SetLinearToGamma(true);
+	// We're reading back depth in centimeters from alpha, and linear lighting.
+	const ERangeCompressionMode kDontRangeCompress = RCM_MinMax;
+	FReadSurfaceDataFlags ReadPixelFlags(kDontRangeCompress);
 
-	TArray<FColor> OutBMP;
-	RTResource->ReadPixels(OutBMP, ReadPixelFlags);
+	// We always want linear output.
+	ReadPixelFlags.SetLinearToGamma(false);
 
-	for (FColor& color : OutBMP)
-	{
-		color.A = 255;
-	}
-
+	// Create a bitmap
+	TArray<FLinearColor> OutBMP;
+	RTResource->ReadLinearColorPixels(OutBMP, ReadPixelFlags);
 
 	FIntRect SourceRect;
-
 	FIntPoint DestSize(InRenderTarget->GetSurfaceWidth(), InRenderTarget->GetSurfaceHeight());
-
 
 	FString ResultPath;
 	FHighResScreenshotConfig& HighResScreenshotConfig = GetHighResScreenshotConfig();
-	//HighResScreenshotConfig.SaveImage(Filename, OutBMP, DestSize, &ResultPath);
+	HighResScreenshotConfig.bCaptureHDR = false;
+
+	//HighResScreenshotConfig.SaveImage(Filename, OutBMP, DestSize); -- DEPRECATED 4.21 so using ImageWriteTask instead
+
+	// New Code by vMattC
+
+		// Check to see if ImageWriteQueue has been initialised
+	if (!ensureMsgf(HighResScreenshotConfig.ImageWriteQueue, TEXT("Unable to write images unless FHighResScreenshotConfig::Init has been called.")))
+	{
+		// Do something
+	}
+
+	// Create ImageTask
+	TUniquePtr<FImageWriteTask> ImageTask = MakeUnique<FImageWriteTask>();
+
+	// Pass bitmap to pixeldata
+	ImageTask->PixelData = MakeUnique<TImagePixelData<FLinearColor>>(DestSize, MoveTemp(OutBMP));
+
+	// Populate Task with config data
+	HighResScreenshotConfig.PopulateImageTaskParams(*ImageTask);
+	ImageTask->Filename = path + Filename;
+
+	// Specify HDR as output format
+	ImageTask->Format = EImageFormat::EXR;
+
+	// Save the bitmap to disc
+	TFuture<bool> CompletionFuture = HighResScreenshotConfig.ImageWriteQueue->Enqueue(MoveTemp(ImageTask));
+	if (CompletionFuture.IsValid())
+	{
+		CompletionFuture.Wait();
+	}
 }
+
+void UImageSaveLoad::LoadRenderTargetFromDisk(UTextureRenderTarget2D*& OutRenderTarget, FString path, FString Filename)
+{
+}
+
 

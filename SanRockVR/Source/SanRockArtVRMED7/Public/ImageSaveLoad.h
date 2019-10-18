@@ -5,7 +5,10 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "Engine/TextureRenderTarget2D.h"
+#include "ImageWriteQueue/Public/ImageWriteQueue.h"
+
 #include "ImageSaveLoad.generated.h"
+
 
 
 
@@ -27,6 +30,9 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UFUNCTION(BlueprintCallable, Category = "SaveLoad")
-	void SaveRenderTargetToDisk(UTextureRenderTarget2D* InRenderTarget, FString Filename);
-		
+	void SaveRenderTargetToDisk(UTextureRenderTarget2D* InRenderTarget, FString path, FString Filename);
+
+
+	UFUNCTION(BlueprintCallable, Category = "SaveLoad")
+	void LoadRenderTargetFromDisk(UTextureRenderTarget2D*& OutRenderTarget, FString path, FString Filename);
 };
