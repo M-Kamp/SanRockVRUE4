@@ -1,4 +1,4 @@
-﻿Log file open, 10/21/19 09:30:42
+﻿Log file open, 10/21/19 10:26:34
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: SanRockArtVRMED7
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.109732
+LogStats: Stats thread started at 0.102496
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -97,6 +97,39 @@ LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
 LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Warning: Incompatible or missing module: SanRockArtVRMED7
+Running C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/SanRockArtVRMED7.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo).
+Invalidating makefile for SanRockArtVRMED7Editor (source file removed)
+@progress push 5%
+Parsing headers for SanRockArtVRMED7Editor
+  Running UnrealHeaderTool "C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\SanRockArtVRMED7.uproject" "C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Intermediate\Build\Win64\SanRockArtVRMED7Editor\Development\SanRockArtVRMED7Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for SanRockArtVRMED7Editor in 21,3467539 seconds
+@progress pop
+Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 8 actions with 4 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 12%
+  [1/8] SharedPCH.Engine.cpp
+  @progress 'Compiling C++ source code...' 25%
+  [2/8] SanRockArtVRMED7.cpp
+  @progress 'Compiling C++ source code...' 38%
+  [3/8] SanRockArtVRMED7.init.gen.cpp
+  @progress 'Compiling C++ source code...' 50%
+  [4/8] ImageSaveLoad.cpp
+  @progress 'Compiling C++ source code...' 62%
+  [5/8] ImageSaveLoad.gen.cpp
+  @progress 'Compiling C++ source code...' 75%
+  [6/8] UE4Editor-SanRockArtVRMED7.lib
+     Creating library C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\UE4Editor-SanRockArtVRMED7.lib and object C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\UE4Editor-SanRockArtVRMED7.exp
+  @progress 'Compiling C++ source code...' 88%
+  [7/8] UE4Editor-SanRockArtVRMED7.dll
+     Creating library C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\UE4Editor-SanRockArtVRMED7.suppressed.lib and object C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\UE4Editor-SanRockArtVRMED7.suppressed.exp
+  @progress 'Compiling C++ source code...' 100%
+  [8/8] SanRockArtVRMED7Editor.target
+Total time in Parallel executor: 27,49 seconds
+Total execution time: 51,55 seconds
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.1.1
@@ -157,828 +190,704 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Engine.ini]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:1]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2019.10.21-07.30.42:717][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
-[2019.10.21-07.30.42:718][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Engine.ini]
-[2019.10.21-07.30.42:718][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Engine.ini]
-[2019.10.21-07.30.42:718][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Engine.ini]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.10.21-07.30.42:719][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Engine.ini]
-[2019.10.21-07.30.42:719][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Engine.ini]
-[2019.10.21-07.30.42:722][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.10.21-07.30.42:722][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.10.21-07.30.42:723][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.10.21-07.30.42:724][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.21-07.30.42:724][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.10.21-07.30.42:724][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.10.21-07.30.42:724][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.21-07.30.42:724][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.10.21-07.30.42:728][  0]LogHAL: Display: Platform has ~ 8 GB [8469581824 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.10.21-07.30.42:728][  0]LogInit: Going up to parent DeviceProfile []
-[2019.10.21-07.30.42:728][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.10.21-07.30.42:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.10.21-07.30.42:729][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.10.21-07.30.42:730][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.10.21-07.30.42:730][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.10.21-07.30.42:730][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Engine.ini]
-[2019.10.21-07.30.42:730][  0]LogInit: Computer: LAPTOP-JJ1D6O3U
-[2019.10.21-07.30.42:730][  0]LogInit: User: Mikke
-[2019.10.21-07.30.42:730][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.10.21-07.30.42:730][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.10.21-07.30.42:730][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.10.21-07.30.42:730][  0]LogMemory: Platform Memory Stats for Windows
-[2019.10.21-07.30.42:730][  0]LogMemory: Process Physical Memory: 100.50 MB used, 100.50 MB peak
-[2019.10.21-07.30.42:730][  0]LogMemory: Process Virtual Memory: 88.11 MB used, 88.11 MB peak
-[2019.10.21-07.30.42:730][  0]LogMemory: Physical Memory: 4476.64 MB used,  3600.58 MB free, 8077.22 MB total
-[2019.10.21-07.30.42:730][  0]LogMemory: Virtual Memory: 4643.43 MB used,  134213088.00 MB free, 134217728.00 MB total
-[2019.10.21-07.30.42:734][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.10.21-07.30.42:771][  0]LogInit: Using OS detected language (en-GB).
-[2019.10.21-07.30.42:771][  0]LogInit: Using OS detected locale (en-DK).
-[2019.10.21-07.30.42:771][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2019.10.21-07.30.42:983][  0]LogInit: Setting process to per monitor DPI aware
-[2019.10.21-07.30.43:031][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.10.21-07.30.43:031][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.10.21-07.30.48:599][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2019.10.21-07.30.48:599][  0]LogD3D11RHI: D3D11 adapters:
-[2019.10.21-07.30.48:679][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
-[2019.10.21-07.30.48:679][  0]LogD3D11RHI:       1977/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.10.21-07.30.48:695][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.10.21-07.30.48:695][  0]LogD3D11RHI:       128/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.10.21-07.30.48:699][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.10.21-07.30.48:699][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.10.21-07.30.48:699][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.10.21-07.30.48:743][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.10.21-07.30.48:744][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
-[2019.10.21-07.30.48:744][  0]LogWindows: EnumDisplayDevices:
-[2019.10.21-07.30.48:744][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2019.10.21-07.30.48:744][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.10.21-07.30.48:745][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.10.21-07.30.48:745][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2019.10.21-07.30.48:746][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
-[2019.10.21-07.30.48:746][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
-[2019.10.21-07.30.48:746][  0]LogD3D11RHI:   Driver Version: 422.02 (internal:25.21.14.2202, unified:422.02)
-[2019.10.21-07.30.48:746][  0]LogD3D11RHI:      Driver Date: 4-6-2019
-[2019.10.21-07.30.48:746][  0]LogRHI: Texture pool is 1384 MB (70% of 1977 MB)
-[2019.10.21-07.30.48:805][  0]LogD3D11RHI: Async texture creation enabled
-[2019.10.21-07.30.48:825][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.10.21-07.30.49:293][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.10.21-07.30.49:307][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.10.21-07.30.49:323][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.10.21-07.30.49:339][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.10.21-07.30.49:359][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.10.21-07.30.49:374][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.10.21-07.30.49:389][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.10.21-07.30.49:404][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.10.21-07.30.49:411][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.10.21-07.30.49:471][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.10.21-07.30.49:471][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.10.21-07.30.49:471][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.10.21-07.30.49:471][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.10.21-07.30.49:471][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.10.21-07.30.49:471][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.10.21-07.30.49:471][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.10.21-07.30.49:471][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.10.21-07.30.49:471][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.10.21-07.30.49:471][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.10.21-07.30.49:471][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.10.21-07.30.49:471][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.10.21-07.30.49:471][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.10.21-07.30.49:471][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.10.21-07.30.49:471][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.10.21-07.30.49:471][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.10.21-07.30.49:471][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.10.21-07.30.49:471][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.10.21-07.30.49:474][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.10.21-07.30.49:512][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.10.21-07.30.49:512][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.10.21-07.30.49:536][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.10.21-07.30.49:536][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.10.21-07.30.49:549][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.10.21-07.30.49:562][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.10.21-07.30.49:575][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.10.21-07.30.49:594][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.10.21-07.30.49:635][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.10.21-07.30.49:635][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.10.21-07.30.49:635][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.10.21-07.30.49:648][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.10.21-07.30.49:728][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Intermediate/Shaders/WorkingDirectory/8340/).
-[2019.10.21-07.30.49:728][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Mikke/AppData/Local/Temp/UnrealShaderWorkingDir/026BBCDB450F04F6B8D2ECBA94CC5E98/'.
-[2019.10.21-07.30.49:732][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.10.21-07.30.49:732][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.10.21-07.30.49:732][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.10.21-07.30.50:661][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.10.21-07.30.50:732][  0]LogDerivedDataCache: Loaded boot cache 0.07s 74MB C:/Users/Mikke/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.10.21-07.30.50:732][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Mikke/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2019.10.21-07.30.50:732][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.10.21-07.30.50:732][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.10.21-07.30.50:732][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.21-07.30.50:732][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.10.21-07.30.50:750][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.10.21-07.30.50:750][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.21-07.30.50:750][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.10.21-07.30.50:752][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mikke/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.10.21-07.30.50:752][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.10.21-07.30.50:752][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.10.21-07.30.50:785][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.10.21-07.30.50:788][  0]LogSlate: Using FreeType 2.6.0
-[2019.10.21-07.30.50:788][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.10.21-07.30.50:873][  0]LogAssetRegistry: FAssetRegistry took 0.0041 seconds to start up
-[2019.10.21-07.30.51:264][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.21-07.30.51:479][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.10.21-07.30.51:479][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.10.21-07.30.51:479][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.10.21-07.30.51:479][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.10.21-07.30.51:479][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.10.21-07.30.51:496][  0]LogNetVersion: SanRockArtVRMED7 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2483326429)
-[2019.10.21-07.30.52:172][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.084004 seconds
-[2019.10.21-07.30.52:182][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2019.10.21-07.30.52:182][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2019.10.21-07.30.52:182][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.10.21-07.30.53:406][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.10.21-07.30.53:410][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.10.21-07.30.53:506][  0]SourceControl: Source control is disabled
-[2019.10.21-07.30.53:506][  0]SourceControl: Source control is disabled
-[2019.10.21-07.30.53:508][  0]SourceControl: Source control is disabled
-[2019.10.21-07.30.53:509][  0]SourceControl: Source control is disabled
-[2019.10.21-07.30.53:635][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.10.21-07.30.53:775][  0]LogOcInput: OculusInput pre-init called
-[2019.10.21-07.30.53:785][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2019.10.21-07.30.53:785][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2019.10.21-07.30.53:880][  0]LogEngine: Initializing Engine...
-[2019.10.21-07.30.53:943][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2019.10.21-07.30.53:945][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.10.21-07.30.54:268][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.10.21-07.30.54:293][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.10.21-07.30.54:383][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.21-07.30.55:703][  0]LogInit: FAudioDevice initialized.
-[2019.10.21-07.30.55:703][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.10.21-07.30.55:772][  0]LogDerivedDataCache: Saved boot cache 0.07s 74MB C:/Users/Mikke/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.10.21-07.30.55:779][  0]LogInit: Texture streaming: Enabled
-[2019.10.21-07.30.55:806][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.10.21-07.30.55:914][  0]LogInit: Transaction tracking system initialized
-[2019.10.21-07.30.55:969][  0]BlueprintLog: New page: Editor Load
-[2019.10.21-07.30.56:095][  0]LocalizationService: Localization service is disabled
-[2019.10.21-07.30.56:473][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/' took 0.01s
-[2019.10.21-07.30.56:473][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.10.21-07.30.56:473][  0]LogCook: Display: Mobile HDR setting 1
-[2019.10.21-07.30.56:789][  0]SourceControl: Source control is disabled
-[2019.10.21-07.30.56:789][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.10.21-07.30.56:789][  0]LightingResults: New page: Lighting Build
-[2019.10.21-07.30.56:793][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.10.21-07.30.56:794][  0]MapCheck: New page: Map Check
-[2019.10.21-07.30.56:794][  0]LightingResults: New page: Lighting Build
-[2019.10.21-07.30.56:826][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
-[2019.10.21-07.30.58:923][  0]LogAIModule: Creating AISystem for world TestWorld
-[2019.10.21-07.30.58:982][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.10.21-07.30.59:027][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
-[2019.10.21-07.30.59:028][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.21-07.30.59:028][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.237ms to complete.
-[2019.10.21-07.30.59:028][  0]LogFileHelpers: Loading map 'TestWorld' took 2.239
-[2019.10.21-07.31.01:260][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.10.21-07.31.01:360][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.21-07.31.01:369][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.21-07.31.01:378][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.21-07.31.01:386][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.21-07.31.01:403][  0]LogCollectionManager: Loaded 0 collections in 0.002605 seconds
-[2019.10.21-07.31.01:426][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Collections/' took 0.01s
-[2019.10.21-07.31.01:427][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Developers/Mikke/Collections/' took 0.01s
-[2019.10.21-07.31.01:427][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Collections/' took 0.00s
-[2019.10.21-07.31.01:427][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2019.10.21-07.31.01:439][  0]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2864 classes and 683 folders.
-[2019.10.21-07.31.01:452][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.10.21-07.31.01:839][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.10.21-07.31.01:853][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.10.21-07.31.01:963][  0]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.10.21-07.31.01:966][  0]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.10.21-07.31.01:992][  0]LogSlate: Took 0.017292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.10.21-07.31.02:167][  0]LogRenderer: Reallocating scene render targets to support 876x400 Format 10 NumSamples 1 (Frame:1).
-[2019.10.21-07.31.02:344][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.10.21-07.31.02:344][  0]LogLoad: (Engine Initialization) Total time: 21.38 seconds
-[2019.10.21-07.31.02:344][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.10.21-07.31.02:495][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.10.21-07.31.02:532][  0]LogSlate: Took 0.006613 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.10.21-07.31.02:547][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/' took 0.18s
-[2019.10.21-07.31.02:684][  3]LogAssetRegistry: Asset discovery search completed in 11.8111 seconds
-[2019.10.21-07.31.02:690][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
-[2019.10.21-07.31.02:690][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000081 seconds (updated 0 objects)
-[2019.10.21-07.31.04:008][  7]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.10.21-07.31.05:677][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.21-07.34.48:787][146]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.10.21-07.35.04:104][648]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas3)
-[2019.10.21-07.35.05:318][712]LogEditorViewport: Clicking on Actor (LMB): Emitter (Lightning1_P)
-[2019.10.21-07.35.06:190][762]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.21-07.35.08:321][887]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DrawingAssets/PaintableRock_RockCanvas.PaintableRock_RockCanvas
-[2019.10.21-07.35.08:829][887]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
-[2019.10.21-07.35.10:009][887]LogSlate: Took 0.006745 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.10.21-07.35.10:114][888]LogSlate: Took 0.007877 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.10.21-07.35.23:975][715]BlueprintLog: New page: Compile PaintableRock_RockCanvas
-[2019.10.21-07.35.24:261][715]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
-[2019.10.21-07.35.24:701][731]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/PaintableRock_RockCanvasF54483CB40063D003772DB927E7E964C.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock_RockCanvas.uasset'
-[2019.10.21-07.35.26:924][858]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
-[2019.10.21-07.35.27:182][858]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld6EE6198742AE7BFD4B3AF1A971A2E449.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
-[2019.10.21-07.35.27:455][858]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltData8E40DE0E4D56953458B0FE8515D740F2.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset'
-[2019.10.21-07.40.27:989][104]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.21-07.40.29:684][255]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas3)
-[2019.10.21-07.40.30:157][294]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas)
-[2019.10.21-07.40.31:173][382]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas2)
-[2019.10.21-07.40.32:861][543]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.10.21-07.40.32:914][543]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
-[2019.10.21-07.40.33:162][543]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld38ACD6B8403A9A8F6C5EC19B65D2690B.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
-[2019.10.21-07.40.33:362][543]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltDataFC2A655F48BF5E2CB5801DB6D8B9EB81.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset'
-[2019.10.21-07.45.30:769][860]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.21-07.46.11:021][514]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas)
-[2019.10.21-07.46.18:685][112]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.10.21-07.47.01:094][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RockPiences03_low4)
-[2019.10.21-07.47.01:547][527]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas2)
-[2019.10.21-07.47.02:377][591]LogEditorViewport: Clicking on Actor (LMB): Emitter (Lightning1_P)
-[2019.10.21-07.47.03:646][693]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas3)
-[2019.10.21-07.47.04:508][759]LogEditorViewport: Clicking on Actor (LMB): Emitter (Lightning1_P)
-[2019.10.21-07.47.04:956][792]LogEditorViewport: Clicking on Actor (LMB): Emitter (Lightning1_P)
-[2019.10.21-07.47.05:351][824]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas)
-[2019.10.21-07.47.25:759][685]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas3)
-[2019.10.21-07.47.27:118][791]LogEditorViewport: Clicking on Actor (LMB): Emitter (Lightning1_P)
-[2019.10.21-07.47.27:893][852]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas)
-[2019.10.21-07.47.32:250][209]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas2)
-[2019.10.21-07.47.35:968][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.21-07.47.40:582][909]LogEditorViewport: Clicking on Actor (LMB): Emitter (Lightning1_P)
-[2019.10.21-07.47.41:123][952]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas3)
-[2019.10.21-07.47.42:034][ 21]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas)
-[2019.10.21-07.47.43:000][ 94]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas3)
-[2019.10.21-07.47.48:022][515]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.21-07.47.50:920][708]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/VRPlayerController.VRPlayerController
-[2019.10.21-07.48.09:396][753]LogSlate: Took 0.006852 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2019.10.21-07.50.32:828][543]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
-[2019.10.21-07.50.32:828][543]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/TestWorld' took 0.047
-[2019.10.21-07.50.32:830][543]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/VRPlayerController] ([1] browsable assets)...
-[2019.10.21-07.50.32:830][543]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/VRPlayerController]
-[2019.10.21-07.50.32:896][543]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerController_Auto108559FD44C8D2B6E7ED9C48D8579F852.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/VRPlayerController_Auto1.uasset'
-[2019.10.21-07.50.32:897][543]LogFileHelpers: Auto-saving content packages took 0.068
-[2019.10.21-07.57.59:516][832]BlueprintLog: New page: Compile VRPlayerController
-[2019.10.21-07.57.59:806][832]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
-[2019.10.21-07.58.02:250][ 49]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerController6E4F830145441248DB389AB70F9368EF.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
-[2019.10.21-07.58.27:839][927]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerControllerFE8EF6D5469A2DCBCF8FE0AE2C1C114E.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
-[2019.10.21-07.58.29:434][ 62]BlueprintLog: New page: Compile VRPlayerController
-[2019.10.21-07.58.29:655][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
-[2019.10.21-07.58.30:079][ 98]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerControllerE0F0D956466C41D8AE4C08927B1478D2.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
-[2019.10.21-07.59.39:226][515]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.21-08.02.00:344][875]BlueprintLog: New page: Compile PaintableRock_RockCanvas
-[2019.10.21-08.02.00:585][875]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
-[2019.10.21-08.02.01:224][913]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/PaintableRock_RockCanvasF56CB4E8419227E174D767914562FDEF.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock_RockCanvas.uasset'
-[2019.10.21-08.02.02:449][999]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
-[2019.10.21-08.02.02:760][999]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld3E4471464C0D4AE0B7B7C0833FB79C71.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
-[2019.10.21-08.02.03:075][999]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltData4E4C02C84C1D88E48FE346B76C1A00B6.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset'
-[2019.10.21-08.02.34:487][719]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Enum_Wall4DDD2B9A43DBF02C3FD47D95E5F50B5C.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/Enum_Wall.uasset'
-[2019.10.21-08.02.42:362][185]LogMetaData: Removing '/Game/VirtualRealityBP/Blueprints/WallEnum.WallEnum' ref from Metadata '/Game/VirtualRealityBP/Blueprints/Enum_Wall.PackageMetaData'
-[2019.10.21-08.02.42:402][185]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/WallEnum0C0B57CF4EB8CCAA50581CA04D6FA5D4.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/WallEnum.uasset'
-[2019.10.21-08.02.42:602][185]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
-[2019.10.21-08.02.42:652][185]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
-[2019.10.21-08.02.42:693][185]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
-[2019.10.21-08.02.43:001][192]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/WallEnum742FA5FC4E97FF778EE8EDBE109134A8.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/WallEnum.uasset'
-[2019.10.21-08.02.44:073][247]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/VirtualRealityBP/Blueprints/WallEnum.WallEnum
-[2019.10.21-08.03.13:511][442]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/WallEnumE6FE1DAF46F8439EEEA227A570914EC7.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/WallEnum.uasset'
-[2019.10.21-08.03.14:434][491]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/WallEnum6CAF37C143209F6707C3C689BA4E8592.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/WallEnum.uasset'
-[2019.10.21-08.03.16:344][612]LogSlate: Window 'WallEnum' being destroyed
-[2019.10.21-08.03.16:355][612]LogSlate: Window 'WallEnum' being destroyed
-[2019.10.21-08.03.17:365][673]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
-[2019.10.21-08.03.17:668][673]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorldB60394884ECE1C5026E1E7AB62F34CED.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
-[2019.10.21-08.03.17:914][673]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltData010D8BEF4FEBE7F08CFD1D9141CFD9B6.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset'
-[2019.10.21-08.03.32:546][260]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/PaintableRock_RockCanvas92B2B114408CF6AD662A57AD9EA8EA26.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock_RockCanvas.uasset'
-[2019.10.21-08.03.33:069][302]BlueprintLog: New page: Compile PaintableRock_RockCanvas
-[2019.10.21-08.03.33:074][302]LogClass: Warning: Type mismatch in WallType of PaintableRock_RockCanvas_C - Previous (BoolProperty) Current(ByteProperty) for package:  FObjectReader
-[2019.10.21-08.03.33:077][302]LogBlueprint: Warning: [Compiler PaintableRock_RockCanvas] Can't parse default value 'False' for  . Property: WallType.
-[2019.10.21-08.03.33:363][302]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
-[2019.10.21-08.03.33:949][340]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/PaintableRock_RockCanvas0F46F106448C532AD62EBBACD32F5CBB.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock_RockCanvas.uasset'
-[2019.10.21-08.03.35:055][469]BlueprintLog: New page: Compile PaintableRock_RockCanvas
-[2019.10.21-08.03.35:291][469]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
-[2019.10.21-08.03.38:973][793]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
-[2019.10.21-08.03.39:244][793]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld56303A304CDC62DC293CEBB60692F7A8.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
-[2019.10.21-08.03.39:571][793]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltData7C69B8854893BCA0F24C3681D68B9ACF.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset'
-[2019.10.21-08.03.40:024][819]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
-[2019.10.21-08.03.40:343][819]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld32FD16F44310564206668F91F9260108.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
-[2019.10.21-08.03.40:574][819]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltData843F3EAC49F786B0EC1562ADDFAFF2BD.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset'
-[2019.10.21-08.03.45:215][343]BlueprintLog: New page: Compile PaintableRock_RockCanvas
-[2019.10.21-08.03.45:472][343]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
-[2019.10.21-08.03.45:956][372]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/PaintableRock_RockCanvasFE1334F14CB1B744F66CD2896B0F9069.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock_RockCanvas.uasset'
-[2019.10.21-08.03.47:004][441]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
-[2019.10.21-08.03.47:281][441]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld62E06C3A4F20E771C3789883E2D9FFC7.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
-[2019.10.21-08.03.47:521][441]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltData033DC1BF48BF1DD97252D29EA14407FA.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset'
-[2019.10.21-08.03.48:122][472]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
-[2019.10.21-08.03.48:418][472]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorldF8CD42F741FE3E6E6623E09E57EDE977.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
-[2019.10.21-08.03.48:742][472]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltData064542774E647D158DEECD854BB85800.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset'
-[2019.10.21-08.03.49:074][491]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
-[2019.10.21-08.03.51:438][675]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerController9F8D4262485E2BE9A0B17A88541F9314.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
-[2019.10.21-08.04.04:575][988]BlueprintLog: New page: Compile PaintableRock_RockCanvas
-[2019.10.21-08.04.04:821][988]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
-[2019.10.21-08.04.05:340][ 17]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/PaintableRock_RockCanvasC76F904B41CA3AA78CBE8A83815CAFBC.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock_RockCanvas.uasset'
-[2019.10.21-08.04.06:216][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
-[2019.10.21-08.04.06:511][ 68]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld6232A3F343A43B8D362898B9825F5239.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
-[2019.10.21-08.04.06:747][ 68]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltDataDA80651A4FCE32D9665FCB93655CDC1F.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset'
-[2019.10.21-08.04.07:105][ 92]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas3)
-[2019.10.21-08.04.11:702][475]LogEditorViewport: Clicking on Actor (LMB): Emitter (Lightning1_P)
-[2019.10.21-08.04.15:844][805]Cmd: DELETE
-[2019.10.21-08.04.15:844][805]Cmd: ACTOR DELETE
-[2019.10.21-08.04.15:854][805]LogEditorActor: Deleted Actor: Emitter
-[2019.10.21-08.04.15:895][805]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
-[2019.10.21-08.04.15:896][805]LogEditorActor: Deleted 1 Actors (0.045 secs)
-[2019.10.21-08.04.16:921][896]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas)
-[2019.10.21-08.04.18:734][ 23]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.21-08.04.20:304][158]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas2)
-[2019.10.21-08.04.21:330][223]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.21-08.04.22:625][324]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.10.21-08.04.22:685][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
-[2019.10.21-08.04.22:964][324]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld5D48B28E464EC6B028ED6686BE366780.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
-[2019.10.21-08.04.23:232][324]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltDataD676A21E4883EBB4756F3585C54DCC3B.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset'
-[2019.10.21-08.04.26:210][560]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.21-08.06.06:980][  8]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerControllerCF5AFC344FDD790FC9C074B1FB17C257.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
-[2019.10.21-08.06.27:099][212]BlueprintLog: New page: Compile VRPlayerController
-[2019.10.21-08.06.27:316][212]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
-[2019.10.21-08.06.27:776][239]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerControllerB5D879184360BA3DBFCB74941EA3B707.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
-[2019.10.21-08.06.28:464][291]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerControllerDF539213434CEEC637C9439CEA17AF40.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
-[2019.10.21-08.06.36:817][221]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.21-08.06.36:846][221]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
-[2019.10.21-08.06.36:847][221]BlueprintLog: New page: Pre-Play auto-recompile
-[2019.10.21-08.06.36:848][221]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
-[2019.10.21-08.06.36:892][221]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
-[2019.10.21-08.06.36:893][221]LogPlayLevel: PlayLevel: Blueprint regeneration took 45 ms (1 blueprints)
-[2019.10.21-08.06.36:894][221]PIE: New page: PIE session: TestWorld (Oct 21, 2019, 12:06:36 PM)
-[2019.10.21-08.06.36:897][221]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2019.10.21-08.06.36:899][221]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld
-[2019.10.21-08.06.36:915][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015881s)
-[2019.10.21-08.06.36:917][221]LogAIModule: Creating AISystem for world TestWorld
-[2019.10.21-08.06.36:917][221]LogPlayLevel: PIE: World Init took: (0.001838s)
-[2019.10.21-08.06.36:918][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/TestWorld.TestWorld to /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld.TestWorld (0.018411s)
-[2019.10.21-08.06.36:956][221]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
-[2019.10.21-08.06.36:967][221]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.21-08.06.36:997][221]LogInit: FAudioDevice initialized.
-[2019.10.21-08.06.37:015][221]LogLoad: Game class is 'VRGameMode_C'
-[2019.10.21-08.06.37:023][221]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld.TestWorld up for play (max tick rate 0) at 2019.10.21-10.06.37
-[2019.10.21-08.06.37:025][221]LogWorld: Bringing up level for play took: 0.003744
-[2019.10.21-08.06.37:025][221]LogOnline: OSS: Creating online subsystem instance for: :Context_8
-[2019.10.21-08.06.37:048][221]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 20 classes and 0 folders.
-[2019.10.21-08.06.37:053][221]LogBlueprintUserMessages: [BP_ThumbnailPainting_2] Exists
-[2019.10.21-08.06.37:073][221]LogBlueprintUserMessages: [BP_ThumbnailPainting_2] 256
-[2019.10.21-08.06.37:097][221]LogBlueprintUserMessages: [BP_ThumbnailPainting2_8] Exists
-[2019.10.21-08.06.37:107][221]LogBlueprintUserMessages: [BP_ThumbnailPainting2_8] 256
-[2019.10.21-08.06.37:128][221]LogBlueprintUserMessages: [BP_ThumbnailPainting3_11] Exists
-[2019.10.21-08.06.37:139][221]LogBlueprintUserMessages: [BP_ThumbnailPainting3_11] 256
-[2019.10.21-08.06.37:158][221]LogBlueprintUserMessages: [BP_ThumbnailPainting4_14] Exists
-[2019.10.21-08.06.37:168][221]LogBlueprintUserMessages: [BP_ThumbnailPainting4_14] 256
-[2019.10.21-08.06.37:188][221]LogBlueprintUserMessages: [VRPlayerController_C_0] Hello
-[2019.10.21-08.06.37:188][221]LogBlueprintUserMessages: [VRPlayerController_C_0] Hello
-[2019.10.21-08.06.37:188][221]LogBlueprintUserMessages: [VRPlayerController_C_0] Hello
-[2019.10.21-08.06.37:196][221]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld 0.213
-[2019.10.21-08.06.37:196][221]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
-[2019.10.21-08.06.40:217][449]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
-[2019.10.21-08.06.40:219][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.21-08.06.40:219][449]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld
-[2019.10.21-08.06.40:220][449]LogWorld: UWorld::CleanupWorld for TestWorld, bSessionEnded=true, bCleanupResources=true
-[2019.10.21-08.06.40:235][449]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.21-08.06.40:235][449]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
-[2019.10.21-08.06.40:281][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.21-08.06.40:320][449]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
-[2019.10.21-08.06.40:339][450]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2019.10.21-08.06.40:908][493]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.21-08.06.40:952][493]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
-[2019.10.21-08.06.40:952][493]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.21-08.06.40:952][493]PIE: New page: PIE session: TestWorld (Oct 21, 2019, 12:06:40 PM)
-[2019.10.21-08.06.40:952][493]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld
-[2019.10.21-08.06.40:961][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008291s)
-[2019.10.21-08.06.40:962][493]LogAIModule: Creating AISystem for world TestWorld
-[2019.10.21-08.06.40:963][493]LogPlayLevel: PIE: World Init took: (0.001672s)
-[2019.10.21-08.06.40:963][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/TestWorld.TestWorld to /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld.TestWorld (0.010162s)
-[2019.10.21-08.06.41:011][493]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
-[2019.10.21-08.06.41:016][493]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.21-08.06.41:063][493]LogInit: FAudioDevice initialized.
-[2019.10.21-08.06.41:076][493]LogLoad: Game class is 'VRGameMode_C'
-[2019.10.21-08.06.41:079][493]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld.TestWorld up for play (max tick rate 0) at 2019.10.21-10.06.41
-[2019.10.21-08.06.41:079][493]LogWorld: Bringing up level for play took: 0.002512
-[2019.10.21-08.06.41:080][493]LogOnline: OSS: Creating online subsystem instance for: :Context_9
-[2019.10.21-08.06.41:082][493]LogBlueprintUserMessages: [BP_ThumbnailPainting_2] Exists
-[2019.10.21-08.06.41:092][493]LogBlueprintUserMessages: [BP_ThumbnailPainting_2] 256
-[2019.10.21-08.06.41:112][493]LogBlueprintUserMessages: [BP_ThumbnailPainting2_8] Exists
-[2019.10.21-08.06.41:122][493]LogBlueprintUserMessages: [BP_ThumbnailPainting2_8] 256
-[2019.10.21-08.06.41:142][493]LogBlueprintUserMessages: [BP_ThumbnailPainting3_11] Exists
-[2019.10.21-08.06.41:152][493]LogBlueprintUserMessages: [BP_ThumbnailPainting3_11] 256
-[2019.10.21-08.06.41:170][493]LogBlueprintUserMessages: [BP_ThumbnailPainting4_14] Exists
-[2019.10.21-08.06.41:180][493]LogBlueprintUserMessages: [BP_ThumbnailPainting4_14] 256
-[2019.10.21-08.06.41:199][493]LogBlueprintUserMessages: [VRPlayerController_C_0] Hello
-[2019.10.21-08.06.41:199][493]LogBlueprintUserMessages: [VRPlayerController_C_0] Hello
-[2019.10.21-08.06.41:199][493]LogBlueprintUserMessages: [VRPlayerController_C_0] Hello
-[2019.10.21-08.06.41:202][493]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld 0.22
-[2019.10.21-08.06.41:203][493]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
-[2019.10.21-08.06.43:818][731]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
-[2019.10.21-08.06.43:818][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.21-08.06.43:819][731]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld
-[2019.10.21-08.06.43:820][731]LogWorld: UWorld::CleanupWorld for TestWorld, bSessionEnded=true, bCleanupResources=true
-[2019.10.21-08.06.43:832][731]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.21-08.06.43:833][731]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
-[2019.10.21-08.06.43:880][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.21-08.06.43:885][731]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
-[2019.10.21-08.06.43:922][734]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2019.10.21-08.06.57:538][170]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerControllerEC6D6B2A4B7996239011528BFA17E5B2.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
-[2019.10.21-08.06.58:300][230]BlueprintLog: New page: Compile VRPlayerController
-[2019.10.21-08.06.58:602][230]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
-[2019.10.21-08.07.33:376][788]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.21-08.07.33:413][788]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
-[2019.10.21-08.07.33:413][788]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.21-08.07.33:413][788]PIE: New page: PIE session: TestWorld (Oct 21, 2019, 12:07:33 PM)
-[2019.10.21-08.07.33:413][788]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld
-[2019.10.21-08.07.33:421][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007789s)
-[2019.10.21-08.07.33:422][788]LogAIModule: Creating AISystem for world TestWorld
-[2019.10.21-08.07.33:422][788]LogPlayLevel: PIE: World Init took: (0.001107s)
-[2019.10.21-08.07.33:422][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/TestWorld.TestWorld to /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld.TestWorld (0.009035s)
-[2019.10.21-08.07.33:466][788]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
-[2019.10.21-08.07.33:472][788]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.21-08.07.33:490][788]LogInit: FAudioDevice initialized.
-[2019.10.21-08.07.33:497][788]LogLoad: Game class is 'VRGameMode_C'
-[2019.10.21-08.07.33:500][788]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld.TestWorld up for play (max tick rate 0) at 2019.10.21-10.07.33
-[2019.10.21-08.07.33:500][788]LogWorld: Bringing up level for play took: 0.002270
-[2019.10.21-08.07.33:500][788]LogOnline: OSS: Creating online subsystem instance for: :Context_10
-[2019.10.21-08.07.33:503][788]LogBlueprintUserMessages: [BP_ThumbnailPainting_2] Exists
-[2019.10.21-08.07.33:511][788]LogBlueprintUserMessages: [BP_ThumbnailPainting_2] 256
-[2019.10.21-08.07.33:530][788]LogBlueprintUserMessages: [BP_ThumbnailPainting2_8] Exists
-[2019.10.21-08.07.33:538][788]LogBlueprintUserMessages: [BP_ThumbnailPainting2_8] 256
-[2019.10.21-08.07.33:555][788]LogBlueprintUserMessages: [BP_ThumbnailPainting3_11] Exists
-[2019.10.21-08.07.33:563][788]LogBlueprintUserMessages: [BP_ThumbnailPainting3_11] 256
-[2019.10.21-08.07.33:580][788]LogBlueprintUserMessages: [BP_ThumbnailPainting4_14] Exists
-[2019.10.21-08.07.33:588][788]LogBlueprintUserMessages: [BP_ThumbnailPainting4_14] 256
-[2019.10.21-08.07.33:606][788]LogBlueprintUserMessages: [VRPlayerController_C_0] PaintableRock_RockCanvas2
-[2019.10.21-08.07.33:606][788]LogBlueprintUserMessages: [VRPlayerController_C_0] PaintableRock_RockCanvas3
-[2019.10.21-08.07.33:606][788]LogBlueprintUserMessages: [VRPlayerController_C_0] PaintableRock_RockCanvas_2
-[2019.10.21-08.07.33:610][788]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld 0.627
-[2019.10.21-08.07.33:610][788]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
-[2019.10.21-08.07.36:068][ 13]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
-[2019.10.21-08.07.36:069][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.21-08.07.36:069][ 13]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld
-[2019.10.21-08.07.36:069][ 13]LogWorld: UWorld::CleanupWorld for TestWorld, bSessionEnded=true, bCleanupResources=true
-[2019.10.21-08.07.36:086][ 13]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.21-08.07.36:086][ 13]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
-[2019.10.21-08.07.36:133][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.21-08.07.36:139][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
-[2019.10.21-08.07.36:173][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2019.10.21-08.07.57:131][397]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerController9D3AED80433AD30CA0E5D598E35A3E9D.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
-[2019.10.21-08.08.32:057][332]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerController6D4C29DC4BF9418505E18080CAB65DE5.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
-[2019.10.21-08.09.16:977][774]BlueprintLog: New page: Compile VRPlayerController
-[2019.10.21-08.09.17:238][774]LogUObjectHash: Compacting FUObjectHashTables data took   5.22ms
-[2019.10.21-08.09.17:702][797]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerController8200F7FF4A2C6DEBE146E88398C25E31.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
-[2019.10.21-08.09.18:579][848]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerController5F5992764B1AABBF0F7A02B91F0EE23D.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
-[2019.10.21-08.09.24:439][503]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerController149BC02644E41BE29BB2EDBF967E5D41.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
-[2019.10.21-08.09.28:514][922]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerControllerC128EF8C422B4B49CE2C65B87AB20DE7.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
-[2019.10.21-08.09.54:320][785]BlueprintLog: New page: Compile VRPlayerController
-[2019.10.21-08.09.54:579][785]LogUObjectHash: Compacting FUObjectHashTables data took   5.99ms
-[2019.10.21-08.09.55:101][811]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerControllerE79B253D433DB81BDF3406A2119DF376.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
-[2019.10.21-08.10.04:024][744]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerControllerF30104F24F442BA277FA0A8B9C8579F1.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
-[2019.10.21-08.10.09:277][315]BlueprintLog: New page: Compile VRPlayerController
-[2019.10.21-08.10.09:541][315]LogUObjectHash: Compacting FUObjectHashTables data took   6.00ms
-[2019.10.21-08.10.18:148][241]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.21-08.10.18:176][241]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
-[2019.10.21-08.10.18:176][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.21-08.10.18:176][241]PIE: New page: PIE session: TestWorld (Oct 21, 2019, 12:10:18 PM)
-[2019.10.21-08.10.18:176][241]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld
-[2019.10.21-08.10.18:184][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007423s)
-[2019.10.21-08.10.18:185][241]LogAIModule: Creating AISystem for world TestWorld
-[2019.10.21-08.10.18:185][241]LogPlayLevel: PIE: World Init took: (0.001130s)
-[2019.10.21-08.10.18:185][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/TestWorld.TestWorld to /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld.TestWorld (0.008729s)
-[2019.10.21-08.10.18:229][241]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
-[2019.10.21-08.10.18:236][241]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.21-08.10.18:253][241]LogInit: FAudioDevice initialized.
-[2019.10.21-08.10.18:259][241]LogLoad: Game class is 'VRGameMode_C'
-[2019.10.21-08.10.18:261][241]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld.TestWorld up for play (max tick rate 0) at 2019.10.21-10.10.18
-[2019.10.21-08.10.18:262][241]LogWorld: Bringing up level for play took: 0.001888
-[2019.10.21-08.10.18:262][241]LogOnline: OSS: Creating online subsystem instance for: :Context_11
-[2019.10.21-08.10.18:264][241]LogBlueprintUserMessages: [BP_ThumbnailPainting_2] Exists
-[2019.10.21-08.10.18:272][241]LogBlueprintUserMessages: [BP_ThumbnailPainting_2] 256
-[2019.10.21-08.10.18:290][241]LogBlueprintUserMessages: [BP_ThumbnailPainting2_8] Exists
-[2019.10.21-08.10.18:298][241]LogBlueprintUserMessages: [BP_ThumbnailPainting2_8] 256
-[2019.10.21-08.10.18:316][241]LogBlueprintUserMessages: [BP_ThumbnailPainting3_11] Exists
-[2019.10.21-08.10.18:324][241]LogBlueprintUserMessages: [BP_ThumbnailPainting3_11] 256
-[2019.10.21-08.10.18:341][241]LogBlueprintUserMessages: [BP_ThumbnailPainting4_14] Exists
-[2019.10.21-08.10.18:350][241]LogBlueprintUserMessages: [BP_ThumbnailPainting4_14] 256
-[2019.10.21-08.10.18:372][241]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld -0.611
-[2019.10.21-08.10.18:372][241]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
-[2019.10.21-08.10.21:995][572]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
-[2019.10.21-08.10.22:359][572]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorldA2770452451405F82924E69B1F1B6D37.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
-[2019.10.21-08.10.22:633][572]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltDataA20CFF3949633918977C008EF9FC2DDA.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset'
-[2019.10.21-08.10.26:709][946]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
-[2019.10.21-08.10.26:709][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.21-08.10.26:709][946]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld
-[2019.10.21-08.10.26:709][946]LogWorld: UWorld::CleanupWorld for TestWorld, bSessionEnded=true, bCleanupResources=true
-[2019.10.21-08.10.26:725][946]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.21-08.10.26:725][946]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
-[2019.10.21-08.10.26:777][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.21-08.10.26:783][946]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
-[2019.10.21-08.10.26:807][947]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2019.10.21-08.10.41:560][525]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/PaintableRock_RockCanvas123C71614B872A07F9EDFFB33AB0F199.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock_RockCanvas.uasset'
-[2019.10.21-08.10.42:241][581]BlueprintLog: New page: Compile PaintableRock_RockCanvas
-[2019.10.21-08.10.42:554][581]LogUObjectHash: Compacting FUObjectHashTables data took   4.90ms
-[2019.10.21-08.10.59:189][478]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerController2FE676AC439593CF11A69EAC6A3BDA9E.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
-[2019.10.21-08.11.18:668][642]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
-[2019.10.21-08.11.18:980][642]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld245001BE40A6F20D5630F6B41B6DF517.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
-[2019.10.21-08.11.19:267][642]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltData664E846741C8F526AA21129973C7C397.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset'
-[2019.10.21-08.11.31:734][666]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas3)
-[2019.10.21-08.11.33:243][779]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas2)
-[2019.10.21-08.11.35:084][912]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.21-08.11.36:409][ 26]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerController296EB4004C9BAB418C2732B36FB5F861.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
-[2019.10.21-08.14.47:115][200]BlueprintLog: New page: Compile PaintableRock_RockCanvas
-[2019.10.21-08.14.47:419][200]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
-[2019.10.21-08.14.47:762][227]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/PaintableRock_RockCanvas632D690B413EAC462FD176B94CE05C2E.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock_RockCanvas.uasset'
-[2019.10.21-08.14.48:349][286]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/PaintableRock_RockCanvasB075AF334E868D2F3C2ACC8BDE5D43B3.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock_RockCanvas.uasset'
-[2019.10.21-08.14.49:250][362]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
-[2019.10.21-08.14.49:541][362]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld5E56845F4E96C2D419F5AC8A33D1495E.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
-[2019.10.21-08.14.49:737][362]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltDataE61D6F834937D733AD8B28B1119A10AE.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset'
-[2019.10.21-08.15.10:883][334]LogRenderer: Reallocating scene render targets to support 1096x496 Format 10 NumSamples 1 (Frame:55045).
-[2019.10.21-08.15.52:197][549]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas3)
-[2019.10.21-08.15.52:835][598]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas)
-[2019.10.21-08.15.53:298][633]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas2)
-[2019.10.21-08.15.54:590][743]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas)
-[2019.10.21-08.15.55:114][784]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas3)
-[2019.10.21-08.15.55:794][838]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas)
-[2019.10.21-08.15.56:255][874]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas3)
-[2019.10.21-08.15.56:702][909]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas)
-[2019.10.21-08.15.57:390][966]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RockPiences02_low9)
-[2019.10.21-08.15.57:900][  6]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas2)
-[2019.10.21-08.15.58:398][ 45]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas)
-[2019.10.21-08.15.58:923][ 86]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas3)
-[2019.10.21-08.15.59:456][128]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas)
-[2019.10.21-08.15.59:927][165]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas2)
-[2019.10.21-08.16.00:547][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RockPiences03_low)
-[2019.10.21-08.16.01:720][306]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.21-08.16.03:476][426]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
-[2019.10.21-08.16.03:512][427]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
-[2019.10.21-08.16.03:512][427]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
-[2019.10.21-08.16.03:512][427]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
-[2019.10.21-08.16.09:456][813]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Thumbnail/BP_ThumbnailPainting.BP_ThumbnailPainting
-[2019.10.21-08.16.12:483][954]LogSlate: Window 'BP_ThumbnailPainting' being destroyed
+[2019.10.21-08.27.30:421][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.21-08.27.30:421][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:1]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2019.10.21-08.27.30:422][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2019.10.21-08.27.30:423][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.21-08.27.30:424][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.21-08.27.30:424][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.21-08.27.30:424][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.21-08.27.30:427][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-08.27.30:427][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.21-08.27.30:427][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.21-08.27.30:427][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-08.27.30:427][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.21-08.27.30:427][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-08.27.30:427][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.21-08.27.30:427][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.21-08.27.30:427][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.21-08.27.30:427][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.21-08.27.30:427][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.21-08.27.30:427][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.21-08.27.30:427][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.21-08.27.30:427][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.21-08.27.30:427][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.21-08.27.30:427][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.21-08.27.30:427][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.21-08.27.30:427][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.21-08.27.30:427][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.21-08.27.30:427][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.21-08.27.30:427][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.21-08.27.30:427][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.21-08.27.30:428][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.21-08.27.30:428][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.21-08.27.30:428][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.21-08.27.30:432][  0]LogHAL: Display: Platform has ~ 8 GB [8469581824 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.21-08.27.30:432][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.21-08.27.30:432][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.21-08.27.30:432][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.21-08.27.30:433][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.21-08.27.30:433][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-08.27.30:433][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.21-08.27.30:433][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.21-08.27.30:433][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.21-08.27.30:433][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.21-08.27.30:433][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.21-08.27.30:433][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.21-08.27.30:433][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.21-08.27.30:433][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.21-08.27.30:433][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.21-08.27.30:433][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.21-08.27.30:433][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.21-08.27.30:433][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.21-08.27.30:433][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.21-08.27.30:433][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.21-08.27.30:433][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.21-08.27.30:433][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.21-08.27.30:433][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.21-08.27.30:433][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.21-08.27.30:433][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.21-08.27.30:433][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.21-08.27.30:433][  0]LogInit: Computer: LAPTOP-JJ1D6O3U
+[2019.10.21-08.27.30:433][  0]LogInit: User: Mikke
+[2019.10.21-08.27.30:433][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.10.21-08.27.30:433][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.21-08.27.30:433][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.10.21-08.27.30:433][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.21-08.27.30:433][  0]LogMemory: Process Physical Memory: 104.75 MB used, 104.75 MB peak
+[2019.10.21-08.27.30:433][  0]LogMemory: Process Virtual Memory: 88.55 MB used, 88.55 MB peak
+[2019.10.21-08.27.30:433][  0]LogMemory: Physical Memory: 4084.05 MB used,  3993.18 MB free, 8077.22 MB total
+[2019.10.21-08.27.30:433][  0]LogMemory: Virtual Memory: 4692.01 MB used,  134213032.00 MB free, 134217728.00 MB total
+[2019.10.21-08.27.30:438][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.10.21-08.27.30:469][  0]LogInit: Using OS detected language (en-GB).
+[2019.10.21-08.27.30:469][  0]LogInit: Using OS detected locale (en-DK).
+[2019.10.21-08.27.30:470][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.10.21-08.27.30:661][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.21-08.27.30:711][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.21-08.27.30:711][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.21-08.27.30:968][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2019.10.21-08.27.30:968][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.21-08.27.31:057][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.10.21-08.27.31:057][  0]LogD3D11RHI:       1977/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.10.21-08.27.31:072][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.10.21-08.27.31:072][  0]LogD3D11RHI:       128/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.10.21-08.27.31:074][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.21-08.27.31:074][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.21-08.27.31:074][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.21-08.27.31:108][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.21-08.27.31:108][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2019.10.21-08.27.31:108][  0]LogWindows: EnumDisplayDevices:
+[2019.10.21-08.27.31:109][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.10.21-08.27.31:109][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.10.21-08.27.31:109][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.10.21-08.27.31:109][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.10.21-08.27.31:110][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.10.21-08.27.31:110][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.10.21-08.27.31:110][  0]LogD3D11RHI:   Driver Version: 422.02 (internal:25.21.14.2202, unified:422.02)
+[2019.10.21-08.27.31:110][  0]LogD3D11RHI:      Driver Date: 4-6-2019
+[2019.10.21-08.27.31:110][  0]LogRHI: Texture pool is 1384 MB (70% of 1977 MB)
+[2019.10.21-08.27.31:157][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.21-08.27.31:177][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.10.21-08.27.31:521][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.21-08.27.31:532][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.21-08.27.31:543][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.21-08.27.31:554][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.21-08.27.31:569][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.21-08.27.31:580][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.21-08.27.31:591][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.21-08.27.31:601][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.21-08.27.31:606][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.21-08.27.31:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.21-08.27.31:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.21-08.27.31:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.21-08.27.31:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.21-08.27.31:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.21-08.27.31:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.21-08.27.31:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.21-08.27.31:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.21-08.27.31:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.21-08.27.31:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.21-08.27.31:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.21-08.27.31:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.21-08.27.31:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.21-08.27.31:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.21-08.27.31:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.21-08.27.31:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.21-08.27.31:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.21-08.27.31:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.21-08.27.31:649][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.21-08.27.31:675][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.21-08.27.31:675][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.21-08.27.31:691][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.21-08.27.31:691][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.21-08.27.31:699][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.21-08.27.31:708][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.21-08.27.31:716][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.21-08.27.31:730][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.21-08.27.31:759][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.21-08.27.31:759][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.21-08.27.31:759][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.21-08.27.31:770][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.21-08.27.31:834][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Intermediate/Shaders/WorkingDirectory/7848/).
+[2019.10.21-08.27.31:834][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Mikke/AppData/Local/Temp/UnrealShaderWorkingDir/5E411756465DA6A5988923AEB00409D9/'.
+[2019.10.21-08.27.31:837][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.21-08.27.31:837][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.21-08.27.31:837][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.21-08.27.32:515][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.21-08.27.32:574][  0]LogDerivedDataCache: Loaded boot cache 0.06s 74MB C:/Users/Mikke/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.21-08.27.32:574][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Mikke/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.10.21-08.27.32:575][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.21-08.27.32:575][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.21-08.27.32:575][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.21-08.27.32:575][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.21-08.27.32:587][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.21-08.27.32:587][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.21-08.27.32:587][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.10.21-08.27.32:589][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mikke/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.21-08.27.32:589][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.21-08.27.32:589][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.21-08.27.32:617][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.21-08.27.32:619][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.21-08.27.32:620][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.21-08.27.32:686][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
+[2019.10.21-08.27.32:975][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.21-08.27.33:141][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.21-08.27.33:141][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.21-08.27.33:141][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.21-08.27.33:141][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.21-08.27.33:141][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.21-08.27.33:156][  0]LogNetVersion: SanRockArtVRMED7 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2483326429)
+[2019.10.21-08.27.33:686][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.064735 seconds
+[2019.10.21-08.27.33:693][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.10.21-08.27.33:694][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.10.21-08.27.33:694][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.21-08.27.34:641][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.21-08.27.34:644][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.21-08.27.34:723][  0]SourceControl: Source control is disabled
+[2019.10.21-08.27.34:723][  0]SourceControl: Source control is disabled
+[2019.10.21-08.27.34:725][  0]SourceControl: Source control is disabled
+[2019.10.21-08.27.34:726][  0]SourceControl: Source control is disabled
+[2019.10.21-08.27.34:826][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.21-08.27.34:935][  0]LogOcInput: OculusInput pre-init called
+[2019.10.21-08.27.34:944][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.10.21-08.27.34:944][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.10.21-08.27.35:017][  0]LogEngine: Initializing Engine...
+[2019.10.21-08.27.35:070][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2019.10.21-08.27.35:071][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.10.21-08.27.35:335][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.21-08.27.35:354][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.21-08.27.35:442][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.21-08.27.36:737][  0]LogInit: FAudioDevice initialized.
+[2019.10.21-08.27.36:737][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.21-08.27.36:792][  0]LogDerivedDataCache: Saved boot cache 0.05s 74MB C:/Users/Mikke/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.21-08.27.36:806][  0]LogInit: Texture streaming: Enabled
+[2019.10.21-08.27.36:828][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.21-08.27.36:910][  0]LogInit: Transaction tracking system initialized
+[2019.10.21-08.27.36:951][  0]BlueprintLog: New page: Editor Load
+[2019.10.21-08.27.37:049][  0]LocalizationService: Localization service is disabled
+[2019.10.21-08.27.37:323][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/' took 0.00s
+[2019.10.21-08.27.37:323][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.21-08.27.37:323][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.21-08.27.37:568][  0]SourceControl: Source control is disabled
+[2019.10.21-08.27.37:569][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.21-08.27.37:569][  0]LightingResults: New page: Lighting Build
+[2019.10.21-08.27.37:573][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.10.21-08.27.37:573][  0]MapCheck: New page: Map Check
+[2019.10.21-08.27.37:573][  0]LightingResults: New page: Lighting Build
+[2019.10.21-08.27.37:604][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2019.10.21-08.27.37:831][  0]LogBlueprint: Error: [Compiler VRPlayerController] In use pin  <Unnamed>  no longer exists on node  Start Animation . Please refresh node or break links to remove pin.
+[2019.10.21-08.27.37:831][  0]LogBlueprint: Error: [Compiler VRPlayerController] In use pin  Target  no longer exists on node  Start Animation . Please refresh node or break links to remove pin.
+[2019.10.21-08.27.37:831][  0]LogBlueprint: Error: [Compiler VRPlayerController] Could not find a function named "StartAnimation" in 'Animated_Cube_C'.
+Make sure 'Animated_Cube_C' has been compiled for  Start Animation
+[2019.10.21-08.27.39:074][  0]LogAIModule: Creating AISystem for world TestWorld
+[2019.10.21-08.27.39:101][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.21-08.27.39:135][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2019.10.21-08.27.39:136][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.21-08.27.39:136][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.182ms to complete.
+[2019.10.21-08.27.39:136][  0]LogFileHelpers: Loading map 'TestWorld' took 1.568
+[2019.10.21-08.27.40:962][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.10.21-08.27.41:044][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-08.27.41:051][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-08.27.41:059][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-08.27.41:068][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-08.27.41:080][  0]LogCollectionManager: Loaded 0 collections in 0.002161 seconds
+[2019.10.21-08.27.41:089][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/Collections/' took 0.00s
+[2019.10.21-08.27.41:089][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Developers/Mikke/Collections/' took 0.00s
+[2019.10.21-08.27.41:089][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Collections/' took 0.00s
+[2019.10.21-08.27.41:089][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.10.21-08.27.41:098][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2864 classes and 683 folders.
+[2019.10.21-08.27.41:108][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.21-08.27.41:454][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.10.21-08.27.41:463][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.10.21-08.27.41:540][  0]LogSlate: Took 0.000366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.21-08.27.41:543][  0]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.21-08.27.41:561][  0]LogSlate: Took 0.011242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.21-08.27.41:729][  0]LogRenderer: Reallocating scene render targets to support 876x400 Format 10 NumSamples 1 (Frame:1).
+[2019.10.21-08.27.41:896][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.10.21-08.27.41:896][  0]LogLoad: (Engine Initialization) Total time: 68.89 seconds
+[2019.10.21-08.27.41:896][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.21-08.27.42:008][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.21-08.27.42:040][  0]LogSlate: Took 0.006019 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.21-08.27.42:050][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/' took 0.14s
+[2019.10.21-08.27.42:077][  1]LogAssetRegistry: Asset discovery search completed in 9.3930 seconds
+[2019.10.21-08.27.42:083][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2019.10.21-08.27.42:083][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000098 seconds (updated 0 objects)
+[2019.10.21-08.27.42:975][ 72]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.21-08.28.16:314][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-08.28.19:355][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.10.21-08.28.19:561][145]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorldD7CD234945529C1F420E7C82B93CAE35.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
+[2019.10.21-08.28.19:808][145]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltData3B3ED9A64FDEA449840FCA8A61166C58.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset'
+[2019.10.21-08.33.07:623][365]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Thumbnail/BP_ThumbnailPainting.BP_ThumbnailPainting
+[2019.10.21-08.33.08:013][365]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
+[2019.10.21-08.33.09:073][365]LogSlate: Took 0.004645 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.10.21-08.33.09:231][366]LogSlate: Took 0.007670 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.10.21-08.33.11:516][516]LogSlate: Window 'BP_ThumbnailPainting' being destroyed
+[2019.10.21-08.35.23:593][ 30]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.10.21-08.35.23:622][ 31]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2019.10.21-08.35.23:622][ 31]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2019.10.21-08.35.23:622][ 31]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2019.10.21-08.35.27:963][296]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DrawingAssets/PaintableRock_RockCanvas.PaintableRock_RockCanvas
+[2019.10.21-08.35.39:425][415]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DrawingAssets/PaintableRock.PaintableRock
+[2019.10.21-08.35.56:189][932]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/PaintableRock52FE9D514A5D28EC0B73C7AE00E37EF3.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock.uasset'
+[2019.10.21-08.36.15:795][165]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/PaintableRock9EA32A0643E1A191B0E3DEB544143878.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock.uasset'
+[2019.10.21-08.36.17:894][410]BlueprintLog: New page: Compile PaintableRock
+[2019.10.21-08.36.18:135][410]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2019.10.21-08.36.18:628][451]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/PaintableRockBE8B23914FE002615AFB09AB0B1FC6D6.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock.uasset'
+[2019.10.21-08.36.51:872][860]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/PaintableRock_RockCanvasF83A8464473E40C18FED93AD6B173411.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock_RockCanvas.uasset'
+[2019.10.21-08.36.57:195][179]BlueprintLog: New page: Compile PaintableRock_RockCanvas
+[2019.10.21-08.36.57:403][179]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2019.10.21-08.37.04:988][629]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2019.10.21-08.37.05:236][629]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld6C8362504EC094C742DEC8ABD4F52D44.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
+[2019.10.21-08.37.05:444][629]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltData824D21294D7745D9E5E8D1B5D963F481.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset'
+[2019.10.21-08.37.12:717][ 64]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-08.37.12:746][ 64]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
+[2019.10.21-08.37.12:746][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-08.37.12:746][ 64]BlueprintLog: Warning: Blueprint failed to compile:  VRPlayerController
+[2019.10.21-08.37.12:748][ 64]LogCustomDialog: Dialog displayed:
+[2019.10.21-08.37.14:644][ 64]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2019.10.21-08.37.16:094][147]LogSlate: Window 'Message Log' being destroyed
+[2019.10.21-08.37.16:101][147]LogSlate: Window 'Message Log' being destroyed
+[2019.10.21-08.37.17:061][205]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-08.37.17:085][205]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
+[2019.10.21-08.37.17:085][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-08.37.17:085][205]BlueprintLog: Warning: Blueprint failed to compile:  VRPlayerController
+[2019.10.21-08.37.17:085][205]LogCustomDialog: Dialog displayed:
+[2019.10.21-08.37.19:416][205]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2019.10.21-08.37.21:512][326]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/VRPlayerController.VRPlayerController
+[2019.10.21-08.37.23:752][436]LogSlate: Window 'Message Log' being destroyed
+[2019.10.21-08.37.23:759][436]LogSlate: Window 'Message Log' being destroyed
+[2019.10.21-08.37.27:358][646]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerControllerC23890BD460200D756BC57A400E21CD9.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
+[2019.10.21-08.37.28:732][728]BlueprintLog: New page: Compile VRPlayerController
+[2019.10.21-08.37.28:943][728]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2019.10.21-08.37.31:248][865]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-08.37.31:272][865]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
+[2019.10.21-08.37.31:273][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-08.37.31:273][865]PIE: New page: PIE session: TestWorld (Oct 21, 2019, 12:37:31 PM)
+[2019.10.21-08.37.31:275][865]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.10.21-08.37.31:276][865]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld
+[2019.10.21-08.37.31:284][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007859s)
+[2019.10.21-08.37.31:285][865]LogAIModule: Creating AISystem for world TestWorld
+[2019.10.21-08.37.31:285][865]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2019.10.21-08.37.31:285][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/TestWorld.TestWorld to /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld.TestWorld (0.009158s)
+[2019.10.21-08.37.31:328][865]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2019.10.21-08.37.31:334][865]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.21-08.37.31:353][865]LogInit: FAudioDevice initialized.
+[2019.10.21-08.37.31:365][865]LogLoad: Game class is 'VRGameMode_C'
+[2019.10.21-08.37.31:368][865]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld.TestWorld up for play (max tick rate 60) at 2019.10.21-10.37.31
+[2019.10.21-08.37.31:368][865]LogWorld: Bringing up level for play took: 0.001808
+[2019.10.21-08.37.31:369][865]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2019.10.21-08.37.31:383][865]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.10.21-08.37.31:384][865]LogBlueprintUserMessages: [BP_ThumbnailPainting_2] Exists
+[2019.10.21-08.37.31:393][865]LogBlueprintUserMessages: [BP_ThumbnailPainting_2] 256
+[2019.10.21-08.37.31:415][865]LogBlueprintUserMessages: [BP_ThumbnailPainting2_8] Exists
+[2019.10.21-08.37.31:424][865]LogBlueprintUserMessages: [BP_ThumbnailPainting2_8] 256
+[2019.10.21-08.37.31:441][865]LogBlueprintUserMessages: [BP_ThumbnailPainting3_11] Exists
+[2019.10.21-08.37.31:450][865]LogBlueprintUserMessages: [BP_ThumbnailPainting3_11] 256
+[2019.10.21-08.37.31:468][865]LogBlueprintUserMessages: [BP_ThumbnailPainting4_14] Exists
+[2019.10.21-08.37.31:476][865]LogBlueprintUserMessages: [BP_ThumbnailPainting4_14] 256
+[2019.10.21-08.37.31:498][865]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld 0.515
+[2019.10.21-08.37.31:498][865]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
+[2019.10.21-08.37.35:080][ 58]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
+[2019.10.21-08.37.35:081][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-08.37.35:081][ 58]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld
+[2019.10.21-08.37.35:081][ 58]LogWorld: UWorld::CleanupWorld for TestWorld, bSessionEnded=true, bCleanupResources=true
+[2019.10.21-08.37.35:103][ 58]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-08.37.35:103][ 58]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
+[2019.10.21-08.37.35:157][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-08.37.35:180][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2019.10.21-08.37.35:194][ 59]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.10.21-08.37.35:711][ 90]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-08.37.35:736][ 90]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
+[2019.10.21-08.37.35:736][ 90]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-08.37.35:736][ 90]PIE: New page: PIE session: TestWorld (Oct 21, 2019, 12:37:35 PM)
+[2019.10.21-08.37.35:736][ 90]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld
+[2019.10.21-08.37.35:743][ 90]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007262s)
+[2019.10.21-08.37.35:744][ 90]LogAIModule: Creating AISystem for world TestWorld
+[2019.10.21-08.37.35:744][ 90]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2019.10.21-08.37.35:744][ 90]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/TestWorld.TestWorld to /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld.TestWorld (0.008419s)
+[2019.10.21-08.37.35:788][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2019.10.21-08.37.35:791][ 90]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.21-08.37.35:806][ 90]LogInit: FAudioDevice initialized.
+[2019.10.21-08.37.35:816][ 90]LogLoad: Game class is 'VRGameMode_C'
+[2019.10.21-08.37.35:819][ 90]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld.TestWorld up for play (max tick rate 60) at 2019.10.21-10.37.35
+[2019.10.21-08.37.35:819][ 90]LogWorld: Bringing up level for play took: 0.002045
+[2019.10.21-08.37.35:819][ 90]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2019.10.21-08.37.35:822][ 90]LogBlueprintUserMessages: [BP_ThumbnailPainting_2] Exists
+[2019.10.21-08.37.35:829][ 90]LogBlueprintUserMessages: [BP_ThumbnailPainting_2] 256
+[2019.10.21-08.37.35:847][ 90]LogBlueprintUserMessages: [BP_ThumbnailPainting2_8] Exists
+[2019.10.21-08.37.35:854][ 90]LogBlueprintUserMessages: [BP_ThumbnailPainting2_8] 256
+[2019.10.21-08.37.35:873][ 90]LogBlueprintUserMessages: [BP_ThumbnailPainting3_11] Exists
+[2019.10.21-08.37.35:881][ 90]LogBlueprintUserMessages: [BP_ThumbnailPainting3_11] 256
+[2019.10.21-08.37.35:897][ 90]LogBlueprintUserMessages: [BP_ThumbnailPainting4_14] Exists
+[2019.10.21-08.37.35:906][ 90]LogBlueprintUserMessages: [BP_ThumbnailPainting4_14] 256
+[2019.10.21-08.37.35:926][ 90]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld 0.943
+[2019.10.21-08.37.35:927][ 90]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
+[2019.10.21-08.37.38:614][251]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
+[2019.10.21-08.37.38:614][251]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-08.37.38:614][251]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld
+[2019.10.21-08.37.38:615][251]LogWorld: UWorld::CleanupWorld for TestWorld, bSessionEnded=true, bCleanupResources=true
+[2019.10.21-08.37.38:632][251]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-08.37.38:632][251]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
+[2019.10.21-08.37.38:680][251]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-08.37.38:685][251]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2019.10.21-08.37.38:717][253]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.10.21-08.38.08:215][997]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/PaintableRock_RockCanvas86B3C13A4DAED1180C2AFCAE1D1880F9.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock_RockCanvas.uasset'
+[2019.10.21-08.38.23:818][912]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/PaintableRock91A1A9F4464114F2928AAE96B9C07841.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock.uasset'
+[2019.10.21-08.38.26:285][ 54]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/PaintableRockFFB9DD7E4C632C310D5247A0B6A5DEF0.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock.uasset'
+[2019.10.21-08.38.26:842][ 87]BlueprintLog: New page: Compile PaintableRock
+[2019.10.21-08.38.27:116][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2019.10.21-08.38.27:553][105]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/PaintableRockB175EF1B4BF8B73995DB34B0783040B3.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock.uasset'
+[2019.10.21-08.38.28:837][176]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2019.10.21-08.38.29:120][176]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorldD83E951F4C0AEC59FFCCCBAF97B54319.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
+[2019.10.21-08.38.29:313][176]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltData00CA1A194A41785EE12B60BE61742D1F.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset'
+[2019.10.21-08.38.32:783][382]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-08.38.32:816][382]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
+[2019.10.21-08.38.32:816][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-08.38.32:816][382]PIE: New page: PIE session: TestWorld (Oct 21, 2019, 12:38:32 PM)
+[2019.10.21-08.38.32:816][382]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld
+[2019.10.21-08.38.32:824][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007920s)
+[2019.10.21-08.38.32:825][382]LogAIModule: Creating AISystem for world TestWorld
+[2019.10.21-08.38.32:826][382]LogPlayLevel: PIE: World Init took: (0.001126s)
+[2019.10.21-08.38.32:826][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/TestWorld.TestWorld to /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld.TestWorld (0.009331s)
+[2019.10.21-08.38.32:873][382]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2019.10.21-08.38.32:877][382]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.21-08.38.32:893][382]LogInit: FAudioDevice initialized.
+[2019.10.21-08.38.32:903][382]LogLoad: Game class is 'VRGameMode_C'
+[2019.10.21-08.38.32:906][382]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld.TestWorld up for play (max tick rate 60) at 2019.10.21-10.38.32
+[2019.10.21-08.38.32:906][382]LogWorld: Bringing up level for play took: 0.001836
+[2019.10.21-08.38.32:906][382]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2019.10.21-08.38.32:909][382]LogBlueprintUserMessages: [BP_ThumbnailPainting_2] Exists
+[2019.10.21-08.38.32:917][382]LogBlueprintUserMessages: [BP_ThumbnailPainting_2] 256
+[2019.10.21-08.38.32:936][382]LogBlueprintUserMessages: [BP_ThumbnailPainting2_8] Exists
+[2019.10.21-08.38.32:944][382]LogBlueprintUserMessages: [BP_ThumbnailPainting2_8] 256
+[2019.10.21-08.38.32:963][382]LogBlueprintUserMessages: [BP_ThumbnailPainting3_11] Exists
+[2019.10.21-08.38.32:971][382]LogBlueprintUserMessages: [BP_ThumbnailPainting3_11] 256
+[2019.10.21-08.38.32:989][382]LogBlueprintUserMessages: [BP_ThumbnailPainting4_14] Exists
+[2019.10.21-08.38.32:998][382]LogBlueprintUserMessages: [BP_ThumbnailPainting4_14] 256
+[2019.10.21-08.38.33:015][382]LogBlueprintUserMessages: [PaintableRock_RockCanvas2] Test2
+[2019.10.21-08.38.33:015][382]LogBlueprintUserMessages: [PaintableRock_RockCanvas3] Test2
+[2019.10.21-08.38.33:015][382]LogBlueprintUserMessages: [PaintableRock_RockCanvas_2] Test2
+[2019.10.21-08.38.33:019][382]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld 0.036
+[2019.10.21-08.38.33:019][382]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
+[2019.10.21-08.38.37:282][637]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
+[2019.10.21-08.38.37:283][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-08.38.37:283][637]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_TestWorld
+[2019.10.21-08.38.37:283][637]LogWorld: UWorld::CleanupWorld for TestWorld, bSessionEnded=true, bCleanupResources=true
+[2019.10.21-08.38.37:297][637]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-08.38.37:297][637]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld' with GeneratedClass '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/TestWorld.TestWorld:PersistentLevel.TestWorld'
+[2019.10.21-08.38.37:350][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-08.38.37:355][637]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2019.10.21-08.38.37:387][639]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.10.21-08.39.04:159][238]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/PaintableRock90939C7341AB6BEC6B8304AA07E751A6.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock.uasset'
+[2019.10.21-08.40.23:446][952]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/BP_ThumbnailPaintingDB2785314AEEC41831431F801CED2477.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_ThumbnailPainting.uasset'
+[2019.10.21-08.40.33:964][563]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/BP_ThumbnailPainting0E29D12D49314E2A99EC938C53BE4C8E.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_ThumbnailPainting.uasset'
+[2019.10.21-08.40.46:746][285]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/BP_ThumbnailPaintingF31DD60747BE1EE608DEDEBF97456A49.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_ThumbnailPainting.uasset'
+[2019.10.21-08.40.47:458][327]BlueprintLog: New page: Compile BP_ThumbnailPainting
+[2019.10.21-08.40.47:732][327]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2019.10.21-08.40.48:287][348]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/BP_ThumbnailPaintingC724EF6A4CCD471E0E0440AA10353E6C.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_ThumbnailPainting.uasset'
+[2019.10.21-08.40.49:075][388]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2019.10.21-08.40.49:368][388]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld03A2D33345E1AA4E7BCA83BEB5923038.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
+[2019.10.21-08.40.49:565][388]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltData82FEF9914336062DD7D378B951E6D0FF.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset'
+[2019.10.21-08.41.10:014][606]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/BP_ThumbnailPainting38DB3B7C43F07E4D1604ACAFD08F74EF.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_ThumbnailPainting.uasset'
+[2019.10.21-08.41.37:995][275]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/BP_Thumbnail_Story901ACC6C49EEDA2B5A0C819D117FA6D5.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_Thumbnail_Story.uasset'
+[2019.10.21-08.41.44:948][673]LogUObjectHash: Compacting FUObjectHashTables data took   4.37ms
+[2019.10.21-08.41.45:055][673]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2019.10.21-08.41.45:108][673]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2019.10.21-08.41.45:109][673]LogMetaData: Removing '/Game/Thumbnail/BP_Thumbnail.BP_Thumbnail_C' ref from Metadata '/Game/Thumbnail/BP_ThumbnailPainting.PackageMetaData'
+[2019.10.21-08.41.45:109][673]LogMetaData: Removing '/Game/Thumbnail/BP_Thumbnail.BP_Thumbnail:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Thumbnail/BP_ThumbnailPainting.PackageMetaData'
+[2019.10.21-08.41.45:109][673]LogMetaData: Removing '/Game/Thumbnail/BP_Thumbnail.BP_Thumbnail:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Thumbnail/BP_ThumbnailPainting.PackageMetaData'
+[2019.10.21-08.41.45:109][673]LogMetaData: Removing '/Game/Thumbnail/BP_Thumbnail.SKEL_BP_Thumbnail_C' ref from Metadata '/Game/Thumbnail/BP_ThumbnailPainting.PackageMetaData'
+[2019.10.21-08.41.45:153][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Thumbnail/BP_Thumbnail" FILE="../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_Thumbnail.uasset" SILENT=true
+[2019.10.21-08.41.45:209][673]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/BP_ThumbnailE237A93D418077F498F6D0A0D1AFFCC6.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_Thumbnail.uasset'
+[2019.10.21-08.41.45:255][673]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/BP_ThumbnailPaintingE22F58964DBBFEC051EA32B5CDF5C355.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_ThumbnailPainting.uasset'
+[2019.10.21-08.41.46:272][724]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2019.10.21-08.41.46:563][724]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld94E7959D4C062939993C5EA7090BDCAA.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
+[2019.10.21-08.41.46:762][724]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltData4030094543904C9EF550A29FD7682D80.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset'
+[2019.10.21-08.42.00:729][553]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/BP_Thumbnail_PaintingBEDA875F461027C55D6BC5BED99D42B8.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_Thumbnail_Painting.uasset'
+[2019.10.21-08.42.02:162][634]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2019.10.21-08.42.03:291][634]LogSlate: Window 'Save Content' being destroyed
+[2019.10.21-08.42.03:387][634]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/BP_Thumbnail_StoryE7BB81DE43A011E43EBA7987A6A37939.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_Thumbnail_Story.uasset'
+[2019.10.21-08.42.03:563][634]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/MotionControllerPawnBB81F8FB4C0758273E9D679DB84C98F2.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2019.10.21-08.42.19:797][604]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Thumbnail/BP_Thumbnail_Story.BP_Thumbnail_Story
+[2019.10.21-08.42.20:209][605]LogRenderer: Reallocating scene render targets to support 876x520 Format 10 NumSamples 1 (Frame:1).
+[2019.10.21-08.42.21:672][691]BlueprintLog: New page: Compile BP_Thumbnail_Story
+[2019.10.21-08.42.21:929][691]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2019.10.21-08.42.22:371][712]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/BP_Thumbnail_Story453E1DE84118E3F52AA039A9D17B0F81.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_Thumbnail_Story.uasset'
+[2019.10.21-08.42.36:128][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Thumbnail/BP_Thumbnail" FILE="../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_Thumbnail.uasset" SILENT=true
+[2019.10.21-08.42.36:217][517]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/BP_Thumbnail1ECD88624F69B6ECD292B6A587867F52.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_Thumbnail.uasset'
+[2019.10.21-08.42.40:905][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Thumbnail/BP_Thumbnail" FILE="../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_Thumbnail.uasset" SILENT=true
+[2019.10.21-08.42.40:986][796]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/BP_ThumbnailD02929854C47B7CF0DD867989CFB1B2D.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_Thumbnail.uasset'
+[2019.10.21-08.42.41:495][826]BlueprintLog: New page: Compile BP_Thumbnail
+[2019.10.21-08.42.41:785][826]LogUObjectHash: Compacting FUObjectHashTables data took   6.05ms
+[2019.10.21-08.42.42:044][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Thumbnail/BP_Thumbnail" FILE="../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_Thumbnail.uasset" SILENT=true
+[2019.10.21-08.42.42:124][834]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/BP_ThumbnailD36403F3429B2AB4FF1A67A4312AE92F.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_Thumbnail.uasset'
+[2019.10.21-08.42.45:457][ 30]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Thumbnail/BP_Thumbnail_Painting.BP_Thumbnail_Painting
+[2019.10.21-08.42.58:049][761]BlueprintLog: New page: Compile BP_Thumbnail_Painting
+[2019.10.21-08.42.58:307][761]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2019.10.21-08.43.24:595][322]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/BP_Thumbnail_Painting71B78EF349E81716D944E6B21881B0ED.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_Thumbnail_Painting.uasset'
+[2019.10.21-08.43.25:832][391]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/BP_Thumbnail_PaintingC4D7A37F49127F9668B4B79826FF89A1.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_Thumbnail_Painting.uasset'
+[2019.10.21-08.43.26:305][419]BlueprintLog: New page: Compile BP_Thumbnail_Painting
+[2019.10.21-08.43.26:567][419]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2019.10.21-08.43.26:894][434]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/BP_Thumbnail_Painting9B2E3F8E4876F3111295AA90745ABC14.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Thumbnail/BP_Thumbnail_Painting.uasset'
+[2019.10.21-08.43.27:870][487]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2019.10.21-08.43.28:166][487]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld8D0627EE4AC765EE1ADFA69AF4BBFF65.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
+[2019.10.21-08.43.28:372][487]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltData4F9DE3D04A5C3785830A23BDB0EC54B6.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset'
