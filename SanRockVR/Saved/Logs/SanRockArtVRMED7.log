@@ -952,3 +952,33 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.10.21-08.11.33:243][779]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas2)
 [2019.10.21-08.11.35:084][912]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.10.21-08.11.36:409][ 26]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/VRPlayerController296EB4004C9BAB418C2732B36FB5F861.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Blueprints/VRPlayerController.uasset'
+[2019.10.21-08.14.47:115][200]BlueprintLog: New page: Compile PaintableRock_RockCanvas
+[2019.10.21-08.14.47:419][200]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2019.10.21-08.14.47:762][227]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/PaintableRock_RockCanvas632D690B413EAC462FD176B94CE05C2E.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock_RockCanvas.uasset'
+[2019.10.21-08.14.48:349][286]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/PaintableRock_RockCanvasB075AF334E868D2F3C2ACC8BDE5D43B3.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/DrawingAssets/PaintableRock_RockCanvas.uasset'
+[2019.10.21-08.14.49:250][362]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2019.10.21-08.14.49:541][362]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld5E56845F4E96C2D419F5AC8A33D1495E.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
+[2019.10.21-08.14.49:737][362]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltDataE61D6F834937D733AD8B28B1119A10AE.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld_BuiltData.uasset'
+[2019.10.21-08.15.10:883][334]LogRenderer: Reallocating scene render targets to support 1096x496 Format 10 NumSamples 1 (Frame:55045).
+[2019.10.21-08.15.52:197][549]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas3)
+[2019.10.21-08.15.52:835][598]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas)
+[2019.10.21-08.15.53:298][633]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas2)
+[2019.10.21-08.15.54:590][743]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas)
+[2019.10.21-08.15.55:114][784]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas3)
+[2019.10.21-08.15.55:794][838]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas)
+[2019.10.21-08.15.56:255][874]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas3)
+[2019.10.21-08.15.56:702][909]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas)
+[2019.10.21-08.15.57:390][966]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RockPiences02_low9)
+[2019.10.21-08.15.57:900][  6]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas2)
+[2019.10.21-08.15.58:398][ 45]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas)
+[2019.10.21-08.15.58:923][ 86]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas3)
+[2019.10.21-08.15.59:456][128]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas)
+[2019.10.21-08.15.59:927][165]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas2)
+[2019.10.21-08.16.00:547][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RockPiences03_low)
+[2019.10.21-08.16.01:720][306]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-08.16.03:476][426]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.10.21-08.16.03:512][427]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2019.10.21-08.16.03:512][427]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2019.10.21-08.16.03:512][427]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2019.10.21-08.16.09:456][813]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Thumbnail/BP_ThumbnailPainting.BP_ThumbnailPainting
+[2019.10.21-08.16.12:483][954]LogSlate: Window 'BP_ThumbnailPainting' being destroyed
