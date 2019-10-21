@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeSanRockArtVRMED7_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x2DA1F088,
-				0xD03ED877,
+				0x00A7972F,
+				0xEB030871,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

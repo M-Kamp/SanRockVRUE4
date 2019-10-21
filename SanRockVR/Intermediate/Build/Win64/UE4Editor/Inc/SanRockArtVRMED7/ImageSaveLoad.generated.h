@@ -14,33 +14,57 @@ class UTextureRenderTarget2D;
 #endif
 #define SANROCKARTVRMED7_ImageSaveLoad_generated_h
 
-#define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_15_RPC_WRAPPERS \
+#define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_18_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execLoadRenderTargetFromDisk) \
+	{ \
+		P_GET_OBJECT_REF(UTextureRenderTarget2D,Z_Param_Out_OutRenderTarget); \
+		P_GET_PROPERTY(UStrProperty,Z_Param_path); \
+		P_GET_PROPERTY(UStrProperty,Z_Param_Filename); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->LoadRenderTargetFromDisk(Z_Param_Out_OutRenderTarget,Z_Param_path,Z_Param_Filename); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSaveRenderTargetToDisk) \
 	{ \
 		P_GET_OBJECT(UTextureRenderTarget2D,Z_Param_InRenderTarget); \
+		P_GET_PROPERTY(UStrProperty,Z_Param_path); \
 		P_GET_PROPERTY(UStrProperty,Z_Param_Filename); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->SaveRenderTargetToDisk(Z_Param_InRenderTarget,Z_Param_Filename); \
+		P_THIS->SaveRenderTargetToDisk(Z_Param_InRenderTarget,Z_Param_path,Z_Param_Filename); \
 		P_NATIVE_END; \
 	}
 
 
-#define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execLoadRenderTargetFromDisk) \
+	{ \
+		P_GET_OBJECT_REF(UTextureRenderTarget2D,Z_Param_Out_OutRenderTarget); \
+		P_GET_PROPERTY(UStrProperty,Z_Param_path); \
+		P_GET_PROPERTY(UStrProperty,Z_Param_Filename); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->LoadRenderTargetFromDisk(Z_Param_Out_OutRenderTarget,Z_Param_path,Z_Param_Filename); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSaveRenderTargetToDisk) \
 	{ \
 		P_GET_OBJECT(UTextureRenderTarget2D,Z_Param_InRenderTarget); \
+		P_GET_PROPERTY(UStrProperty,Z_Param_path); \
 		P_GET_PROPERTY(UStrProperty,Z_Param_Filename); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->SaveRenderTargetToDisk(Z_Param_InRenderTarget,Z_Param_Filename); \
+		P_THIS->SaveRenderTargetToDisk(Z_Param_InRenderTarget,Z_Param_path,Z_Param_Filename); \
 		P_NATIVE_END; \
 	}
 
 
-#define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_15_INCLASS_NO_PURE_DECLS \
+#define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUImageSaveLoad(); \
 	friend struct Z_Construct_UClass_UImageSaveLoad_Statics; \
@@ -49,7 +73,7 @@ public: \
 	DECLARE_SERIALIZER(UImageSaveLoad)
 
 
-#define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_15_INCLASS \
+#define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesUImageSaveLoad(); \
 	friend struct Z_Construct_UClass_UImageSaveLoad_Statics; \
@@ -58,7 +82,7 @@ public: \
 	DECLARE_SERIALIZER(UImageSaveLoad)
 
 
-#define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_15_STANDARD_CONSTRUCTORS \
+#define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UImageSaveLoad(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UImageSaveLoad) \
@@ -71,7 +95,7 @@ private: \
 public:
 
 
-#define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_15_ENHANCED_CONSTRUCTORS \
+#define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UImageSaveLoad(UImageSaveLoad&&); \
@@ -82,26 +106,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UImageSaveLoad); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UImageSaveLoad)
 
 
-#define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_15_PRIVATE_PROPERTY_OFFSET
-#define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_12_PROLOG
-#define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_15_GENERATED_BODY_LEGACY \
+#define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_18_PRIVATE_PROPERTY_OFFSET
+#define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_15_PROLOG
+#define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_15_PRIVATE_PROPERTY_OFFSET \
-	SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_15_RPC_WRAPPERS \
-	SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_15_INCLASS \
-	SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_15_STANDARD_CONSTRUCTORS \
+	SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_18_PRIVATE_PROPERTY_OFFSET \
+	SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_18_RPC_WRAPPERS \
+	SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_18_INCLASS \
+	SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_15_GENERATED_BODY \
+#define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_15_PRIVATE_PROPERTY_OFFSET \
-	SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_15_INCLASS_NO_PURE_DECLS \
-	SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_15_ENHANCED_CONSTRUCTORS \
+	SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_18_PRIVATE_PROPERTY_OFFSET \
+	SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_18_INCLASS_NO_PURE_DECLS \
+	SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
