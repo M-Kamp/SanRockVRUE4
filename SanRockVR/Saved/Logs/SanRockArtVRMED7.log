@@ -1021,3 +1021,62 @@ Script Stack (0 frames):
 [2019.10.22-08.09.06:615][399]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
 [2019.10.22-08.09.06:870][399]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/FPPC_TestMapC8C7524648B314297A7B63BC31B8F48D.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Maps/FPPC_TestMap.umap'
 [2019.10.22-08.09.07:304][425]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas)
+[2019.10.22-08.11.19:816][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-08.11.40:517][591]LogAIModule: Creating AISystem for world BoxPaintMap
+[2019.10.22-08.11.42:281][703]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2019.10.22-08.11.42:282][703]LogMetaData: Removing '/Game/Maps/PC_Maps/FPPC_TestMap.SKEL_FPPC_TestMap_C' ref from Metadata '/Game/Maps/FPPC_TestMap.PackageMetaData'
+[2019.10.22-08.11.42:282][703]LogMetaData: Removing '/Game/Maps/PC_Maps/FPPC_TestMap.FPPC_TestMap_C' ref from Metadata '/Game/Maps/FPPC_TestMap.PackageMetaData'
+[2019.10.22-08.11.42:535][703]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2019.10.22-08.11.42:535][703]LogMetaData: Removing '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap.EventGraph.K2Node_Event_0' ref from Metadata '/Game/Maps/BoxPaintMap.PackageMetaData'
+[2019.10.22-08.11.42:535][703]LogMetaData: Removing '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap.EventGraph.K2Node_Event_1' ref from Metadata '/Game/Maps/BoxPaintMap.PackageMetaData'
+[2019.10.22-08.11.42:536][703]LogMetaData: Removing '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' ref from Metadata '/Game/Maps/BoxPaintMap.PackageMetaData'
+[2019.10.22-08.11.42:536][703]LogMetaData: Removing '/Game/Maps/PC_Maps/BoxPaintMap.SKEL_BoxPaintMap_C' ref from Metadata '/Game/Maps/BoxPaintMap.PackageMetaData'
+[2019.10.22-08.11.42:586][703]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/BoxPaintMap_BuiltData7BA4FA4746C61428DD3006A280873FFA.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Maps/PC_Maps/BoxPaintMap_BuiltData.uasset'
+[2019.10.22-08.11.42:645][703]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2019.10.22-08.11.42:880][703]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/FPPC_TestMapA873F22D4494B72A5461F597CA770BA2.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Maps/PC_Maps/FPPC_TestMap.umap'
+[2019.10.22-08.11.42:927][703]LogFileHelpers: Saving map 'FPPC_TestMap' took 0.329
+[2019.10.22-08.11.42:990][703]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2019.10.22-08.11.43:233][703]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/BoxPaintMap71B038964B6350E6B7D4BF97B552057A.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Maps/PC_Maps/BoxPaintMap.umap'
+[2019.10.22-08.11.43:247][703]LogFileHelpers: Saving map 'BoxPaintMap' took 0.316
+[2019.10.22-08.11.43:699][703]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2019.10.22-08.11.43:741][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.10.22-08.11.43:788][703]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2019.10.22-08.11.43:837][703]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2019.10.22-08.11.43:878][703]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2019.10.22-08.11.46:923][924]LogAIModule: Creating AISystem for world MotionControllerMap
+[2019.10.22-08.11.46:943][924]LogAIModule: Creating AISystem for world SanVRROck
+[2019.10.22-08.11.46:969][924]LogAIModule: Creating AISystem for world TestWorld
+[2019.10.22-08.11.48:471][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2019.10.22-08.11.48:471][ 17]LogMetaData: Removing '/Game/Maps/VR_Maps/MotionControllerMap.MotionControllerMap_C' ref from Metadata '/Game/Maps/MotionControllerMap.PackageMetaData'
+[2019.10.22-08.11.48:471][ 17]LogMetaData: Removing '/Game/Maps/VR_Maps/MotionControllerMap.SKEL_MotionControllerMap_C' ref from Metadata '/Game/Maps/MotionControllerMap.PackageMetaData'
+[2019.10.22-08.11.48:730][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2019.10.22-08.11.48:730][ 17]LogMetaData: Removing '/Game/Maps/VR_Maps/SanVRROck.SanVRROck_C' ref from Metadata '/Game/Maps/SanVRROck.PackageMetaData'
+[2019.10.22-08.11.48:730][ 17]LogMetaData: Removing '/Game/Maps/VR_Maps/SanVRROck.SKEL_SanVRROck_C' ref from Metadata '/Game/Maps/SanVRROck.PackageMetaData'
+[2019.10.22-08.11.49:006][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2019.10.22-08.11.49:006][ 17]LogMetaData: Removing '/Game/Maps/VR_Maps/TestWorld.TestWorld_C' ref from Metadata '/Game/Maps/TestWorld.PackageMetaData'
+[2019.10.22-08.11.49:006][ 17]LogMetaData: Removing '/Game/Maps/VR_Maps/TestWorld.SKEL_TestWorld_C' ref from Metadata '/Game/Maps/TestWorld.PackageMetaData'
+[2019.10.22-08.11.49:156][ 17]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld_BuiltData93F642904C00D10B878F6AA92906A69A.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Maps/VR_Maps/TestWorld_BuiltData.uasset'
+[2019.10.22-08.11.49:274][ 17]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/SanVRROck_BuiltData8D300834413B83DC4CFF2F9F925FF22E.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Maps/VR_Maps/SanVRROck_BuiltData.uasset'
+[2019.10.22-08.11.49:322][ 17]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/MotionControllerMap_BuiltDataB604EFBA4694211F7E5095875D94EA34.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Maps/VR_Maps/MotionControllerMap_BuiltData.uasset'
+[2019.10.22-08.11.49:383][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2019.10.22-08.11.49:631][ 17]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/MotionControllerMap22FCA4D9490FAD57E2A3B78B0252FA14.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Maps/VR_Maps/MotionControllerMap.umap'
+[2019.10.22-08.11.49:639][ 17]LogFileHelpers: Saving map 'MotionControllerMap' took 0.310
+[2019.10.22-08.11.49:700][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2019.10.22-08.11.49:948][ 17]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/SanVRROckD689B96D44E4EFB1D57CE9A583998812.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Maps/VR_Maps/SanVRROck.umap'
+[2019.10.22-08.11.49:957][ 17]LogFileHelpers: Saving map 'SanVRROck' took 0.313
+[2019.10.22-08.11.50:029][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2019.10.22-08.11.50:295][ 17]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/TestWorld34977E6B443FF88AC6DF4FA52BAABF4E.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Maps/VR_Maps/TestWorld.umap'
+[2019.10.22-08.11.50:308][ 17]LogFileHelpers: Saving map 'TestWorld' took 0.346
+[2019.10.22-08.11.51:120][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2019.10.22-08.11.51:164][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2019.10.22-08.11.51:206][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2019.10.22-08.11.51:248][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.10.22-08.11.51:289][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.10.22-08.11.51:332][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2019.10.22-08.11.51:381][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2019.10.22-08.11.51:423][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.10.22-08.11.52:278][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.10.22-08.11.52:539][ 63]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/FPPC_TestMap4EFE2B4A4859AB57492588B2D81AC2FB.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Maps/PC_Maps/FPPC_TestMap.umap'
+[2019.10.22-08.11.53:029][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2019.10.22-08.11.53:856][147]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2019.10.22-08.11.54:119][147]LogSavePackage: Moving '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Saved/FPPC_TestMapEDA94EC74EFF01F0A5216096B32DD80E.tmp' to '../../../../../../Users/Mikke/Documents/Unreal Projects/SanRockArt-repo/SanRockVR/Content/Maps/PC_Maps/FPPC_TestMap.umap'
