@@ -5,6 +5,7 @@
 #include "Runtime/ImageWriteQueue/Public/ImageWriteQueue.h"
 #include "Runtime/ImageWriteQueue/Public/ImageWriteTask.h"
 #include "Templates/UniquePtr.h"
+//#include "Runtime/Launch/Private/Android/AndroidJNI.cpp"
 
 
 // Sets default values for this component's properties
@@ -91,6 +92,18 @@ void UImageSaveLoad::SaveRenderTargetToDisk(UTextureRenderTarget2D* InRenderTarg
 
 void UImageSaveLoad::LoadRenderTargetFromDisk(UTextureRenderTarget2D*& OutRenderTarget, FString path, FString Filename)
 {
+}
+
+FString UImageSaveLoad::GetAndroidFilePath()
+{
+	/*
+	FString filepath = GFilePathBase;
+
+	UE_LOG(LogTemp, Warning, TEXT("file path: %s"), *filepath);
+
+	
+	*/
+	return FString();
 }
 
 
