@@ -1,4 +1,4 @@
-#Wed Oct 23 13:38:45 CEST 2019
-base.0=Y\:\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Thu Oct 24 12:33:54 CEST 2019
+base.0=Z\:\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
