@@ -5,6 +5,7 @@
 #include "Runtime/ImageWriteQueue/Public/ImageWriteQueue.h"
 #include "Runtime/ImageWriteQueue/Public/ImageWriteTask.h"
 #include "Templates/UniquePtr.h"
+#include "Engine/Texture2D.h"
 //#include "Runtime/Launch/Private/Android/AndroidJNI.cpp"
 
 
@@ -89,6 +90,59 @@ void UImageSaveLoad::SaveRenderTargetToDisk(UTextureRenderTarget2D* InRenderTarg
 		CompletionFuture.Wait();
 	}
 }
+
+TArray<FColor> UImageSaveLoad::TextureFromRT(UTextureRenderTarget2D * InRenderTarget)
+{
+
+	TArray<FColor> SurfData;
+	auto RenderTarget = InRenderTarget->GameThread_GetRenderTargetResource();
+	RenderTarget->ReadPixels(SurfData);
+	return SurfData;
+}
+
+UTexture2D* UImageSaveLoad::TextureFromImage(const int32 SrcWidth, const int32 SrcHeight, const TArray<FColor> &SrcData, const bool UseAlpha)
+{
+	// Create the texture
+	auto MyScreenshot = UTexture2D::CreateTransient(
+		SrcWidth,
+		SrcHeight,
+		PF_B8G8R8A8
+	);
+
+	// Lock the texture so it can be modified
+	uint8* MipData = static_cast<uint8*>(MyScreenshot->PlatformData->Mips[0].BulkData.Lock(LOCK_READ_WRITE));
+
+	// Create base mip.
+	uint8* DestPtr = NULL;
+	const FColor* SrcPtr = NULL;
+	for (int32 y = 0; y < SrcHeight; y++)
+	{
+		DestPtr = &MipData[(SrcHeight - 1 - y) * SrcWidth * sizeof(FColor)];
+		SrcPtr = const_cast<FColor*>(&SrcData[(SrcHeight - 1 - y) * SrcWidth]);
+		for (int32 x = 0; x < SrcWidth; x++)
+		{
+			*DestPtr++ = SrcPtr->B;
+			*DestPtr++ = SrcPtr->G;
+			*DestPtr++ = SrcPtr->R;
+			if (UseAlpha)
+			{
+				*DestPtr++ = SrcPtr->A;
+			}
+			else
+			{
+				*DestPtr++ = 0xFF;
+			}
+			SrcPtr++;
+		}
+	}
+
+	// Unlock the texture
+	MyScreenshot->PlatformData->Mips[0].BulkData.Unlock();
+	MyScreenshot->UpdateResource();
+
+	return MyScreenshot;
+}
+
 
 void UImageSaveLoad::LoadRenderTargetFromDisk(UTextureRenderTarget2D*& OutRenderTarget, FString path, FString Filename)
 {

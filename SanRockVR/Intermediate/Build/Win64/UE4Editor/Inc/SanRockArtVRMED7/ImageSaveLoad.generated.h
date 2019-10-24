@@ -9,6 +9,8 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UTextureRenderTarget2D;
+struct FColor;
+class UTexture2D;
 #ifdef SANROCKARTVRMED7_ImageSaveLoad_generated_h
 #error "ImageSaveLoad.generated.h already included, missing '#pragma once' in ImageSaveLoad.h"
 #endif
@@ -32,6 +34,27 @@ class UTextureRenderTarget2D;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->LoadRenderTargetFromDisk(Z_Param_Out_OutRenderTarget,Z_Param_path,Z_Param_Filename); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execTextureFromImage) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_SrcWidth); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_SrcHeight); \
+		P_GET_TARRAY_REF(FColor,Z_Param_Out_SrcData); \
+		P_GET_UBOOL(Z_Param_UseAlpha); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(UTexture2D**)Z_Param__Result=P_THIS->TextureFromImage(Z_Param_SrcWidth,Z_Param_SrcHeight,Z_Param_Out_SrcData,Z_Param_UseAlpha); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execTextureFromRT) \
+	{ \
+		P_GET_OBJECT(UTextureRenderTarget2D,Z_Param_InRenderTarget); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(TArray<FColor>*)Z_Param__Result=P_THIS->TextureFromRT(Z_Param_InRenderTarget); \
 		P_NATIVE_END; \
 	} \
  \
@@ -65,6 +88,27 @@ class UTextureRenderTarget2D;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->LoadRenderTargetFromDisk(Z_Param_Out_OutRenderTarget,Z_Param_path,Z_Param_Filename); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execTextureFromImage) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_SrcWidth); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_SrcHeight); \
+		P_GET_TARRAY_REF(FColor,Z_Param_Out_SrcData); \
+		P_GET_UBOOL(Z_Param_UseAlpha); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(UTexture2D**)Z_Param__Result=P_THIS->TextureFromImage(Z_Param_SrcWidth,Z_Param_SrcHeight,Z_Param_Out_SrcData,Z_Param_UseAlpha); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execTextureFromRT) \
+	{ \
+		P_GET_OBJECT(UTextureRenderTarget2D,Z_Param_InRenderTarget); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(TArray<FColor>*)Z_Param__Result=P_THIS->TextureFromRT(Z_Param_InRenderTarget); \
 		P_NATIVE_END; \
 	} \
  \

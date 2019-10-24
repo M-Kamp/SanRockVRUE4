@@ -32,6 +32,11 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "SaveLoad")
 	void SaveRenderTargetToDisk(UTextureRenderTarget2D* InRenderTarget, FString path, FString Filename);
 
+	UFUNCTION(BlueprintCallable, Category = "SaveLoad")
+	TArray<FColor> TextureFromRT(UTextureRenderTarget2D* InRenderTarget);
+
+	UFUNCTION(BlueprintCallable, Category = "SaveLoad")
+	UTexture2D* TextureFromImage(const int32 SrcWidth, const int32 SrcHeight, const TArray<FColor> &SrcData, const bool UseAlpha);
 
 	UFUNCTION(BlueprintCallable, Category = "SaveLoad")
 	void LoadRenderTargetFromDisk(UTextureRenderTarget2D*& OutRenderTarget, FString path, FString Filename);
