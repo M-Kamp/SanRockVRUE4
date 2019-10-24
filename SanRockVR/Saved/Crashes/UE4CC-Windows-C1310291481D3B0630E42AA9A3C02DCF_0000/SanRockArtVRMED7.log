@@ -1,0 +1,1251 @@
+﻿Log file open, 10/22/19 13:58:47
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: SanRockArtVRMED7
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.084168
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GLTFImporter
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin BlastPlugin
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin DataPrepEditor
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin DatasmithC4DImporter
+LogPluginManager: Mounting plugin DatasmithCADImporter
+LogPluginManager: Mounting plugin DatasmithFBXImporter
+LogPluginManager: Mounting plugin DatasmithGLTFImporter
+LogPluginManager: Mounting plugin DatasmithIFCImporter
+LogPluginManager: Mounting plugin DatasmithImporter
+LogPluginManager: Mounting plugin MDLImporter
+LogPluginManager: Mounting plugin StaticMeshEditorExtension
+LogPluginManager: Mounting plugin VariantManager
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-8386587
+LogInit: Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:1]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2019.10.22-11.58.47:944][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.22-11.58.47:945][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.22-11.58.47:945][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.22-11.58.47:946][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.22-11.58.47:948][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-11.58.47:948][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.22-11.58.47:948][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.22-11.58.47:949][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.22-11.58.47:950][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.22-11.58.47:950][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.22-11.58.47:950][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.22-11.58.47:950][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.22-11.58.47:950][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.22-11.58.47:950][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.22-11.58.47:950][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.22-11.58.47:950][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.22-11.58.47:950][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.22-11.58.47:950][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.22-11.58.47:950][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-11.58.47:950][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.22-11.58.47:950][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.22-11.58.47:950][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.22-11.58.47:950][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.22-11.58.47:953][  0]LogHAL: Display: Platform has ~ 16 GB [17033236480 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.22-11.58.47:953][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.22-11.58.47:953][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-11.58.47:953][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.22-11.58.47:953][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.22-11.58.47:953][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-11.58.47:953][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.22-11.58.47:953][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-11.58.47:953][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.22-11.58.47:953][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.22-11.58.47:953][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.22-11.58.47:953][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.22-11.58.47:953][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.22-11.58.47:953][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.22-11.58.47:954][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-11.58.47:955][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.22-11.58.47:955][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.22-11.58.47:955][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.22-11.58.47:955][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.22-11.58.47:955][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.22-11.58.47:955][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.22-11.58.47:955][  0]LogInit: Computer: LAPTOP-KALMUV1E
+[2019.10.22-11.58.47:955][  0]LogInit: User: KampLegion
+[2019.10.22-11.58.47:955][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.10.22-11.58.47:955][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.22-11.58.47:955][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.10.22-11.58.47:955][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.22-11.58.47:955][  0]LogMemory: Process Physical Memory: 101.77 MB used, 101.77 MB peak
+[2019.10.22-11.58.47:955][  0]LogMemory: Process Virtual Memory: 98.45 MB used, 98.45 MB peak
+[2019.10.22-11.58.47:955][  0]LogMemory: Physical Memory: 7397.50 MB used,  8846.66 MB free, 16244.16 MB total
+[2019.10.22-11.58.47:955][  0]LogMemory: Virtual Memory: 4654.87 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.10.22-11.58.47:958][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.10.22-11.58.47:991][  0]LogInit: Using OS detected language (en-US).
+[2019.10.22-11.58.47:991][  0]LogInit: Using OS detected locale (en-DK).
+[2019.10.22-11.58.47:992][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.22-11.58.48:169][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.22-11.58.48:209][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.22-11.58.48:209][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.22-11.58.48:436][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.22-11.58.48:436][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.22-11.58.48:523][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2019.10.22-11.58.48:523][  0]LogD3D11RHI:       6052/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.10.22-11.58.48:539][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.10.22-11.58.48:539][  0]LogD3D11RHI:       128/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.10.22-11.58.48:542][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.22-11.58.48:542][  0]LogD3D11RHI:       0/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.22-11.58.48:542][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.22-11.58.48:582][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.22-11.58.48:582][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.22-11.58.48:582][  0]LogWindows: EnumDisplayDevices:
+[2019.10.22-11.58.48:582][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.10.22-11.58.48:583][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.10.22-11.58.48:583][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.10.22-11.58.48:583][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.10.22-11.58.48:584][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.10.22-11.58.48:584][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.10.22-11.58.48:584][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.10.22-11.58.48:584][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.10.22-11.58.48:584][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2019.10.22-11.58.48:584][  0]LogD3D11RHI:   Driver Version: 436.48 (internal:26.21.14.3648, unified:436.48)
+[2019.10.22-11.58.48:584][  0]LogD3D11RHI:      Driver Date: 9-26-2019
+[2019.10.22-11.58.48:584][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.10.22-11.58.48:641][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.22-11.58.48:663][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.10.22-11.58.48:988][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.22-11.58.48:999][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.22-11.58.49:010][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.22-11.58.49:020][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.22-11.58.49:032][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.22-11.58.49:042][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.22-11.58.49:054][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.22-11.58.49:064][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.22-11.58.49:069][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.22-11.58.49:114][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.22-11.58.49:114][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.22-11.58.49:114][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.22-11.58.49:114][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.22-11.58.49:114][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.22-11.58.49:114][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.22-11.58.49:114][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.22-11.58.49:114][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.22-11.58.49:114][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.22-11.58.49:114][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.22-11.58.49:114][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.22-11.58.49:114][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.22-11.58.49:114][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.22-11.58.49:114][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.22-11.58.49:114][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.22-11.58.49:114][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.22-11.58.49:114][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.22-11.58.49:114][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.22-11.58.49:117][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.22-11.58.49:140][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.22-11.58.49:140][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.22-11.58.49:157][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.22-11.58.49:157][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.22-11.58.49:166][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.22-11.58.49:175][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.22-11.58.49:184][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.22-11.58.49:194][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.22-11.58.49:225][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.22-11.58.49:225][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.22-11.58.49:225][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.22-11.58.49:237][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.22-11.58.49:307][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Intermediate/Shaders/WorkingDirectory/16864/).
+[2019.10.22-11.58.49:307][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kamp-Legion/AppData/Local/Temp/UnrealShaderWorkingDir/9F82371B4B167360CFB8288D38BF8462/'.
+[2019.10.22-11.58.49:310][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.22-11.58.49:310][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.22-11.58.49:310][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.22-11.58.49:979][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.22-11.58.50:027][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/Kamp-Legion/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.22-11.58.50:028][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Kamp-Legion/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.10.22-11.58.50:028][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.22-11.58.50:028][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.22-11.58.50:028][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.22-11.58.50:028][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.22-11.58.50:040][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.22-11.58.50:042][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2019.10.22-11.58.50:044][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kamp-Legion/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.22-11.58.50:044][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.22-11.58.50:044][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.22-11.58.50:070][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.22-11.58.50:073][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.22-11.58.50:073][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.22-11.58.50:144][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
+[2019.10.22-11.58.50:417][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.22-11.58.50:577][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.22-11.58.50:577][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.22-11.58.50:577][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.22-11.58.50:577][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.22-11.58.50:577][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.22-11.58.50:589][  0]LogNetVersion: SanRockArtVRMED7 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2483326429)
+[2019.10.22-11.58.51:077][  0]LogPackageLocalizationCache: Processed 18 localized package path(s) for 1 prioritized culture(s) in 0.080838 seconds
+[2019.10.22-11.58.51:083][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.10.22-11.58.51:083][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.10.22-11.58.51:083][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.22-11.58.52:101][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.22-11.58.52:104][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.22-11.58.52:166][  0]SourceControl: Source control is disabled
+[2019.10.22-11.58.52:166][  0]SourceControl: Source control is disabled
+[2019.10.22-11.58.52:168][  0]SourceControl: Source control is disabled
+[2019.10.22-11.58.52:169][  0]SourceControl: Source control is disabled
+[2019.10.22-11.58.52:361][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.22-11.58.52:452][  0]LogOcInput: OculusInput pre-init called
+[2019.10.22-11.58.52:461][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.10.22-11.58.52:461][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.10.22-11.58.56:024][  0]LogEngine: Initializing Engine...
+[2019.10.22-11.58.56:024][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.22-11.58.56:026][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.10.22-11.58.56:257][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.22-11.58.56:273][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.22-11.58.56:303][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.22-11.58.56:372][  0]LogInit: FAudioDevice initialized.
+[2019.10.22-11.58.56:372][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.22-11.58.56:420][  0]LogDerivedDataCache: Saved boot cache 0.05s 75MB C:/Users/Kamp-Legion/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.22-11.58.56:425][  0]LogInit: Texture streaming: Enabled
+[2019.10.22-11.58.56:448][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.22-11.58.56:516][  0]LogInit: Transaction tracking system initialized
+[2019.10.22-11.58.56:557][  0]BlueprintLog: New page: Editor Load
+[2019.10.22-11.58.56:647][  0]LocalizationService: Localization service is disabled
+[2019.10.22-11.58.56:927][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/' took 0.00s
+[2019.10.22-11.58.56:927][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.22-11.58.56:927][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.22-11.58.58:740][  0]SourceControl: Source control is disabled
+[2019.10.22-11.58.58:740][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.22-11.58.58:740][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
+[2019.10.22-11.58.58:740][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.22-11.58.58:740][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.169ms to complete.
+[2019.10.22-11.58.58:740][  0]LogFileHelpers: Loading map 'TestWorld' took 0.001
+[2019.10.22-11.58.58:858][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-11.58.58:865][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-11.58.58:872][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-11.58.58:880][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-11.58.58:888][  0]LogCollectionManager: Loaded 0 collections in 0.002197 seconds
+[2019.10.22-11.58.58:895][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Collections/' took 0.00s
+[2019.10.22-11.58.58:895][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Developers/KampLegion/Collections/' took 0.00s
+[2019.10.22-11.58.58:895][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Collections/' took 0.00s
+[2019.10.22-11.58.58:895][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.10.22-11.58.58:904][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 3046 classes and 768 folders.
+[2019.10.22-11.58.58:914][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.10.22-11.58.58:974][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.22-11.58.58:978][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2019.10.22-11.59.00:156][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.10.22-11.59.00:178][  0]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.22-11.59.00:185][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.22-11.59.00:190][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.22-11.59.00:285][  0]LogRenderer: Reallocating scene render targets to support 1212x628 Format 10 NumSamples 1 (Frame:1).
+[2019.10.22-11.59.00:422][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.22-11.59.00:423][  0]LogLoad: (Engine Initialization) Total time: 13.94 seconds
+[2019.10.22-11.59.00:423][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.22-11.59.00:582][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.22-11.59.00:608][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.22-11.59.00:631][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/' took 0.20s
+[2019.10.22-11.59.00:653][  1]LogAssetRegistry: Asset discovery search completed in 10.5107 seconds
+[2019.10.22-11.59.00:657][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2019.10.22-11.59.00:657][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2019.10.22-11.59.07:955][864]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-11.59.14:364][624]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.22-11.59.14:724][624]LogAIModule: Creating AISystem for world BoxPaintMap
+[2019.10.22-11.59.14:738][624]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap
+[2019.10.22-11.59.14:769][624]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2019.10.22-11.59.14:770][624]Cmd: MAP LOAD FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Maps/PC_Maps/BoxPaintMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.22-11.59.14:770][624]LightingResults: New page: Lighting Build
+[2019.10.22-11.59.14:773][624]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2019.10.22-11.59.14:774][624]LoadErrors: New page: Loading map: BoxPaintMap.umap
+[2019.10.22-11.59.14:774][624]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.10.22-11.59.14:774][624]MapCheck: New page: Map Check
+[2019.10.22-11.59.14:775][624]LightingResults: New page: Lighting Build
+[2019.10.22-11.59.14:801][624]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2019.10.22-11.59.14:878][624]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.22-11.59.14:908][624]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2019.10.22-11.59.14:934][624]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.22-11.59.14:935][624]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.178ms to complete.
+[2019.10.22-11.59.14:935][624]LogFileHelpers: Loading map 'BoxPaintMap' took 0.165
+[2019.10.22-11.59.20:943][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-11.59.20:999][ 21]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-11.59.21:021][ 21]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-11.59.21:021][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-11.59.21:021][ 21]PIE: New page: PIE session: BoxPaintMap (Oct 22, 2019, 3:59:21 PM)
+[2019.10.22-11.59.21:022][ 21]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.10.22-11.59.21:024][ 21]LogPlayLevel: Creating play world package: /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap
+[2019.10.22-11.59.21:029][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005004s)
+[2019.10.22-11.59.21:030][ 21]LogAIModule: Creating AISystem for world BoxPaintMap
+[2019.10.22-11.59.21:031][ 21]LogPlayLevel: PIE: World Init took: (0.001460s)
+[2019.10.22-11.59.21:031][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap to /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap.BoxPaintMap (0.006839s)
+[2019.10.22-11.59.21:066][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2019.10.22-11.59.21:077][ 21]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.22-11.59.21:099][ 21]LogInit: FAudioDevice initialized.
+[2019.10.22-11.59.21:112][ 21]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.22-11.59.21:114][ 21]LogWorld: Bringing World /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap.BoxPaintMap up for play (max tick rate 0) at 2019.10.22-13.59.21
+[2019.10.22-11.59.21:115][ 21]LogWorld: Bringing up level for play took: 0.001427
+[2019.10.22-11.59.21:115][ 21]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2019.10.22-11.59.21:124][ 21]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.10.22-11.59.21:125][ 21]PIE: Play in editor start time for /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap -0.878
+[2019.10.22-11.59.21:126][ 21]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-11.59.21:658][ 59]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.59.21:735][ 68]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to cast3
+[2019.10.22-11.59.21:984][ 98]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.59.22:101][112]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to cast3
+[2019.10.22-11.59.22:143][117]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.59.22:418][150]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to cast3
+[2019.10.22-11.59.22:451][154]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.59.22:551][166]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to cast3
+[2019.10.22-11.59.22:601][172]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.59.22:634][176]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to cast3
+[2019.10.22-11.59.22:676][181]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.59.22:701][184]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to cast3
+[2019.10.22-11.59.23:134][236]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.23:335][260]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.23:752][310]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.59.23:868][324]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.24:260][371]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-11.59.25:836][560]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-11.59.26:519][642]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.26:560][647]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.26:861][683]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.26:986][698]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.27:386][746]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.27:995][819]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.59.28:036][824]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.28:262][851]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.28:344][861]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.59.28:470][876]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.28:669][900]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.28:736][908]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.59.28:870][924]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.29:004][940]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.59.29:012][941]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.29:528][  3]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.59.31:338][220]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to cast3
+[2019.10.22-11.59.31:471][236]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.31:571][248]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.59.31:871][284]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.32:646][377]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.59.32:913][409]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.33:080][429]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.59.33:230][447]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.33:413][469]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.59.33:471][476]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.33:630][495]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.59.33:730][507]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.33:771][512]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.59.33:813][517]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.33:888][526]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.59.33:905][528]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.33:955][534]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.59.34:021][542]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.59.35:998][779]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-11.59.35:998][779]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-11.59.35:998][779]LogWorld: BeginTearingDown for /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap
+[2019.10.22-11.59.35:998][779]LogWorld: UWorld::CleanupWorld for BoxPaintMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.22-11.59.36:013][779]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-11.59.36:013][779]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-11.59.36:044][779]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-11.59.36:048][779]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2019.10.22-11.59.36:104][782]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.10.22-12.00.43:408][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-12.00.48:524][682]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.10.22-12.00.48:556][683]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2019.10.22-12.00.48:556][683]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2019.10.22-12.00.48:556][683]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2019.10.22-12.00.56:753][121]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Thumbnail/BP_Thumbnail_Story.BP_Thumbnail_Story
+[2019.10.22-12.00.57:014][121]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2019.10.22-12.00.57:948][121]LogSlate: Took 0.001288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.10.22-12.00.58:011][122]LogSlate: Took 0.000393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.10.22-12.01.06:923][869]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Animations/Animated_Cube.Animated_Cube
+[2019.10.22-12.01.14:247][382]LogSlate: Window 'Animated_Cube' being destroyed
+[2019.10.22-12.01.46:078][689]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Thumbnail/BP_Thumbnail.BP_Thumbnail
+[2019.10.22-12.03.28:028][762]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-12.03.28:050][762]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.03.28:050][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-12.03.28:050][762]PIE: New page: PIE session: BoxPaintMap (Oct 22, 2019, 4:03:28 PM)
+[2019.10.22-12.03.28:050][762]LogPlayLevel: Creating play world package: /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap
+[2019.10.22-12.03.28:054][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004049s)
+[2019.10.22-12.03.28:055][762]LogAIModule: Creating AISystem for world BoxPaintMap
+[2019.10.22-12.03.28:056][762]LogPlayLevel: PIE: World Init took: (0.001322s)
+[2019.10.22-12.03.28:056][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap to /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap.BoxPaintMap (0.005529s)
+[2019.10.22-12.03.28:100][762]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2019.10.22-12.03.28:127][762]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.22-12.03.28:301][762]LogInit: FAudioDevice initialized.
+[2019.10.22-12.03.28:313][762]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.22-12.03.28:315][762]LogWorld: Bringing World /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap.BoxPaintMap up for play (max tick rate 0) at 2019.10.22-14.03.28
+[2019.10.22-12.03.28:315][762]LogWorld: Bringing up level for play took: 0.001220
+[2019.10.22-12.03.28:315][762]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2019.10.22-12.03.28:318][762]PIE: Play in editor start time for /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap 0.315
+[2019.10.22-12.03.28:319][762]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.03.29:841][897]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-12.03.30:343][944]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-12.03.31:158][ 20]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-12.03.32:070][105]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-12.03.32:327][129]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-12.03.32:541][149]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-12.03.32:744][168]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-12.03.32:960][188]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-12.03.34:201][304]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-12.03.35:389][414]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-12.03.35:649][438]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-12.03.35:954][466]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-12.03.36:339][501]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-12.03.36:880][551]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.03.36:880][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-12.03.36:880][551]LogWorld: BeginTearingDown for /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap
+[2019.10.22-12.03.36:880][551]LogWorld: UWorld::CleanupWorld for BoxPaintMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.22-12.03.36:912][551]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-12.03.36:912][551]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.03.36:955][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-12.03.36:960][551]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2019.10.22-12.03.36:981][552]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.10.22-12.03.37:887][611]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-12.03.58:256][ 10]BlueprintLog: New page: Compile BP_Thumbnail_Story
+[2019.10.22-12.03.58:467][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2019.10.22-12.06.36:492][695]BlueprintLog: New page: Compile BP_Thumbnail_Story
+[2019.10.22-12.06.36:694][695]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2019.10.22-12.07.47:475][920]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2019.10.22-12.07.48:836][920]LogSlate: Window 'Save Content' being destroyed
+[2019.10.22-12.07.48:875][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Thumbnail/BP_Thumbnail_Story" FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Thumbnail/BP_Thumbnail_Story.uasset" SILENT=true
+[2019.10.22-12.07.48:946][920]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/BP_Thumbnail_Story15F8C71044B415DCB56F5F9334F71B47.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Thumbnail/BP_Thumbnail_Story.uasset'
+[2019.10.22-12.07.49:765][990]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-12.07.49:786][990]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.07.49:786][990]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-12.07.49:786][990]PIE: New page: PIE session: BoxPaintMap (Oct 22, 2019, 4:07:49 PM)
+[2019.10.22-12.07.49:786][990]LogPlayLevel: Creating play world package: /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap
+[2019.10.22-12.07.49:790][990]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004335s)
+[2019.10.22-12.07.49:792][990]LogAIModule: Creating AISystem for world BoxPaintMap
+[2019.10.22-12.07.49:793][990]LogPlayLevel: PIE: World Init took: (0.002403s)
+[2019.10.22-12.07.49:793][990]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap to /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap.BoxPaintMap (0.007127s)
+[2019.10.22-12.07.49:834][990]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2019.10.22-12.07.49:846][990]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.22-12.07.49:873][990]LogInit: FAudioDevice initialized.
+[2019.10.22-12.07.49:881][990]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.22-12.07.49:883][990]LogWorld: Bringing World /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap.BoxPaintMap up for play (max tick rate 0) at 2019.10.22-14.07.49
+[2019.10.22-12.07.49:883][990]LogWorld: Bringing up level for play took: 0.001107
+[2019.10.22-12.07.49:883][990]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2019.10.22-12.07.49:887][990]PIE: Play in editor start time for /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap -0.116
+[2019.10.22-12.07.49:887][990]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.07.51:269][150]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-12.07.52:447][290]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-12.07.53:444][409]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-12.07.53:713][441]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-12.07.53:964][471]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-12.07.54:218][501]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-12.07.54:724][561]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-12.07.55:277][627]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-12.07.55:504][654]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-12.07.55:663][673]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-12.07.56:247][742]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.07.56:247][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-12.07.56:247][742]LogWorld: BeginTearingDown for /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap
+[2019.10.22-12.07.56:247][742]LogWorld: UWorld::CleanupWorld for BoxPaintMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.22-12.07.56:274][742]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-12.07.56:275][742]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.07.56:319][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-12.07.56:323][742]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2019.10.22-12.07.56:373][744]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.10.22-12.07.58:846][921]LogEditorViewport: Clicking on Actor (LMB): PaintableRock_RockCanvas_C (PaintableRock_RockCanvas)
+[2019.10.22-12.08.06:731][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-12.08.08:248][592]Cmd: DELETE
+[2019.10.22-12.08.08:248][592]Cmd: ACTOR DELETE
+[2019.10.22-12.08.08:258][592]LogEditorActor: Deleted Actor: BP_Thumbnail_C
+[2019.10.22-12.08.08:298][592]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2019.10.22-12.08.08:298][592]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2019.10.22-12.08.20:761][293]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.10.22-12.08.32:640][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-12.08.32:707][967]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-12.08.32:742][967]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.08.32:742][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-12.08.32:742][967]PIE: New page: PIE session: BoxPaintMap (Oct 22, 2019, 4:08:32 PM)
+[2019.10.22-12.08.32:742][967]LogPlayLevel: Creating play world package: /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap
+[2019.10.22-12.08.32:747][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004696s)
+[2019.10.22-12.08.32:749][967]LogAIModule: Creating AISystem for world BoxPaintMap
+[2019.10.22-12.08.32:749][967]LogPlayLevel: PIE: World Init took: (0.001917s)
+[2019.10.22-12.08.32:749][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap to /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap.BoxPaintMap (0.006800s)
+[2019.10.22-12.08.32:801][967]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2019.10.22-12.08.32:818][967]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.22-12.08.32:846][967]LogInit: FAudioDevice initialized.
+[2019.10.22-12.08.32:859][967]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.22-12.08.32:861][967]LogWorld: Bringing World /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap.BoxPaintMap up for play (max tick rate 60) at 2019.10.22-14.08.32
+[2019.10.22-12.08.32:861][967]LogWorld: Bringing up level for play took: 0.001264
+[2019.10.22-12.08.32:862][967]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2019.10.22-12.08.32:865][967]PIE: Play in editor start time for /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap 0.862
+[2019.10.22-12.08.32:866][967]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.08.33:417][998]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-12.08.34:434][ 59]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.08.35:100][ 99]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.08.35:366][115]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.08.35:517][124]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.08.35:802][141]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.08.35:951][150]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.08.36:669][193]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.08.36:670][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-12.08.36:670][193]LogWorld: BeginTearingDown for /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap
+[2019.10.22-12.08.36:670][193]LogWorld: UWorld::CleanupWorld for BoxPaintMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.22-12.08.36:682][193]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-12.08.36:682][193]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.08.36:731][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-12.08.36:736][193]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2019.10.22-12.08.36:786][195]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.10.22-12.08.39:187][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-12.09.00:122][590]BlueprintLog: New page: Compile BP_Thumbnail_Story
+[2019.10.22-12.09.00:326][590]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2019.10.22-12.09.06:756][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Thumbnail/BP_Thumbnail_Story" FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Thumbnail/BP_Thumbnail_Story.uasset" SILENT=true
+[2019.10.22-12.09.06:841][973]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/BP_Thumbnail_StoryBB45B98949488B4EF657E9830A10D803.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Thumbnail/BP_Thumbnail_Story.uasset'
+[2019.10.22-12.09.07:668][ 22]BlueprintLog: New page: Compile BP_Thumbnail_Story
+[2019.10.22-12.09.07:670][ 22]LogBlueprint: Error: [Compiler BP_Thumbnail_Story] The type of  Object  is undetermined.  Connect something to  Cast To Animated_Cube  to imply a specific type.
+[2019.10.22-12.09.07:670][ 22]LogBlueprint: Error: [Compiler BP_Thumbnail_Story] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2019.10.22-12.09.07:873][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2019.10.22-12.12.04:503][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Thumbnail/BP_Thumbnail_Story" FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Thumbnail/BP_Thumbnail_Story.uasset" SILENT=true
+[2019.10.22-12.12.04:575][477]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/BP_Thumbnail_Story55218AB14CBC345E90918499D2490AC6.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Thumbnail/BP_Thumbnail_Story.uasset'
+[2019.10.22-12.12.05:665][542]BlueprintLog: New page: Compile BP_Thumbnail_Story
+[2019.10.22-12.12.05:874][542]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2019.10.22-12.12.06:861][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Thumbnail/BP_Thumbnail_Story" FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Thumbnail/BP_Thumbnail_Story.uasset" SILENT=true
+[2019.10.22-12.12.06:910][599]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/BP_Thumbnail_StoryF2F4F3234C37A2EBF05731A9DC3942CC.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Thumbnail/BP_Thumbnail_Story.uasset'
+[2019.10.22-12.12.12:804][942]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2019.10.22-12.12.14:161][942]LogSlate: Window 'Save Content' being destroyed
+[2019.10.22-12.12.14:240][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2019.10.22-12.12.14:475][942]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/BoxPaintMapFF0822E848EAC9BFA8BFE5B963EBC74F.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Maps/PC_Maps/BoxPaintMap.umap'
+[2019.10.22-12.12.14:512][942]LogFileHelpers: Saving map 'BoxPaintMap' took 0.314
+[2019.10.22-12.12.15:493][  0]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-12.12.15:523][  0]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.12.15:523][  0]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-12.12.15:524][  0]PIE: New page: PIE session: BoxPaintMap (Oct 22, 2019, 4:12:15 PM)
+[2019.10.22-12.12.15:524][  0]LogPlayLevel: Creating play world package: /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap
+[2019.10.22-12.12.15:527][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003513s)
+[2019.10.22-12.12.15:528][  0]LogAIModule: Creating AISystem for world BoxPaintMap
+[2019.10.22-12.12.15:529][  0]LogPlayLevel: PIE: World Init took: (0.001559s)
+[2019.10.22-12.12.15:529][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap to /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap.BoxPaintMap (0.005243s)
+[2019.10.22-12.12.15:568][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2019.10.22-12.12.15:579][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.22-12.12.15:601][  0]LogInit: FAudioDevice initialized.
+[2019.10.22-12.12.15:612][  0]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.22-12.12.15:614][  0]LogWorld: Bringing World /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap.BoxPaintMap up for play (max tick rate 60) at 2019.10.22-14.12.15
+[2019.10.22-12.12.15:614][  0]LogWorld: Bringing up level for play took: 0.001027
+[2019.10.22-12.12.15:614][  0]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2019.10.22-12.12.15:617][  0]PIE: Play in editor start time for /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap -0.386
+[2019.10.22-12.12.15:617][  0]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.12.16:025][ 23]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-12.12.16:559][ 55]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-12.12.17:194][ 93]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.12.19:943][258]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-12.12.26:160][631]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to cast3
+[2019.10.22-12.12.26:293][639]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-12.12.26:761][667]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.12.27:693][723]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.12.28:194][753]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.12.28:344][762]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.12.28:560][775]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-12.12.29:129][809]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.12.29:130][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-12.12.29:130][809]LogWorld: BeginTearingDown for /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap
+[2019.10.22-12.12.29:130][809]LogWorld: UWorld::CleanupWorld for BoxPaintMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.22-12.12.29:151][809]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-12.12.29:151][809]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.12.29:206][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-12.12.29:212][809]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2019.10.22-12.12.29:237][810]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.10.22-12.12.30:179][865]LogEditorViewport: Clicking on Actor (LMB): Animated_Cube_C (Animated_Cube)
+[2019.10.22-12.12.32:146][946]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-12.12.36:211][149]LogAssetEditorManager: Opening Asset editor for Material /Game/Animations/AnimatedRock_M.AnimatedRock_M
+[2019.10.22-12.12.36:221][149]LogMaterial: Display: Missing cached shader map for material AnimatedRock_M, compiling. 
+[2019.10.22-12.12.36:690][149]LogMaterial: Display: Missing cached shader map for material AnimatedRock_M, compiling. 
+[2019.10.22-12.12.36:724][149]LogMaterial: Display: Missing cached shader map for material AnimatedRock_M, compiling. 
+[2019.10.22-12.12.36:755][149]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2019.10.22-12.12.36:755][149]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
+[2019.10.22-12.12.36:755][149]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 28
+[2019.10.22-12.12.36:762][149]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_4, compiling. 
+[2019.10.22-12.12.36:779][149]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling. 
+[2019.10.22-12.12.36:792][149]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2019.10.22-12.12.36:805][149]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2019.10.22-12.12.36:816][149]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_2, compiling. 
+[2019.10.22-12.12.37:368][174]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 47
+[2019.10.22-12.12.37:469][180]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 46
+[2019.10.22-12.12.37:536][184]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 45
+[2019.10.22-12.12.37:674][192]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 44
+[2019.10.22-12.12.37:760][197]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 43
+[2019.10.22-12.12.37:863][203]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 42
+[2019.10.22-12.12.37:929][207]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 41
+[2019.10.22-12.12.38:016][212]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 40
+[2019.10.22-12.12.38:165][221]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 39
+[2019.10.22-12.12.38:660][250]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 38
+[2019.10.22-12.12.38:678][251]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 37
+[2019.10.22-12.12.38:829][260]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 36
+[2019.10.22-12.12.39:309][288]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 35
+[2019.10.22-12.12.39:377][292]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 34
+[2019.10.22-12.12.39:427][295]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 33
+[2019.10.22-12.12.39:994][328]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 32
+[2019.10.22-12.12.40:069][332]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 31
+[2019.10.22-12.12.40:136][336]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 30
+[2019.10.22-12.12.40:582][362]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 29
+[2019.10.22-12.12.40:651][366]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 28
+[2019.10.22-12.12.40:737][371]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 27
+[2019.10.22-12.12.41:159][395]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 26
+[2019.10.22-12.12.41:163][395]LogMaterial: Display: Missing cached shader map for material AnimatedRock_M, compiling. 
+[2019.10.22-12.12.41:301][403]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 50
+[2019.10.22-12.12.41:405][409]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 49
+[2019.10.22-12.12.41:834][434]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 48
+[2019.10.22-12.12.41:866][436]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 47
+[2019.10.22-12.12.41:934][440]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 46
+[2019.10.22-12.12.42:243][458]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 45
+[2019.10.22-12.12.42:260][459]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 44
+[2019.10.22-12.12.42:447][470]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 43
+[2019.10.22-12.12.42:685][484]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 42
+[2019.10.22-12.12.42:753][488]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 41
+[2019.10.22-12.12.42:854][494]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 40
+[2019.10.22-12.12.43:182][513]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 39
+[2019.10.22-12.12.43:281][519]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 38
+[2019.10.22-12.12.43:315][521]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 37
+[2019.10.22-12.12.43:607][538]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 36
+[2019.10.22-12.12.43:620][538]LogMaterial: Display: Missing cached shader map for material AnimatedRock_M, compiling. 
+[2019.10.22-12.12.43:796][548]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 35
+[2019.10.22-12.12.43:861][552]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 34
+[2019.10.22-12.12.44:066][564]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 33
+[2019.10.22-12.12.44:206][572]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 32
+[2019.10.22-12.12.44:357][581]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 31
+[2019.10.22-12.12.44:561][593]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2019.10.22-12.12.44:595][595]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 29
+[2019.10.22-12.12.44:751][604]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 28
+[2019.10.22-12.12.44:922][614]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 27
+[2019.10.22-12.12.44:937][615]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 26
+[2019.10.22-12.12.45:110][625]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 25
+[2019.10.22-12.12.45:262][634]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2019.10.22-12.12.45:297][636]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 23
+[2019.10.22-12.12.45:433][644]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
+[2019.10.22-12.12.45:450][645]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
+[2019.10.22-12.12.45:590][653]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
+[2019.10.22-12.12.45:744][662]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2019.10.22-12.12.46:103][683]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 18
+[2019.10.22-12.12.46:223][690]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
+[2019.10.22-12.12.46:307][695]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 16
+[2019.10.22-12.12.46:737][720]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2019.10.22-12.12.46:807][724]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 14
+[2019.10.22-12.12.46:926][731]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2019.10.22-12.12.47:387][758]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2019.10.22-12.12.47:388][758]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2019.10.22-12.12.47:454][762]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2019.10.22-12.12.47:867][786]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2019.10.22-12.12.48:092][799]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2019.10.22-12.12.48:092][799]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2019.10.22-12.12.48:483][822]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2019.10.22-12.12.48:517][824]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2019.10.22-12.12.48:709][835]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2019.10.22-12.12.49:123][859]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2019.10.22-12.12.49:140][860]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2019.10.22-12.12.49:190][863]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2019.10.22-12.12.49:743][895]MaterialEditorStats: Base pass shader: 131 instructions
+[2019.10.22-12.12.49:743][895]MaterialEditorStats: Base pass shader with Surface Lightmap: 162 instructions
+[2019.10.22-12.12.49:743][895]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 209 instructions
+[2019.10.22-12.12.49:743][895]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2019.10.22-12.12.49:743][895]MaterialEditorStats: Texture samplers: 7/16
+[2019.10.22-12.12.49:743][895]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2019.10.22-12.12.49:743][895]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.10.22-12.13.03:388][713]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-12.13.07:555][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-12.13.16:195][480]BlueprintLog: New page: Compile Animated_Cube
+[2019.10.22-12.13.16:417][480]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2019.10.22-12.13.19:848][672]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2019.10.22-12.13.21:105][672]LogSlate: Window 'Save Content' being destroyed
+[2019.10.22-12.13.21:164][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Animated_Cube" FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Animations/Animated_Cube.uasset" SILENT=true
+[2019.10.22-12.13.21:240][672]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Animated_Cube9BA9874344C2655BEEA272944D3F0551.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Animations/Animated_Cube.uasset'
+[2019.10.22-12.13.21:291][672]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2019.10.22-12.13.21:517][672]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/BoxPaintMap272D5C1842607F7B3B5A128B04D18B9C.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Maps/PC_Maps/BoxPaintMap.umap'
+[2019.10.22-12.13.21:552][672]LogFileHelpers: Saving map 'BoxPaintMap' took 0.303
+[2019.10.22-12.13.22:402][721]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-12.13.22:428][721]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.13.22:428][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-12.13.22:428][721]PIE: New page: PIE session: BoxPaintMap (Oct 22, 2019, 4:13:22 PM)
+[2019.10.22-12.13.22:430][721]LogPlayLevel: Creating play world package: /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap
+[2019.10.22-12.13.22:435][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004952s)
+[2019.10.22-12.13.22:436][721]LogAIModule: Creating AISystem for world BoxPaintMap
+[2019.10.22-12.13.22:437][721]LogPlayLevel: PIE: World Init took: (0.001798s)
+[2019.10.22-12.13.22:437][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap to /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap.BoxPaintMap (0.006942s)
+[2019.10.22-12.13.22:491][721]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2019.10.22-12.13.22:508][721]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.22-12.13.22:538][721]LogInit: FAudioDevice initialized.
+[2019.10.22-12.13.22:546][721]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.22-12.13.22:548][721]LogWorld: Bringing World /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap.BoxPaintMap up for play (max tick rate 60) at 2019.10.22-14.13.22
+[2019.10.22-12.13.22:549][721]LogWorld: Bringing up level for play took: 0.001487
+[2019.10.22-12.13.22:549][721]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2019.10.22-12.13.22:553][721]PIE: Play in editor start time for /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap 0.55
+[2019.10.22-12.13.22:553][721]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.13.23:141][754]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-12.13.23:224][759]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-12.13.23:957][803]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to cast3
+[2019.10.22-12.13.24:090][811]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-12.13.26:840][976]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to cast3
+[2019.10.22-12.13.26:907][980]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-12.13.27:157][995]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to cast3
+[2019.10.22-12.13.27:240][  0]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-12.13.28:073][ 50]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.13.28:658][ 85]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.13.28:890][ 99]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.13.29:074][110]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.13.29:257][121]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.13.29:441][132]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.13.30:008][166]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.13.30:174][176]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.13.30:340][186]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.13.30:490][195]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.13.30:657][205]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.13.30:824][215]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.13.32:390][309]LogBlueprintUserMessages: [Animated_Cube2_5] Playing
+[2019.10.22-12.13.32:391][309]LogBlueprintUserMessages: [Animated_Cube_2] Playing
+[2019.10.22-12.13.32:691][327]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-12.13.33:825][395]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to cast3
+[2019.10.22-12.13.33:924][401]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-12.13.34:458][433]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.13.35:141][474]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-12.13.37:052][587]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to cast3
+[2019.10.22-12.13.37:103][590]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-12.13.37:502][614]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.13.37:820][633]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-12.13.38:754][689]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.13.38:755][689]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-12.13.38:755][689]LogWorld: BeginTearingDown for /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap
+[2019.10.22-12.13.38:755][689]LogWorld: UWorld::CleanupWorld for BoxPaintMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.22-12.13.38:768][689]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-12.13.38:768][689]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.13.38:814][689]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-12.13.38:818][689]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2019.10.22-12.13.38:881][691]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.10.22-12.13.41:122][824]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-12.15.54:409][776]BlueprintLog: New page: Compile BP_Thumbnail_Story
+[2019.10.22-12.15.54:619][776]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2019.10.22-12.16.03:453][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Thumbnail/BP_Thumbnail_Story" FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Thumbnail/BP_Thumbnail_Story.uasset" SILENT=true
+[2019.10.22-12.16.03:506][298]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/BP_Thumbnail_Story0F1D0B214CD6AA77FA81248F062B0803.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Thumbnail/BP_Thumbnail_Story.uasset'
+[2019.10.22-12.16.17:847][158]BlueprintLog: New page: Compile BP_Thumbnail_Story
+[2019.10.22-12.16.18:050][158]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2019.10.22-12.16.18:769][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Thumbnail/BP_Thumbnail_Story" FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Thumbnail/BP_Thumbnail_Story.uasset" SILENT=true
+[2019.10.22-12.16.18:820][198]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/BP_Thumbnail_StoryC1594A424513E4E2C57104A613FCFA78.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Thumbnail/BP_Thumbnail_Story.uasset'
+[2019.10.22-12.16.21:472][348]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2019.10.22-12.16.22:438][348]LogSlate: Window 'Save Content' being destroyed
+[2019.10.22-12.16.22:516][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.10.22-12.16.22:747][348]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/BoxPaintMap7CB2EEAA45E7758E40E2E8990CBAA447.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Maps/PC_Maps/BoxPaintMap.umap'
+[2019.10.22-12.16.22:783][348]LogFileHelpers: Saving map 'BoxPaintMap' took 0.310
+[2019.10.22-12.16.23:637][394]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2019.10.22-12.16.23:865][394]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/BoxPaintMap6EB26920437ABDA138DF59A09C8E4A20.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Maps/PC_Maps/BoxPaintMap.umap'
+[2019.10.22-12.16.24:504][429]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-12.16.24:536][429]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.16.24:536][429]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-12.16.24:536][429]PIE: New page: PIE session: BoxPaintMap (Oct 22, 2019, 4:16:24 PM)
+[2019.10.22-12.16.24:537][429]LogPlayLevel: Creating play world package: /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap
+[2019.10.22-12.16.24:541][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003732s)
+[2019.10.22-12.16.24:542][429]LogAIModule: Creating AISystem for world BoxPaintMap
+[2019.10.22-12.16.24:543][429]LogPlayLevel: PIE: World Init took: (0.001872s)
+[2019.10.22-12.16.24:543][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap to /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap.BoxPaintMap (0.005759s)
+[2019.10.22-12.16.24:579][429]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.10.22-12.16.24:590][429]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.22-12.16.24:612][429]LogInit: FAudioDevice initialized.
+[2019.10.22-12.16.24:623][429]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.22-12.16.24:625][429]LogWorld: Bringing World /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap.BoxPaintMap up for play (max tick rate 60) at 2019.10.22-14.16.24
+[2019.10.22-12.16.24:625][429]LogWorld: Bringing up level for play took: 0.000969
+[2019.10.22-12.16.24:625][429]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2019.10.22-12.16.24:628][429]PIE: Play in editor start time for /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap 0.625
+[2019.10.22-12.16.24:629][429]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.16.25:200][462]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-12.16.26:300][528]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-12.16.26:817][559]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.16.28:819][679]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.16.28:819][679]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-12.16.28:819][679]LogWorld: BeginTearingDown for /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap
+[2019.10.22-12.16.28:819][679]LogWorld: UWorld::CleanupWorld for BoxPaintMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.22-12.16.28:835][679]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-12.16.28:835][679]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.16.28:878][679]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-12.16.28:884][679]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2019.10.22-12.16.28:951][681]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.10.22-12.16.31:702][846]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-12.16.38:217][236]BlueprintLog: New page: Compile Animated_Cube
+[2019.10.22-12.16.38:433][236]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2019.10.22-12.16.41:034][384]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2019.10.22-12.16.41:312][384]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/BoxPaintMap806669F948457F1394F8D59C459920B2.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Maps/PC_Maps/BoxPaintMap.umap'
+[2019.10.22-12.16.42:144][423]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2019.10.22-12.16.43:094][423]LogSlate: Window 'Save Content' being destroyed
+[2019.10.22-12.16.43:144][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Animated_Cube" FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Animations/Animated_Cube.uasset" SILENT=true
+[2019.10.22-12.16.43:218][423]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Animated_Cube3E334EB44B664B00E3DA5490BF9FA94A.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Animations/Animated_Cube.uasset'
+[2019.10.22-12.16.44:149][477]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-12.16.44:169][477]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.16.44:169][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-12.16.44:170][477]PIE: New page: PIE session: BoxPaintMap (Oct 22, 2019, 4:16:44 PM)
+[2019.10.22-12.16.44:171][477]LogPlayLevel: Creating play world package: /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap
+[2019.10.22-12.16.44:175][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003845s)
+[2019.10.22-12.16.44:176][477]LogAIModule: Creating AISystem for world BoxPaintMap
+[2019.10.22-12.16.44:176][477]LogPlayLevel: PIE: World Init took: (0.001631s)
+[2019.10.22-12.16.44:177][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap to /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap.BoxPaintMap (0.005634s)
+[2019.10.22-12.16.44:215][477]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2019.10.22-12.16.44:226][477]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.22-12.16.44:247][477]LogInit: FAudioDevice initialized.
+[2019.10.22-12.16.44:255][477]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.22-12.16.44:257][477]LogWorld: Bringing World /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap.BoxPaintMap up for play (max tick rate 60) at 2019.10.22-14.16.44
+[2019.10.22-12.16.44:258][477]LogWorld: Bringing up level for play took: 0.001025
+[2019.10.22-12.16.44:258][477]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2019.10.22-12.16.44:261][477]PIE: Play in editor start time for /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap 0.258
+[2019.10.22-12.16.44:261][477]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.16.44:722][503]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-12.16.45:072][524]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-12.16.45:555][553]LogBlueprintUserMessages: [BP_Thumbnail_Story_2] Override Succesful
+[2019.10.22-12.16.49:689][801]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-12.16.52:322][959]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to cast3
+[2019.10.22-12.16.52:922][995]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-12.16.53:173][ 10]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to cast3
+[2019.10.22-12.16.54:374][ 82]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.16.54:374][ 82]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-12.16.54:374][ 82]LogWorld: BeginTearingDown for /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap
+[2019.10.22-12.16.54:375][ 82]LogWorld: UWorld::CleanupWorld for BoxPaintMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.22-12.16.54:387][ 82]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-12.16.54:387][ 82]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-12.16.54:432][ 82]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-12.16.54:437][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2019.10.22-12.16.54:495][ 84]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.10.22-12.16.56:679][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-12.17.30:692][251]BlueprintLog: New page: Compile BP_Thumbnail_Story
+[2019.10.22-12.17.30:694][251]LogBlueprint: Error: [Compiler BP_Thumbnail_Story] This blueprint (self) is not a Animated_Cube_C, therefore ' Target ' must have a connection.
+[2019.10.22-12.17.30:899][251]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2019.10.22-12.17.38:059][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Thumbnail/BP_Thumbnail_Story" FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Thumbnail/BP_Thumbnail_Story.uasset" SILENT=true
+[2019.10.22-12.17.38:110][675]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/BP_Thumbnail_Story5EA7512349A13FA19CFAE2BDC3B59015.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Thumbnail/BP_Thumbnail_Story.uasset'
+[2019.10.22-12.17.38:955][725]BlueprintLog: New page: Compile BP_Thumbnail_Story
+[2019.10.22-12.17.39:165][725]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2019.10.22-12.18.29:767][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Thumbnail/BP_Thumbnail_Story" FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Thumbnail/BP_Thumbnail_Story.uasset" SILENT=true
+[2019.10.22-12.18.29:819][732]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/BP_Thumbnail_StoryC643AC7C457601BCBFF012A1D90E7AD5.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Thumbnail/BP_Thumbnail_Story.uasset'
+[2019.10.22-12.18.31:125][810]BlueprintLog: New page: Compile BP_Thumbnail_Story
+[2019.10.22-12.18.31:333][810]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2019.10.22-12.18.41:622][426]BlueprintLog: New page: Compile Animated_Cube
+[2019.10.22-12.18.41:840][426]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2019.10.22-12.19.04:682][793]LogUObjectBase: Warning: Object is not registered
+[2019.10.22-12.19.04:685][793]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.10.22-12.19.05:518][793]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.834 s
+[2019.10.22-12.19.05:518][793]LogOutputDevice: Error: === Handled ensure: ===
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: 
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: Ensure condition failed: false [File:D:/Build/++UE4/Sync/Engine/Source/Editor/UnrealEd/Private/Kismet2/KismetDebugUtilities.cpp] [Line: 1154]
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: Stack: 
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff8edce41e9 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff8ed507d9a UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff8ed515fff UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff8eca36c91 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff8e90d4dca UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff8e908e057 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff8fe01d644 UE4Editor-Slate.dll!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff8fe20c533 UE4Editor-Slate.dll!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff8fe06922b UE4Editor-Slate.dll!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff8fe045738 UE4Editor-Slate.dll!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff8fe039a1e UE4Editor-Slate.dll!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff92eeb4c4c UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff92eea26df UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff92eeb7340 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff92ee9edd0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff96c4b63ed USER32.dll!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff96c4b5de2 USER32.dll!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff92eeb88e9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff65fc46980 UE4Editor.exe!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff65fc5a91c UE4Editor.exe!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff65fc5a9fa UE4Editor.exe!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff65fc6b92c UE4Editor.exe!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff65fc6e60e UE4Editor.exe!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff96d687bd4 KERNEL32.DLL!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: [Callstack] 0x00007ff96d96ced1 ntdll.dll!UnknownFunction []
+[2019.10.22-12.19.05:519][793]LogOutputDevice: Error: 
+[2019.10.22-12.19.05:530][793]LogStats:                SubmitErrorReport -  0.000 s

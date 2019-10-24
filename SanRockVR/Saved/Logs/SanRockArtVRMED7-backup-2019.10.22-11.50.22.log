@@ -1,0 +1,979 @@
+﻿Log file open, 10/22/19 12:57:33
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: SanRockArtVRMED7
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.085093
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GLTFImporter
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin BlastPlugin
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin DataPrepEditor
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin DatasmithC4DImporter
+LogPluginManager: Mounting plugin DatasmithCADImporter
+LogPluginManager: Mounting plugin DatasmithFBXImporter
+LogPluginManager: Mounting plugin DatasmithGLTFImporter
+LogPluginManager: Mounting plugin DatasmithIFCImporter
+LogPluginManager: Mounting plugin DatasmithImporter
+LogPluginManager: Mounting plugin MDLImporter
+LogPluginManager: Mounting plugin StaticMeshEditorExtension
+LogPluginManager: Mounting plugin VariantManager
+LogInit: Warning: Incompatible or missing module: SanRockArtVRMED7
+Running C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/SanRockArtVRMED7.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Kamp-Legion\Documents\SanRockVRUE4).
+Invalidating makefile for SanRockArtVRMED7Editor (source file removed)
+@progress push 5%
+Parsing headers for SanRockArtVRMED7Editor
+  Running UnrealHeaderTool "C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\SanRockArtVRMED7.uproject" "C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\Intermediate\Build\Win64\SanRockArtVRMED7Editor\Development\SanRockArtVRMED7Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for SanRockArtVRMED7Editor in 8,0279468 seconds
+@progress pop
+Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 8 actions with 4 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 12%
+  [1/8] SharedPCH.Engine.cpp
+  @progress 'Compiling C++ source code...' 25%
+  [2/8] SanRockArtVRMED7.cpp
+  @progress 'Compiling C++ source code...' 38%
+  [3/8] SanRockArtVRMED7.init.gen.cpp
+  @progress 'Compiling C++ source code...' 50%
+  [4/8] ImageSaveLoad.cpp
+  @progress 'Compiling C++ source code...' 62%
+  [5/8] ImageSaveLoad.gen.cpp
+  @progress 'Compiling C++ source code...' 75%
+  [6/8] UE4Editor-SanRockArtVRMED7.lib
+     Creating library C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\UE4Editor-SanRockArtVRMED7.lib and object C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\UE4Editor-SanRockArtVRMED7.exp
+  @progress 'Compiling C++ source code...' 88%
+  [7/8] UE4Editor-SanRockArtVRMED7.dll
+     Creating library C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\UE4Editor-SanRockArtVRMED7.suppressed.lib and object C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\UE4Editor-SanRockArtVRMED7.suppressed.exp
+  @progress 'Compiling C++ source code...' 100%
+  [8/8] SanRockArtVRMED7Editor.target
+Total time in Parallel executor: 24,49 seconds
+Total execution time: 35,16 seconds
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-8386587
+LogInit: Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:1]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2019.10.22-10.58.10:744][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2019.10.22-10.58.10:745][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.22-10.58.10:746][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.22-10.58.10:746][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.22-10.58.10:746][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.22-10.58.10:749][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.22-10.58.10:750][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.22-10.58.10:751][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.22-10.58.10:751][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.22-10.58.10:751][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.22-10.58.10:751][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.22-10.58.10:751][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.22-10.58.10:751][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.22-10.58.10:751][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.22-10.58.10:751][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.22-10.58.10:751][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.22-10.58.10:751][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-10.58.10:751][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.22-10.58.10:751][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.22-10.58.10:751][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.22-10.58.10:751][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.22-10.58.10:754][  0]LogHAL: Display: Platform has ~ 16 GB [17033236480 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.22-10.58.10:754][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.22-10.58.10:754][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.22-10.58.10:754][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.22-10.58.10:755][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.22-10.58.10:756][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.22-10.58.10:756][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.22-10.58.10:756][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.22-10.58.10:756][  0]LogInit: Computer: LAPTOP-KALMUV1E
+[2019.10.22-10.58.10:756][  0]LogInit: User: KampLegion
+[2019.10.22-10.58.10:756][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.10.22-10.58.10:756][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.22-10.58.10:756][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.10.22-10.58.10:756][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.22-10.58.10:756][  0]LogMemory: Process Physical Memory: 104.16 MB used, 104.16 MB peak
+[2019.10.22-10.58.10:756][  0]LogMemory: Process Virtual Memory: 88.50 MB used, 88.50 MB peak
+[2019.10.22-10.58.10:756][  0]LogMemory: Physical Memory: 7112.98 MB used,  9131.18 MB free, 16244.16 MB total
+[2019.10.22-10.58.10:756][  0]LogMemory: Virtual Memory: 4692.50 MB used,  134213032.00 MB free, 134217728.00 MB total
+[2019.10.22-10.58.10:759][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.10.22-10.58.10:793][  0]LogInit: Using OS detected language (en-US).
+[2019.10.22-10.58.10:793][  0]LogInit: Using OS detected locale (en-DK).
+[2019.10.22-10.58.10:794][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.22-10.58.10:974][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.22-10.58.11:013][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.22-10.58.11:013][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.22-10.58.11:245][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.22-10.58.11:245][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.22-10.58.12:306][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2019.10.22-10.58.12:306][  0]LogD3D11RHI:       6052/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.10.22-10.58.12:332][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.10.22-10.58.12:332][  0]LogD3D11RHI:       128/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.10.22-10.58.12:335][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.22-10.58.12:335][  0]LogD3D11RHI:       0/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.22-10.58.12:335][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.22-10.58.12:370][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.22-10.58.12:370][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.22-10.58.12:370][  0]LogWindows: EnumDisplayDevices:
+[2019.10.22-10.58.12:370][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.10.22-10.58.12:370][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.10.22-10.58.12:370][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.10.22-10.58.12:371][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.10.22-10.58.12:371][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.10.22-10.58.12:371][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.10.22-10.58.12:372][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.10.22-10.58.12:372][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.10.22-10.58.12:372][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2019.10.22-10.58.12:372][  0]LogD3D11RHI:   Driver Version: 436.48 (internal:26.21.14.3648, unified:436.48)
+[2019.10.22-10.58.12:372][  0]LogD3D11RHI:      Driver Date: 9-26-2019
+[2019.10.22-10.58.12:372][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.10.22-10.58.12:427][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.22-10.58.12:462][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.10.22-10.58.12:802][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.22-10.58.12:813][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.22-10.58.12:824][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.22-10.58.12:835][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.22-10.58.12:847][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.22-10.58.12:857][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.22-10.58.12:868][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.22-10.58.12:880][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.22-10.58.12:885][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.22-10.58.12:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.22-10.58.12:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.22-10.58.12:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.22-10.58.12:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.22-10.58.12:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.22-10.58.12:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.22-10.58.12:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.22-10.58.12:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.22-10.58.12:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.22-10.58.12:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.22-10.58.12:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.22-10.58.12:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.22-10.58.12:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.22-10.58.12:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.22-10.58.12:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.22-10.58.12:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.22-10.58.12:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.22-10.58.12:922][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.22-10.58.12:924][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.22-10.58.12:947][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.22-10.58.12:947][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.22-10.58.12:964][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.22-10.58.12:964][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.22-10.58.12:973][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.22-10.58.12:982][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.22-10.58.12:990][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.22-10.58.13:000][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.22-10.58.13:030][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.22-10.58.13:030][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.22-10.58.13:030][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.22-10.58.13:042][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.22-10.58.13:110][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Intermediate/Shaders/WorkingDirectory/13372/).
+[2019.10.22-10.58.13:110][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kamp-Legion/AppData/Local/Temp/UnrealShaderWorkingDir/1F4BD78C4BBCD4A70F1D1C901ADAA2E4/'.
+[2019.10.22-10.58.13:113][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.22-10.58.13:113][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.22-10.58.13:113][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.22-10.58.13:800][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.22-10.58.13:851][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/Kamp-Legion/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.22-10.58.13:852][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Kamp-Legion/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.10.22-10.58.13:852][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.22-10.58.13:852][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.22-10.58.13:852][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.22-10.58.13:852][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.22-10.58.13:864][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.22-10.58.13:866][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2019.10.22-10.58.13:868][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kamp-Legion/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.22-10.58.13:868][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.22-10.58.13:868][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.22-10.58.13:892][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.22-10.58.13:895][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.22-10.58.13:896][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.22-10.58.13:967][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2019.10.22-10.58.14:269][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.22-10.58.14:449][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.22-10.58.14:449][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.22-10.58.14:449][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.22-10.58.14:449][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.22-10.58.14:449][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.22-10.58.14:461][  0]LogNetVersion: SanRockArtVRMED7 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2483326429)
+[2019.10.22-10.58.14:981][  0]LogPackageLocalizationCache: Processed 18 localized package path(s) for 1 prioritized culture(s) in 0.086525 seconds
+[2019.10.22-10.58.14:989][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.10.22-10.58.14:989][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.10.22-10.58.14:989][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.22-10.58.16:057][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.22-10.58.16:060][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.22-10.58.17:166][  0]SourceControl: Source control is disabled
+[2019.10.22-10.58.17:166][  0]SourceControl: Source control is disabled
+[2019.10.22-10.58.17:167][  0]SourceControl: Source control is disabled
+[2019.10.22-10.58.17:169][  0]SourceControl: Source control is disabled
+[2019.10.22-10.58.17:359][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.22-10.58.17:455][  0]LogOcInput: OculusInput pre-init called
+[2019.10.22-10.58.17:463][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.10.22-10.58.17:463][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.10.22-10.58.21:045][  0]LogEngine: Initializing Engine...
+[2019.10.22-10.58.21:045][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.22-10.58.21:047][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.10.22-10.58.21:279][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.22-10.58.21:297][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.22-10.58.21:323][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.22-10.58.21:392][  0]LogInit: FAudioDevice initialized.
+[2019.10.22-10.58.21:393][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.22-10.58.21:439][  0]LogDerivedDataCache: Saved boot cache 0.05s 75MB C:/Users/Kamp-Legion/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.22-10.58.21:441][  0]LogInit: Texture streaming: Enabled
+[2019.10.22-10.58.21:465][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.22-10.58.21:538][  0]LogInit: Transaction tracking system initialized
+[2019.10.22-10.58.21:577][  0]BlueprintLog: New page: Editor Load
+[2019.10.22-10.58.21:685][  0]LocalizationService: Localization service is disabled
+[2019.10.22-10.58.21:952][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/' took 0.00s
+[2019.10.22-10.58.21:952][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.22-10.58.21:953][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.22-10.58.23:807][  0]SourceControl: Source control is disabled
+[2019.10.22-10.58.23:807][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.22-10.58.23:807][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
+[2019.10.22-10.58.23:807][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.22-10.58.23:808][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.241ms to complete.
+[2019.10.22-10.58.23:808][  0]LogFileHelpers: Loading map 'TestWorld' took 0.001
+[2019.10.22-10.58.23:953][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-10.58.23:961][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-10.58.23:968][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-10.58.23:976][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-10.58.23:984][  0]LogCollectionManager: Loaded 0 collections in 0.002219 seconds
+[2019.10.22-10.58.23:993][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Collections/' took 0.00s
+[2019.10.22-10.58.23:993][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Developers/KampLegion/Collections/' took 0.00s
+[2019.10.22-10.58.23:993][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Collections/' took 0.00s
+[2019.10.22-10.58.23:993][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.10.22-10.58.24:002][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 3046 classes and 768 folders.
+[2019.10.22-10.58.24:012][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.22-10.58.24:070][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.22-10.58.24:074][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2019.10.22-10.58.25:259][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.10.22-10.58.25:282][  0]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.22-10.58.25:286][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.22-10.58.25:290][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.22-10.58.25:380][  0]LogRenderer: Reallocating scene render targets to support 1212x628 Format 10 NumSamples 1 (Frame:1).
+[2019.10.22-10.58.25:510][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.10.22-10.58.25:511][  0]LogLoad: (Engine Initialization) Total time: 53.47 seconds
+[2019.10.22-10.58.25:511][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.22-10.58.25:667][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.22-10.58.25:692][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.22-10.58.25:709][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/' took 0.18s
+[2019.10.22-10.58.25:730][  1]LogAssetRegistry: Asset discovery search completed in 11.7642 seconds
+[2019.10.22-10.58.25:736][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2019.10.22-10.58.25:736][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
+[2019.10.22-10.58.26:556][ 49]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.22-11.02.51:631][950]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-11.02.52:562][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-11.03.03:998][672]LogMaterial: Display: Missing cached shader map for material M_TexToRenderTar, compiling. 
+[2019.10.22-11.03.04:046][672]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
+[2019.10.22-11.03.04:046][672]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2019.10.22-11.03.04:046][672]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2019.10.22-11.03.04:049][672]LogAIModule: Creating AISystem for world FPPC_TestMap
+[2019.10.22-11.03.04:065][672]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/PC_Maps/FPPC_TestMap.FPPC_TestMap
+[2019.10.22-11.03.04:095][672]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2019.10.22-11.03.04:096][672]Cmd: MAP LOAD FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Maps/PC_Maps/FPPC_TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.22-11.03.04:096][672]LightingResults: New page: Lighting Build
+[2019.10.22-11.03.04:100][672]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2019.10.22-11.03.04:101][672]LoadErrors: New page: Loading map: FPPC_TestMap.umap
+[2019.10.22-11.03.04:101][672]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.10.22-11.03.04:101][672]MapCheck: New page: Map Check
+[2019.10.22-11.03.04:101][672]LightingResults: New page: Lighting Build
+[2019.10.22-11.03.04:128][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2019.10.22-11.03.04:207][672]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.22-11.03.04:235][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2019.10.22-11.03.04:264][672]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.22-11.03.04:265][672]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.386ms to complete.
+[2019.10.22-11.03.04:265][672]LogFileHelpers: Loading map 'FPPC_TestMap' took 0.170
+[2019.10.22-11.03.19:723][465]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-11.03.19:957][475]LogAIModule: Creating AISystem for world BoxPaintMap
+[2019.10.22-11.03.19:967][475]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap
+[2019.10.22-11.03.20:001][475]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2019.10.22-11.03.20:002][475]Cmd: MAP LOAD FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Maps/PC_Maps/BoxPaintMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.22-11.03.20:002][475]LightingResults: New page: Lighting Build
+[2019.10.22-11.03.20:003][475]LoadErrors: New page: Loading map: BoxPaintMap.umap
+[2019.10.22-11.03.20:003][475]LogWorld: UWorld::CleanupWorld for FPPC_TestMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.22-11.03.20:003][475]MapCheck: New page: Map Check
+[2019.10.22-11.03.20:003][475]LightingResults: New page: Lighting Build
+[2019.10.22-11.03.20:040][475]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2019.10.22-11.03.20:171][475]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.22-11.03.20:207][475]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2019.10.22-11.03.20:243][475]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.22-11.03.20:243][475]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.198ms to complete.
+[2019.10.22-11.03.20:243][475]LogFileHelpers: Loading map 'BoxPaintMap' took 0.241
+[2019.10.22-11.03.26:233][823]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-11.03.26:299][827]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.22-11.03.26:324][827]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-11.03.26:324][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.22-11.03.26:324][827]PIE: New page: PIE session: BoxPaintMap (Oct 22, 2019, 3:03:26 PM)
+[2019.10.22-11.03.26:326][827]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.10.22-11.03.26:327][827]LogPlayLevel: Creating play world package: /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap
+[2019.10.22-11.03.26:333][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005462s)
+[2019.10.22-11.03.26:334][827]LogAIModule: Creating AISystem for world BoxPaintMap
+[2019.10.22-11.03.26:335][827]LogPlayLevel: PIE: World Init took: (0.001387s)
+[2019.10.22-11.03.26:335][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap to /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap.BoxPaintMap (0.007248s)
+[2019.10.22-11.03.26:376][827]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2019.10.22-11.03.26:394][827]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.22-11.03.26:429][827]LogInit: FAudioDevice initialized.
+[2019.10.22-11.03.26:443][827]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.22-11.03.26:446][827]LogWorld: Bringing World /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap.BoxPaintMap up for play (max tick rate 60) at 2019.10.22-13.03.26
+[2019.10.22-11.03.26:447][827]LogWorld: Bringing up level for play took: 0.002022
+[2019.10.22-11.03.26:447][827]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2019.10.22-11.03.26:461][827]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.10.22-11.03.26:465][827]PIE: Play in editor start time for /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap 0.458
+[2019.10.22-11.03.26:465][827]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-11.03.27:038][859]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.03.27:420][882]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.03.27:938][913]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-11.03.28:237][931]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-11.03.28:570][951]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-11.03.29:805][ 25]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.03.30:604][ 73]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to cast3
+[2019.10.22-11.03.31:605][133]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast
+[2019.10.22-11.03.31:738][141]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to cast3
+[2019.10.22-11.03.32:421][182]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Failed to Cast 2
+[2019.10.22-11.03.32:721][200]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-11.03.32:871][209]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-11.03.33:004][217]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-11.03.33:139][225]LogBlueprintUserMessages: [BP_ThumbnailPainting_3] BaseClicked
+[2019.10.22-11.03.33:772][263]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-11.03.33:772][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-11.03.33:772][263]LogWorld: BeginTearingDown for /Game/Maps/PC_Maps/UEDPIE_0_BoxPaintMap
+[2019.10.22-11.03.33:773][263]LogWorld: UWorld::CleanupWorld for BoxPaintMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.22-11.03.33:787][263]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.22-11.03.33:787][263]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap' with GeneratedClass '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap_C' with ClassGeneratedBy '/Game/Maps/PC_Maps/BoxPaintMap.BoxPaintMap:PersistentLevel.BoxPaintMap'
+[2019.10.22-11.03.33:819][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-11.03.33:823][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2019.10.22-11.03.33:886][265]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.10.22-11.18.47:937][723]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.18.51:997][742]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.19.00:795][821]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.19.03:901][839]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.19.24:137][955]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.19.47:453][129]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.20.05:961][259]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.20.12:753][328]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.20.16:282][343]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.20.16:790][345]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.20.17:297][347]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.20.22:419][374]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.20.29:070][401]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.20.33:686][420]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.20.35:751][431]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.20.55:179][512]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.20.57:184][520]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.21.16:992][664]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.21.23:766][702]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.21.24:273][704]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.21.25:776][708]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.21.35:075][755]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.22.09:485][ 79]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.22.12:596][ 97]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.22.18:719][158]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.22.32:700][264]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.22.46:806][350]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.23.04:094][457]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.23.20:678][547]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.23.46:857][671]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.24.14:403][848]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.24.17:513][866]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.24.26:903][917]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.24.30:516][938]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.24.32:070][946]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.25.30:496][283]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.25.35:053][301]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.25.35:556][302]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.25.36:059][303]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.25.38:086][339]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.25.56:762][440]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.26.07:264][508]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.26.10:436][559]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.26.16:676][592]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.26.39:325][733]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.26.39:832][735]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.26.56:663][799]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.27.02:174][802]LogD3D11RHI: GetQueryData is taking a very long time (5.0 s)
+[2019.10.22-11.27.12:731][862]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.27.13:239][864]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.27.15:296][875]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.27.17:355][885]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.27.27:293][941]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.27.34:515][979]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.27.35:023][981]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.27.48:470][ 48]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.28.22:763][194]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.28.33:804][264]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.28.50:776][345]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.28.54:434][366]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.29.00:983][389]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.29.09:745][431]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.29.19:965][474]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.29.34:637][561]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.29.43:497][612]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.30.27:819][851]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.30.31:437][869]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.30.34:590][888]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.30.44:058][946]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.30.50:405][988]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.31.00:320][ 43]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.31.00:823][ 44]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.31.01:324][ 45]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.31.21:906][209]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.31.27:108][240]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.31.36:448][289]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.31.41:625][317]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.32.25:950][569]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.32.31:001][587]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.32.31:510][589]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.32.34:564][604]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.32.35:071][606]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.32.59:793][732]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.33.02:950][751]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.33.43:278][954]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.33.46:327][968]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.33.56:172][ 21]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.34.06:935][ 72]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.34.13:231][115]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.34.49:357][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.35.10:404][390]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.35.31:147][504]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.35.58:586][654]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.35.59:090][655]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.36.10:103][752]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.36.11:104][754]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.36.15:732][808]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.36.21:898][839]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.36.22:400][840]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.36.31:854][929]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.36.38:654][968]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.36.58:251][ 70]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.37.13:377][158]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.37.16:481][174]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.37.32:460][249]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.37.44:804][305]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.37.47:355][316]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.38.33:887][592]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.38.40:229][633]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.38.43:882][652]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.38.46:996][670]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.39.24:899][872]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.39.34:684][919]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.39.41:825][952]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.41.18:965][448]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.41.24:217][481]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.41.33:965][529]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.41.34:473][531]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.41.45:864][590]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.41.47:873][598]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.41.48:380][600]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.41.57:600][643]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.42.01:219][664]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.42.02:231][668]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.42.02:740][670]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.42.08:945][701]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.42.30:074][807]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.42.35:077][823]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.42.35:584][825]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.42.39:640][841]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.42.53:933][933]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.43.08:231][ 25]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.43.21:026][ 76]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.43.36:640][162]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.44.06:414][328]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.44.12:070][354]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.44.16:095][370]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.44.18:155][380]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.45.16:810][684]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.45.17:317][686]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.45.27:719][749]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.45.42:734][830]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.45.43:242][832]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.45.51:929][867]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.46.04:777][929]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.46.22:012][ 32]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.46.26:610][ 51]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.46.58:998][209]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.46.59:506][211]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.47.10:794][264]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.47.11:302][266]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.47.22:171][326]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.47.33:061][387]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.47.42:450][443]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.47.49:794][490]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.47.56:137][530]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.48.08:014][590]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.48.08:523][592]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.48.18:674][631]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.48.19:181][633]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.48.34:217][713]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.48.47:842][793]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.48.54:016][825]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.49.18:529][971]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.49.28:919][ 30]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.49.32:075][ 48]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.49.35:231][ 66]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.49.39:887][ 90]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.49.49:600][132]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2019.10.22-11.49.55:113][135]LogD3D11RHI: GetQueryData is taking a very long time (5.0 s)
+[2019.10.22-11.50.00:113][135]LogD3D11RHI: GetQueryData is taking a very long time (10.0 s)
+[2019.10.22-11.50.05:113][135]LogD3D11RHI: GetQueryData is taking a very long time (15.0 s)
+[2019.10.22-11.50.10:113][135]LogD3D11RHI: GetQueryData is taking a very long time (20.0 s)
+[2019.10.22-11.50.15:114][135]LogD3D11RHI: GetQueryData is taking a very long time (25.0 s)
+[2019.10.22-11.50.20:118][135]LogD3D11RHI: GetQueryData is taking a very long time (30.0 s)
+[2019.10.22-11.50.20:118][135]LogD3D11RHI: Timed out while waiting for GPU to catch up. (30.0 s) (ErrorCode 00000001)
+[2019.10.22-11.50.20:118][135]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.10.22-11.50.22:024][135]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.10.22-11.50.22:024][135]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.10.22-11.50.22:024][135]LogWindows: Error: === Critical error: ===
+[2019.10.22-11.50.22:024][135]LogWindows: Error: 
+[2019.10.22-11.50.22:024][135]LogWindows: Error: Fatal error: [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp] [Line: 836] 
+[2019.10.22-11.50.22:024][135]LogWindows: Error: Rendering thread exception:
+[2019.10.22-11.50.22:024][135]LogWindows: Error: Assertion failed: GD3D11RHI->GetQueryData(Query->Resource, &Query->Result, sizeof(Query->Result), Query->QueryType, true, false) [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Query.cpp] [Line: 45] 
+[2019.10.22-11.50.22:024][135]LogWindows: Error: 
+[2019.10.22-11.50.22:024][135]LogWindows: Error: 
+[2019.10.22-11.50.22:024][135]LogWindows: Error: 
+[2019.10.22-11.50.22:024][135]LogWindows: Error: [Callstack] 0x00007ff96a9ba839 KERNELBASE.dll!UnknownFunction []
+[2019.10.22-11.50.22:024][135]LogWindows: Error: [Callstack] 0x00007ff8f3499ef7 UE4Editor-Core.dll!UnknownFunction []
+[2019.10.22-11.50.22:024][135]LogWindows: Error: [Callstack] 0x00007ff8f349c754 UE4Editor-Core.dll!UnknownFunction []
+[2019.10.22-11.50.22:024][135]LogWindows: Error: [Callstack] 0x00007ff8f3291afa UE4Editor-Core.dll!UnknownFunction []
+[2019.10.22-11.50.22:024][135]LogWindows: Error: [Callstack] 0x00007ff8f31e67c3 UE4Editor-Core.dll!UnknownFunction []
+[2019.10.22-11.50.22:024][135]LogWindows: Error: [Callstack] 0x00007ff8f31e6ed0 UE4Editor-Core.dll!UnknownFunction []
+[2019.10.22-11.50.22:024][135]LogWindows: Error: [Callstack] 0x00007ff8e493fb8d UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.10.22-11.50.22:024][135]LogWindows: Error: [Callstack] 0x00007ff8e494f5a9 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.10.22-11.50.22:024][135]LogWindows: Error: [Callstack] 0x00007ff9266ecaf7 UE4Editor-RHI.dll!UnknownFunction []
+[2019.10.22-11.50.22:024][135]LogWindows: Error: [Callstack] 0x00007ff8e6b09990 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.10.22-11.50.22:024][135]LogWindows: Error: [Callstack] 0x00007ff8e6f8b229 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.10.22-11.50.22:024][135]LogWindows: Error: [Callstack] 0x00007ff8e6f67301 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.10.22-11.50.22:024][135]LogWindows: Error: [Callstack] 0x00007ff8f3064e4a UE4Editor-Core.dll!UnknownFunction []
+[2019.10.22-11.50.22:024][135]LogWindows: Error: [Callstack] 0x00007ff8f30651f3 UE4Editor-Core.dll!UnknownFunction []
+[2019.10.22-11.50.22:024][135]LogWindows: Error: [Callstack] 0x00007ff92a8e0021 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.10.22-11.50.22:024][135]LogWindows: Error: [Callstack] 0x00007ff92a8e85b4 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.10.22-11.50.22:024][135]LogWindows: Error: [Callstack] 0x00007ff8f34b9a8f UE4Editor-Core.dll!UnknownFunction []
+[2019.10.22-11.50.22:024][135]LogWindows: Error: [Callstack] 0x00007ff8f34affe1 UE4Editor-Core.dll!UnknownFunction []
+[2019.10.22-11.50.22:024][135]LogWindows: Error: [Callstack] 0x00007ff96d687bd4 KERNEL32.DLL!UnknownFunction []
+[2019.10.22-11.50.22:024][135]LogWindows: Error: [Callstack] 0x00007ff96d96ced1 ntdll.dll!UnknownFunction []
+[2019.10.22-11.50.22:024][135]LogWindows: Error: 
+[2019.10.22-11.50.22:024][135]LogWindows: Error: 
+[2019.10.22-11.50.22:024][135]LogWindows: Error: 
+[2019.10.22-11.50.22:024][135]LogWindows: Error: 
+[2019.10.22-11.50.22:054][135]LogExit: Executing StaticShutdownAfterError
+[2019.10.22-11.50.22:060][135]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.10.22-11.50.22:067][135]Log file closed, 10/22/19 13:50:22
