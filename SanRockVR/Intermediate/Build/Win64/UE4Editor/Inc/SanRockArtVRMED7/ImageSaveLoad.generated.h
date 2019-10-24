@@ -16,6 +16,14 @@ class UTextureRenderTarget2D;
 
 #define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_18_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetAndroidFilePath) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FString*)Z_Param__Result=P_THIS->GetAndroidFilePath(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execLoadRenderTargetFromDisk) \
 	{ \
 		P_GET_OBJECT_REF(UTextureRenderTarget2D,Z_Param_Out_OutRenderTarget); \
@@ -40,6 +48,14 @@ class UTextureRenderTarget2D;
 
 
 #define SanRockVR_Source_SanRockArtVRMED7_Public_ImageSaveLoad_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetAndroidFilePath) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FString*)Z_Param__Result=P_THIS->GetAndroidFilePath(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execLoadRenderTargetFromDisk) \
 	{ \

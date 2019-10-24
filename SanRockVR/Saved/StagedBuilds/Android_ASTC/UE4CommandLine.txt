@@ -1,1 +1,1 @@
-../../../SanRockArtVRMED7/SanRockArtVRMED7.uproject  /Game/VirtualRealityBP/Maps/TestWorld -Messaging -SessionId=C87154D142C0E7399A18F7A468D99232 -SessionOwner="Mikke" -SessionName="Launch On Device" -iterative
+../../../SanRockArtVRMED7/SanRockArtVRMED7.uproject  /Game/Maps/VR_Maps/TestWorld -Messaging -SessionId=D607235F4024FC47A43894AB4E164ACD -SessionOwner="Mikke" -SessionName="Launch On Device" -iterative

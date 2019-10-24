@@ -1199,6 +1199,9 @@ Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:AntVerbosit
 Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:bFullScreen:0=False
 Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:ExtraApplicationSettings:0=
 Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:ExtraActivitySettings:0=
+Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:ExtraPermissions:0=android.permission.READ_EXTERNAL_STORAGE
+Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:ExtraPermissions:1=android.permission.WRITE_EXTERNAL_STORAGE
+Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:ExtraPermissions:2=android.permission.INTERNAL_STORAGE
 Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:PackageForOculusMobile:0=Quest
 Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:bRemoveOSIG:0=True
 Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:GoogleVRCaps:0=Daydream33
@@ -1737,7 +1740,7 @@ Windows.Game:/Script/EngineSettings.GeneralProjectSettings:MinWindowWidth:0=16
 Windows.Game:/Script/EngineSettings.GeneralProjectSettings:MinWindowHeight:0=16
 Windows.Game:/Script/EngineSettings.GeneralProjectSettings:ProjectID:0=D0BC2F9643289B91C048C3AC8C9BB67C
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:BuildConfiguration:0=PPBC_Development
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:FullRebuild:0=False
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:FullRebuild:0=True
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:UsePakFile:0=True
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bChunkHardReferencesOnly:0=False
@@ -2177,6 +2180,7 @@ Windows.Input:/Script/OpenXRInput.XRInputSettings:ValveIndexBindings:18=(Path="/
 Windows.Input:/Script/OpenXRInput.XRInputSettings:ValveIndexBindings:19=(Path="/user/hand/right/input/b/click",Key=MotionController_Right_FaceButton2)
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:UsingXGE:0=False
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:bExpandClassPickerDefaultClassList:0=True
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:bExpandCustomClassPickerClassList:0=True
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:0=(Name="Matinee")
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:1=(Name="CurveEditor")
 Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:0=(Parent="Matinee", CommandName="Matinee_PlayForward", Description="Matinee_PlayForward_Desc", ExecCommand="Matinee Play")

@@ -35,4 +35,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "SaveLoad")
 	void LoadRenderTargetFromDisk(UTextureRenderTarget2D*& OutRenderTarget, FString path, FString Filename);
+
+	UFUNCTION(BlueprintCallable, Category = "SaveLoad")
+	FString GetAndroidFilePath();
 };

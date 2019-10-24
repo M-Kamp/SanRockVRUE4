@@ -7,5 +7,9 @@ C:/Users/Mikke/Documents/Unreal\ Projects/SanRockArt-repo/SanRockVR/Intermediate
   C:/Program\ Files/Epic\ Games/UE_4.23/Engine/Source/Runtime/Engine/Classes\Engine/TextureRenderTarget.h \
   C:/Program\ Files/Epic\ Games/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/Engine\TextureRenderTarget.generated.h \
   C:/Program\ Files/Epic\ Games/UE_4.23/Engine/Intermediate/Build/Android/UE4/Inc/Engine\TextureRenderTarget2D.generated.h \
+  C:/Program\ Files/Epic\ Games/UE_4.23/Engine/Source/Runtime\ImageWriteQueue/Public/ImageWriteQueue.h \
+  C:/Program\ Files/Epic\ Games/UE_4.23/Engine/Source/Runtime/ImageWriteQueue/Public/ImageWriteTask.h \
+  C:/Program\ Files/Epic\ Games/UE_4.23/Engine/Source/Runtime/ImageWrapper/Public\IImageWrapper.h \
+  C:/Program\ Files/Epic\ Games/UE_4.23/Engine/Source/Runtime/ImageWriteQueue/Public/ImagePixelData.h \
   C:/Users/Mikke/Documents/Unreal\ Projects/SanRockArt-repo/SanRockVR/Intermediate/Build/Android/UE4/Inc/SanRockArtVRMED7\ImageSaveLoad.generated.h \
   C:/Program\ Files/Epic\ Games/UE_4.23/Engine/Source/Runtime/Engine/Public\HighResScreenshot.h
