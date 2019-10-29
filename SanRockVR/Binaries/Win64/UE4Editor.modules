@@ -2,10 +2,6 @@
 	"BuildId": "8386587",
 	"Modules": 
 	{
-<<<<<<< HEAD
-		"SanRockArtVRMED7": "UE4Editor-SanRockArtVRMED7-3767.dll"
-=======
-		"SanRockArtVRMED7": "UE4Editor-SanRockArtVRMED7.dll"
->>>>>>> e56c47bc4544578e2f687c390aa621932976a9a5
+		"SanRockArtVRMED7": "UE4Editor-SanRockArtVRMED7-3543.dll"
 	}
 }
