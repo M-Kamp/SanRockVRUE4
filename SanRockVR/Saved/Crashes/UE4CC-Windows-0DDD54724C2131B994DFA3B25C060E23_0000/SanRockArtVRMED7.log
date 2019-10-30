@@ -1,0 +1,1174 @@
+﻿Log file open, 10/29/19 15:02:39
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: SanRockArtVRMED7
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.094208
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GLTFImporter
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin BlastPlugin
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin DataPrepEditor
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin DatasmithC4DImporter
+LogPluginManager: Mounting plugin DatasmithCADImporter
+LogPluginManager: Mounting plugin DatasmithFBXImporter
+LogPluginManager: Mounting plugin DatasmithGLTFImporter
+LogPluginManager: Mounting plugin DatasmithIFCImporter
+LogPluginManager: Mounting plugin DatasmithImporter
+LogPluginManager: Mounting plugin MDLImporter
+LogPluginManager: Mounting plugin StaticMeshEditorExtension
+LogPluginManager: Mounting plugin VariantManager
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-8386587
+LogInit: Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:1]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2019.10.29-14.02.39:843][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.29-14.02.39:844][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.29-14.02.39:844][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.29-14.02.39:845][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.29-14.02.39:845][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.29-14.02.39:845][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.29-14.02.39:845][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.29-14.02.39:845][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.29-14.02.39:845][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.29-14.02.39:845][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.29-14.02.39:845][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.29-14.02.39:845][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.29-14.02.39:845][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.29-14.02.39:845][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.29-14.02.39:845][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.29-14.02.39:845][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.29-14.02.39:845][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.29-14.02.39:845][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.29-14.02.39:845][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.29-14.02.39:847][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.29-14.02.39:847][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.29-14.02.39:847][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.29-14.02.39:848][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.29-14.02.39:849][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.29-14.02.39:849][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.29-14.02.39:849][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.29-14.02.39:849][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.29-14.02.39:849][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.29-14.02.39:849][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.29-14.02.39:849][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.29-14.02.39:849][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.29-14.02.39:849][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.29-14.02.39:849][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.29-14.02.39:849][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.29-14.02.39:849][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.29-14.02.39:849][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.29-14.02.39:849][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.29-14.02.39:854][  0]LogHAL: Display: Platform has ~ 16 GB [17033236480 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.29-14.02.39:854][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.29-14.02.39:854][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.29-14.02.39:854][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Scalability.ini]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.29-14.02.39:855][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.29-14.02.39:858][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.29-14.02.39:858][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.29-14.02.39:858][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Config/Windows/Engine.ini]
+[2019.10.29-14.02.39:858][  0]LogInit: Computer: LAPTOP-KALMUV1E
+[2019.10.29-14.02.39:858][  0]LogInit: User: KampLegion
+[2019.10.29-14.02.39:858][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.10.29-14.02.39:858][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.29-14.02.39:858][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.10.29-14.02.39:858][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.29-14.02.39:858][  0]LogMemory: Process Physical Memory: 100.41 MB used, 100.41 MB peak
+[2019.10.29-14.02.39:859][  0]LogMemory: Process Virtual Memory: 87.96 MB used, 87.96 MB peak
+[2019.10.29-14.02.39:859][  0]LogMemory: Physical Memory: 9545.62 MB used,  6698.54 MB free, 16244.16 MB total
+[2019.10.29-14.02.39:859][  0]LogMemory: Virtual Memory: 4644.43 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.10.29-14.02.39:861][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.10.29-14.02.39:894][  0]LogInit: Using OS detected language (en-US).
+[2019.10.29-14.02.39:894][  0]LogInit: Using OS detected locale (en-DK).
+[2019.10.29-14.02.39:894][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.29-14.02.40:092][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.29-14.02.40:121][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.29-14.02.40:121][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.29-14.02.40:371][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.29-14.02.40:371][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.29-14.02.40:499][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2019.10.29-14.02.40:499][  0]LogD3D11RHI:       6052/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.10.29-14.02.40:525][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.10.29-14.02.40:525][  0]LogD3D11RHI:       128/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.10.29-14.02.40:528][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.29-14.02.40:528][  0]LogD3D11RHI:       0/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.29-14.02.40:528][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.29-14.02.40:562][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.29-14.02.40:562][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.29-14.02.40:562][  0]LogWindows: EnumDisplayDevices:
+[2019.10.29-14.02.40:562][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.10.29-14.02.40:563][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.10.29-14.02.40:563][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.10.29-14.02.40:563][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.10.29-14.02.40:564][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.10.29-14.02.40:564][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.10.29-14.02.40:564][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.10.29-14.02.40:565][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.10.29-14.02.40:565][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2019.10.29-14.02.40:565][  0]LogD3D11RHI:   Driver Version: 436.48 (internal:26.21.14.3648, unified:436.48)
+[2019.10.29-14.02.40:565][  0]LogD3D11RHI:      Driver Date: 9-26-2019
+[2019.10.29-14.02.40:565][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.10.29-14.02.40:618][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.29-14.02.40:646][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.10.29-14.02.40:993][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.29-14.02.41:008][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.29-14.02.41:019][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.29-14.02.41:030][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.29-14.02.41:047][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.29-14.02.41:059][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.29-14.02.41:070][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.29-14.02.41:082][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.29-14.02.41:087][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.29-14.02.41:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.29-14.02.41:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.29-14.02.41:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.29-14.02.41:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.29-14.02.41:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.29-14.02.41:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.29-14.02.41:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.29-14.02.41:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.29-14.02.41:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.29-14.02.41:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.29-14.02.41:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.29-14.02.41:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.29-14.02.41:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.29-14.02.41:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.29-14.02.41:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.29-14.02.41:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.29-14.02.41:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.29-14.02.41:130][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.29-14.02.41:132][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.29-14.02.41:162][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.29-14.02.41:162][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.29-14.02.41:181][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.29-14.02.41:181][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.29-14.02.41:190][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.29-14.02.41:199][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.29-14.02.41:208][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.29-14.02.41:221][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.29-14.02.41:252][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.29-14.02.41:252][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.29-14.02.41:253][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.29-14.02.41:269][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.29-14.02.41:339][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Intermediate/Shaders/WorkingDirectory/8948/).
+[2019.10.29-14.02.41:339][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kamp-Legion/AppData/Local/Temp/UnrealShaderWorkingDir/885D4E384D0A7C1C99730DA723E3CA84/'.
+[2019.10.29-14.02.41:342][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.29-14.02.41:342][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.29-14.02.41:342][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.29-14.02.42:066][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.29-14.02.42:117][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/Kamp-Legion/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.29-14.02.42:117][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Kamp-Legion/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.10.29-14.02.42:117][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.29-14.02.42:117][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.29-14.02.42:117][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.29-14.02.42:117][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.29-14.02.42:130][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.29-14.02.42:132][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2019.10.29-14.02.42:134][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kamp-Legion/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.29-14.02.42:134][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.29-14.02.42:134][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.29-14.02.42:159][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.29-14.02.42:162][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.29-14.02.42:163][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.29-14.02.42:244][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
+[2019.10.29-14.02.42:532][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.29-14.02.42:711][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.29-14.02.42:711][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.29-14.02.42:711][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.29-14.02.42:711][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.29-14.02.42:711][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.29-14.02.42:722][  0]LogNetVersion: SanRockArtVRMED7 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2483326429)
+[2019.10.29-14.02.43:228][  0]LogPackageLocalizationCache: Processed 18 localized package path(s) for 1 prioritized culture(s) in 0.091123 seconds
+[2019.10.29-14.02.43:236][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.10.29-14.02.43:236][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.10.29-14.02.43:236][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.29-14.02.44:378][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.29-14.02.44:381][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.29-14.02.44:455][  0]SourceControl: Source control is disabled
+[2019.10.29-14.02.44:455][  0]SourceControl: Source control is disabled
+[2019.10.29-14.02.44:457][  0]SourceControl: Source control is disabled
+[2019.10.29-14.02.44:458][  0]SourceControl: Source control is disabled
+[2019.10.29-14.02.44:708][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.29-14.02.44:873][  0]LogOcInput: OculusInput pre-init called
+[2019.10.29-14.02.44:883][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.10.29-14.02.44:883][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.10.29-14.02.49:186][  0]LogEngine: Initializing Engine...
+[2019.10.29-14.02.49:187][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.29-14.02.49:188][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.10.29-14.02.49:438][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.29-14.02.49:454][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.29-14.02.49:496][  0]LogInit: XAudio2 using 'Headphones (MAJOR II BLUETOOTH Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.29-14.02.49:517][  0]LogInit: FAudioDevice initialized.
+[2019.10.29-14.02.49:517][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.29-14.02.49:565][  0]LogDerivedDataCache: Saved boot cache 0.05s 75MB C:/Users/Kamp-Legion/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.29-14.02.49:570][  0]LogInit: Texture streaming: Enabled
+[2019.10.29-14.02.49:595][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.29-14.02.49:672][  0]LogInit: Transaction tracking system initialized
+[2019.10.29-14.02.49:715][  0]BlueprintLog: New page: Editor Load
+[2019.10.29-14.02.49:826][  0]LocalizationService: Localization service is disabled
+[2019.10.29-14.02.50:146][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/' took 0.01s
+[2019.10.29-14.02.50:146][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.29-14.02.50:146][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.29-14.02.52:566][  0]SourceControl: Source control is disabled
+[2019.10.29-14.02.52:566][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.29-14.02.52:566][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualRealityBP/Maps/TestWorld.umap'
+[2019.10.29-14.02.52:566][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.29-14.02.52:566][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.179ms to complete.
+[2019.10.29-14.02.52:566][  0]LogFileHelpers: Loading map 'TestWorld' took 0.001
+[2019.10.29-14.02.52:668][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.29-14.02.52:677][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.29-14.02.52:686][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.29-14.02.52:696][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.29-14.02.52:705][  0]LogCollectionManager: Loaded 0 collections in 0.002720 seconds
+[2019.10.29-14.02.52:716][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Collections/' took 0.00s
+[2019.10.29-14.02.52:716][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Developers/KampLegion/Collections/' took 0.00s
+[2019.10.29-14.02.52:716][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Collections/' took 0.00s
+[2019.10.29-14.02.52:716][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.10.29-14.02.52:728][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 3046 classes and 768 folders.
+[2019.10.29-14.02.52:737][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.29-14.02.52:812][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.29-14.02.52:816][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2019.10.29-14.02.54:184][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.10.29-14.02.54:206][  0]LogSlate: Took 0.000364 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.29-14.02.54:209][  0]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.29-14.02.54:215][  0]LogSlate: Took 0.000522 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.29-14.02.54:309][  0]LogRenderer: Reallocating scene render targets to support 1172x644 Format 10 NumSamples 1 (Frame:1).
+[2019.10.29-14.02.54:433][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.29-14.02.54:433][  0]LogLoad: (Engine Initialization) Total time: 16.12 seconds
+[2019.10.29-14.02.54:433][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.29-14.02.54:531][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.29-14.02.54:566][  0]LogSlate: Took 0.000380 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.29-14.02.54:577][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/' took 0.12s
+[2019.10.29-14.02.54:602][  1]LogAssetRegistry: Asset discovery search completed in 12.3591 seconds
+[2019.10.29-14.02.54:606][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2019.10.29-14.02.54:606][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000067 seconds (updated 0 objects)
+[2019.10.29-14.02.55:926][  5]LogSlate: Took 0.000389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.29-14.03.12:216][199]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.29-14.03.16:292][417]LogLinker: Warning: While loading '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Maps/VR_Maps/TestWorld.umap' failed to load '/Game/Maps/VR_Maps/TestWorld_BuiltData': Can't find file.
+[2019.10.29-14.03.16:292][417]LogLinker: Warning: While loading '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Maps/VR_Maps/TestWorld.umap' failed to load '/Game/Maps/VR_Maps/TestWorld_BuiltData': Can't find file.
+[2019.10.29-14.03.16:335][417]LogLinker: Warning: While loading '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Maps/VR_Maps/TestWorld.umap' failed to load '/Game/Maps/VR_Maps/TestWorld_BuiltData': Can't find file.
+[2019.10.29-14.03.16:336][417]LogLinker: Warning: While loading '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Maps/VR_Maps/TestWorld.umap' failed to load '/Game/Maps/VR_Maps/TestWorld_BuiltData': Can't find file.
+[2019.10.29-14.03.16:357][417]LogLinker: Warning: Failed to load '/Game/Maps/VR_Maps/TestWorld_BuiltData': Can't find file.
+[2019.10.29-14.03.16:357][417]LogLinker: Warning: Failed to load '/Game/Maps/VR_Maps/TestWorld_BuiltData': Can't find file.
+[2019.10.29-14.03.16:358][417]LogLinker: Warning: Failed to load '/Game/Maps/VR_Maps/TestWorld_BuiltData': Can't find file.
+[2019.10.29-14.03.16:358][417]LogLinker: Warning: Failed to load '/Game/Maps/VR_Maps/TestWorld_BuiltData': Can't find file.
+[2019.10.29-14.03.16:388][417]LogLinker: Warning: While loading '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Maps/VR_Maps/TestWorld.umap' failed to load '/Game/Maps/VR_Maps/TestWorld_BuiltData': Can't find file.
+[2019.10.29-14.03.16:388][417]LoadErrors: Failed to load /Game/Maps/VR_Maps/TestWorld_BuiltData.TestWorld_BuiltData Referenced by PersistentLevel
+[2019.10.29-14.03.16:388][417]LogLinker: Warning: While loading '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Maps/VR_Maps/TestWorld.umap' failed to load '/Game/Maps/VR_Maps/TestWorld_BuiltData': Can't find file.
+[2019.10.29-14.03.16:729][417]LogAIModule: Creating AISystem for world TestWorld
+[2019.10.29-14.03.16:763][417]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/VR_Maps/TestWorld.TestWorld
+[2019.10.29-14.03.16:792][417]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2019.10.29-14.03.16:793][417]Cmd: MAP LOAD FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/Maps/VR_Maps/TestWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.29-14.03.16:793][417]LightingResults: New page: Lighting Build
+[2019.10.29-14.03.16:797][417]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2019.10.29-14.03.16:797][417]LoadErrors: New page: Loading map: TestWorld.umap
+[2019.10.29-14.03.16:797][417]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.10.29-14.03.16:798][417]MapCheck: New page: Map Check
+[2019.10.29-14.03.16:798][417]LightingResults: New page: Lighting Build
+[2019.10.29-14.03.16:826][417]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2019.10.29-14.03.16:921][417]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.29-14.03.16:951][417]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2019.10.29-14.03.16:980][417]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.29-14.03.16:982][417]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.802ms to complete.
+[2019.10.29-14.03.16:982][417]LogFileHelpers: Loading map 'TestWorld' took 0.190
+[2019.10.29-14.03.23:478][801]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.29-14.06.05:077][676]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Kamp-Legion\Desktop\rightHand1.fbx)
+[2019.10.29-14.06.05:109][676]LogFbx: Loading FBX Scene from C:\Users\Kamp-Legion\Desktop\rightHand1.fbx
+[2019.10.29-14.06.05:128][676]LogFbx: FBX Scene Loaded Succesfully
+[2019.10.29-14.06.36:814][676]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.10.29-14.06.36:860][676]LogFbx: Valid bind pose for Pose (Plane.003) - Hands
+[2019.10.29-14.06.38:339][676]LogMaterial: Display: Material /Game/VirtualReality/Material.Material needed to have new flag set bUsedWithSkeletalMesh !
+[2019.10.29-14.06.38:342][676]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.10.29-14.06.38:424][676]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 60
+[2019.10.29-14.06.38:424][676]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 50
+[2019.10.29-14.06.38:424][676]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 40
+[2019.10.29-14.06.38:429][676]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.10.29-14.06.38:467][676]LogFbx: Triangulating skeletal mesh Hands
+[2019.10.29-14.06.38:529][676]LogFbx: Warning: Bones digested - 22  Depth of hierarchy - 6
+[2019.10.29-14.06.38:555][676]LogSkeletalMesh: Section 0: 615 vertices, 16 active bones
+[2019.10.29-14.06.38:555][676]LogSkeletalMesh: Section 0: Material=0, 1226 triangles
+[2019.10.29-14.06.38:556][676]LogSkeletalMesh: Building Skeletal Mesh rightHand1...
+[2019.10.29-14.06.38:557][676]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/rightHand1.rightHand1
+[2019.10.29-14.06.38:559][676]LogLinker: Failed to load '/Game/VirtualReality/rightHand1_Skeleton': Can't find file.
+[2019.10.29-14.06.38:559][676]LogLinker: Failed to load '/Game/VirtualReality/rightHand1_Skeleton': Can't find file.
+[2019.10.29-14.06.38:563][676]LogLinker: Failed to load '/Game/VirtualReality/rightHand1_PhysicsAsset': Can't find file.
+[2019.10.29-14.06.38:563][676]LogLinker: Failed to load '/Game/VirtualReality/rightHand1_PhysicsAsset': Can't find file.
+[2019.10.29-14.06.38:572][676]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2019.10.29-14.06.38:573][676]LogSkeletalMesh: Building Skeletal Mesh rightHand1...
+[2019.10.29-14.06.38:574][676]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/rightHand1.rightHand1
+[2019.10.29-14.06.38:581][676]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.10.29-14.06.38:581][676]FBXImport: Warning: The following bones are missing from the bind pose:
+pinky_03_r_end  
+ring_03_r_end  
+middle_03_r_end  
+index_03_r_end  
+thumb_03_r_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2019.10.29-14.06.38:581][676]FBXImport: Warning: Mesh 'Hands' has no UV set. Creating a default set. 
+[2019.10.29-14.06.38:593][676]LogSkeletalMesh: Building Skeletal Mesh rightHand1...
+[2019.10.29-14.06.38:595][676]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/rightHand1.rightHand1
+[2019.10.29-14.06.42:272][887]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 60
+[2019.10.29-14.06.42:340][891]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 50
+[2019.10.29-14.06.44:847][ 37]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 40
+[2019.10.29-14.06.45:921][100]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 30
+[2019.10.29-14.06.48:090][227]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
+[2019.10.29-14.06.48:298][239]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2019.10.29-14.06.49:938][335]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2019.10.29-14.06.50:114][345]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2019.10.29-14.06.50:646][376]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2019.10.29-14.06.50:884][390]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2019.10.29-14.06.53:613][552]LogSlate: Window 'Message Log' being destroyed
+[2019.10.29-14.06.53:617][552]LogSlate: Window 'Message Log' being destroyed
+[2019.10.29-14.06.57:062][757]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/VirtualReality/rightHand1.rightHand1
+[2019.10.29-14.06.57:071][757]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.10.29-14.06.57:285][757]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.10.29-14.06.57:289][757]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2019.10.29-14.06.57:332][757]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.10.29-14.06.57:594][757]LogRenderer: Reallocating scene render targets to support 1172x884 Format 10 NumSamples 1 (Frame:1).
+[2019.10.29-14.07.04:872][176]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.29-14.07.39:822][252]LogSlate: Window 'rightHand1' being destroyed
+[2019.10.29-14.07.45:053][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.29-14.07.51:255][935]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2019.10.29-14.07.55:662][935]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.29-14.07.56:886][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2019.10.29-14.07.58:087][  7]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.29-14.07.58:180][  7]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2019.10.29-14.07.58:193][  7]LogUObjectGlobals: Force Deleting 4 Package(s):
+	Asset Name: /Game/VirtualReality/Material.Material
+	Asset Name: /Game/VirtualReality/rightHand1.rightHand1
+	Asset Name: /Game/VirtualReality/rightHand1_PhysicsAsset.rightHand1_PhysicsAsset
+	Asset Name: /Game/VirtualReality/rightHand1_Skeleton.rightHand1_Skeleton
+[2019.10.29-14.07.59:080][  7]LogSkeletalMesh: Building Skeletal Mesh rightHand1...
+[2019.10.29-14.07.59:082][  7]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/rightHand1.rightHand1
+[2019.10.29-14.07.59:084][  7]LogSkeletalMesh: Building Skeletal Mesh rightHand1...
+[2019.10.29-14.07.59:085][  7]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/rightHand1.rightHand1
+[2019.10.29-14.07.59:090][  7]LogSkeletalMesh: Building Skeletal Mesh rightHand1...
+[2019.10.29-14.07.59:090][  7]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/rightHand1.rightHand1
+[2019.10.29-14.07.59:589][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2019.10.29-14.08.04:370][234]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Kamp-Legion\Desktop\rightHand1.fbx)
+[2019.10.29-14.08.04:385][234]LogFbx: Loading FBX Scene from C:\Users\Kamp-Legion\Desktop\rightHand1.fbx
+[2019.10.29-14.08.04:396][234]LogFbx: FBX Scene Loaded Succesfully
+[2019.10.29-14.08.17:495][234]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.10.29-14.08.17:519][234]LogFbx: Valid bind pose for Pose (Plane.003) - Hands
+[2019.10.29-14.08.17:521][234]LogMaterial: Display: Material /Game/VirtualReality/Material.Material needed to have new flag set bUsedWithSkeletalMesh !
+[2019.10.29-14.08.17:524][234]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.10.29-14.08.17:564][234]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.10.29-14.08.17:599][234]LogFbx: Triangulating skeletal mesh Hands
+[2019.10.29-14.08.17:662][234]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 60
+[2019.10.29-14.08.17:662][234]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 50
+[2019.10.29-14.08.17:662][234]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 40
+[2019.10.29-14.08.17:662][234]LogFbx: Warning: Bones digested - 22  Depth of hierarchy - 6
+[2019.10.29-14.08.17:689][234]LogSkeletalMesh: Section 0: 615 vertices, 16 active bones
+[2019.10.29-14.08.17:689][234]LogSkeletalMesh: Section 0: Material=0, 1226 triangles
+[2019.10.29-14.08.17:690][234]LogSkeletalMesh: Building Skeletal Mesh rightHand1...
+[2019.10.29-14.08.17:691][234]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/rightHand1.rightHand1
+[2019.10.29-14.08.19:802][234]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2019.10.29-14.08.19:887][234]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 20
+[2019.10.29-14.08.20:972][234]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 13
+[2019.10.29-14.08.21:090][234]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2019.10.29-14.08.21:882][234]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2019.10.29-14.08.22:237][234]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2019.10.29-14.08.22:322][234]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2019.10.29-14.08.38:027][234]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.08.38:035][234]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.MannequinHand_Right_Open
+[2019.10.29-14.08.38:035][234]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.MannequinHand_Right_Open) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.08.38:038][234]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.MannequinHand_Right_Grab
+[2019.10.29-14.08.38:038][234]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.MannequinHand_Right_Grab) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.08.38:040][234]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.MannequinHand_Right_CanGrab
+[2019.10.29-14.08.38:040][234]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.MannequinHand_Right_CanGrab) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.08.44:352][234]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.08.47:420][234]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.08.47:444][234]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2019.10.29-14.08.47:446][234]LogSkeletalMesh: Building Skeletal Mesh rightHand1...
+[2019.10.29-14.08.47:447][234]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/rightHand1.rightHand1
+[2019.10.29-14.08.47:454][234]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.10.29-14.08.47:454][234]FBXImport: Warning: The following bones are missing from the bind pose:
+pinky_03_r_end  
+ring_03_r_end  
+middle_03_r_end  
+index_03_r_end  
+thumb_03_r_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2019.10.29-14.08.47:454][234]FBXImport: Warning: Mesh 'Hands' has no UV set. Creating a default set. 
+[2019.10.29-14.08.47:464][234]LogSkeletalMesh: Building Skeletal Mesh rightHand1...
+[2019.10.29-14.08.47:465][234]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/rightHand1.rightHand1
+[2019.10.29-14.09.05:868][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2019.10.29-14.09.07:306][319]LogSlate: Window 'Save Content' being destroyed
+[2019.10.29-14.09.12:970][656]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.10.29-14.09.12:971][656]LogMaterial: Warning: /Engine/Transient.Material_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.10.29-14.09.12:971][656]LogMaterial: Display: 	Only transparent or postprocess materials can read from scene depth.
+[2019.10.29-14.09.17:895][951]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right.MannequinHand_Right
+[2019.10.29-14.09.22:966][951]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.09.22:974][951]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.MannequinHand_Right_Open
+[2019.10.29-14.09.22:974][951]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.MannequinHand_Right_Open) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.09.22:975][951]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.MannequinHand_Right_Grab
+[2019.10.29-14.09.22:975][951]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.MannequinHand_Right_Grab) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.09.22:976][951]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.MannequinHand_Right_CanGrab
+[2019.10.29-14.09.22:976][951]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.MannequinHand_Right_CanGrab) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.09.22:981][951]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.10.29-14.09.23:021][951]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.10.29-14.09.56:697][897]LogSlate: Window 'Message Log' being destroyed
+[2019.10.29-14.09.56:702][897]LogSlate: Window 'Message Log' being destroyed
+[2019.10.29-14.13.16:414][585]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2019.10.29-14.13.16:414][585]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/VR_Maps/TestWorld' took 0.024
+[2019.10.29-14.13.16:417][585]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualReality/Mannequin/Animations/RightGrip_BS] ([1] browsable assets)...
+[2019.10.29-14.13.16:432][585]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/VirtualReality/Mannequin/Animations/RightGrip_BS.RightGrip_BS]
+[2019.10.29-14.13.16:432][585]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualReality/Mannequin/Animations/RightGrip_BS]
+[2019.10.29-14.13.16:533][585]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/RightGrip_BS_Auto1FA39FEBC4562D3967F22CAAD772293CC.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Autosaves/Game/VirtualReality/Mannequin/Animations/RightGrip_BS_Auto1.uasset'
+[2019.10.29-14.13.16:535][585]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab] ([1] browsable assets)...
+[2019.10.29-14.13.16:547][585]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.MannequinHand_Right_CanGrab]
+[2019.10.29-14.13.16:547][585]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab]
+[2019.10.29-14.13.16:609][585]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/MannequinHand_Right_CanGrab_Auto740230DC4B9A75E2266DA591FA91BFC5.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Autosaves/Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab_Auto1.uasset'
+[2019.10.29-14.13.16:611][585]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_Skeleton] ([1] browsable assets)...
+[2019.10.29-14.13.16:611][585]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_Skeleton]
+[2019.10.29-14.13.16:665][585]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/MannequinHand_Right_Skeleton_Aut083E23014A2B9B31CF7FDDA16EDDB3C6.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Autosaves/Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_Skeleton_Auto1.uasset'
+[2019.10.29-14.13.16:667][585]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab] ([1] browsable assets)...
+[2019.10.29-14.13.16:678][585]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.MannequinHand_Right_Grab]
+[2019.10.29-14.13.16:678][585]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab]
+[2019.10.29-14.13.16:741][585]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/MannequinHand_Right_Grab_Auto10EEFA20444DE36E3A587BCB737FF896F.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Autosaves/Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab_Auto1.uasset'
+[2019.10.29-14.13.16:742][585]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open] ([1] browsable assets)...
+[2019.10.29-14.13.16:757][585]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.MannequinHand_Right_Open]
+[2019.10.29-14.13.16:757][585]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open]
+[2019.10.29-14.13.16:819][585]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/MannequinHand_Right_Open_Auto1383E32E741EBC6E5805ADDBF46945AA6.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Autosaves/Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open_Auto1.uasset'
+[2019.10.29-14.13.16:821][585]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualReality/rightHand1] ([1] browsable assets)...
+[2019.10.29-14.13.16:832][585]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/VirtualReality/rightHand1.rightHand1]
+[2019.10.29-14.13.16:832][585]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualReality/rightHand1]
+[2019.10.29-14.13.16:848][585]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/rightHand1_Auto1C2E29B994B30F1BA94BBEDA239D3D8A7.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Autosaves/Game/VirtualReality/rightHand1_Auto1.uasset'
+[2019.10.29-14.13.16:850][585]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualReality/Material] ([1] browsable assets)...
+[2019.10.29-14.13.16:862][585]OBJ SavePackage:     Rendered thumbnail for [Material /Game/VirtualReality/Material.Material]
+[2019.10.29-14.13.16:862][585]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualReality/Material]
+[2019.10.29-14.13.16:877][585]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Material_Auto1814B33564D422E266BD11AB66FA368D6.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Autosaves/Game/VirtualReality/Material_Auto1.uasset'
+[2019.10.29-14.13.16:879][585]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualReality/rightHand1_PhysicsAsset] ([1] browsable assets)...
+[2019.10.29-14.13.16:893][585]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/VirtualReality/rightHand1_PhysicsAsset.rightHand1_PhysicsAsset]
+[2019.10.29-14.13.16:893][585]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualReality/rightHand1_PhysicsAsset]
+[2019.10.29-14.13.16:906][585]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/rightHand1_PhysicsAsset_Auto1A94370614060A8AA0566718712D8A502.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Autosaves/Game/VirtualReality/rightHand1_PhysicsAsset_Auto1.uasset'
+[2019.10.29-14.13.16:907][585]LogFileHelpers: Auto-saving content packages took 0.491
+[2019.10.29-14.17.26:550][245]LogSlate: Window 'Message Log' being destroyed
+[2019.10.29-14.17.26:554][245]LogSlate: Window 'Message Log' being destroyed
+[2019.10.29-14.34.34:774][846]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Kamp-Legion\Desktop\rightHand2.fbx)
+[2019.10.29-14.34.34:787][846]LogFbx: Loading FBX Scene from C:\Users\Kamp-Legion\Desktop\rightHand2.fbx
+[2019.10.29-14.34.34:800][846]LogFbx: FBX Scene Loaded Succesfully
+[2019.10.29-14.34.41:125][846]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.10.29-14.34.41:150][846]LogFbx: Valid bind pose for Pose (Plane.003) - Hands
+[2019.10.29-14.34.41:154][846]LogMaterial: Display: Material /Game/VirtualReality/Mannequin/Character/Mesh/Material.Material needed to have new flag set bUsedWithSkeletalMesh !
+[2019.10.29-14.34.41:157][846]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.10.29-14.34.41:194][846]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 60
+[2019.10.29-14.34.41:194][846]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 50
+[2019.10.29-14.34.41:194][846]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 40
+[2019.10.29-14.34.41:199][846]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.10.29-14.34.41:238][846]LogFbx: Triangulating skeletal mesh Hands
+[2019.10.29-14.34.41:299][846]LogFbx: Warning: Bones digested - 27  Depth of hierarchy - 7
+[2019.10.29-14.34.41:325][846]LogSkeletalMesh: Section 0: 615 vertices, 21 active bones
+[2019.10.29-14.34.41:325][846]LogSkeletalMesh: Section 0: Material=0, 1226 triangles
+[2019.10.29-14.34.41:326][846]LogSkeletalMesh: Building Skeletal Mesh rightHand2...
+[2019.10.29-14.34.41:328][846]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/Mannequin/Character/Mesh/rightHand2.rightHand2
+[2019.10.29-14.34.43:473][846]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 60
+[2019.10.29-14.34.43:557][846]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 50
+[2019.10.29-14.34.44:902][846]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 40
+[2019.10.29-14.34.45:615][846]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2019.10.29-14.34.47:060][846]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
+[2019.10.29-14.34.47:078][846]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 13
+[2019.10.29-14.34.48:388][846]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2019.10.29-14.34.48:405][846]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2019.10.29-14.34.48:677][846]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2019.10.29-14.34.48:900][846]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2019.10.29-14.34.55:112][846]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.34.55:118][846]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.MannequinHand_Right_Open
+[2019.10.29-14.34.55:118][846]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.MannequinHand_Right_Open) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.34.55:119][846]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.MannequinHand_Right_Grab
+[2019.10.29-14.34.55:119][846]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.MannequinHand_Right_Grab) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.34.55:119][846]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.MannequinHand_Right_CanGrab
+[2019.10.29-14.34.55:119][846]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.MannequinHand_Right_CanGrab) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.34.59:629][846]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.35.01:336][846]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.35.01:350][846]LogLinker: Failed to load '/Game/VirtualReality/Mannequin/Character/Mesh/rightHand2_PhysicsAsset': Can't find file.
+[2019.10.29-14.35.01:351][846]LogLinker: Failed to load '/Game/VirtualReality/Mannequin/Character/Mesh/rightHand2_PhysicsAsset': Can't find file.
+[2019.10.29-14.35.01:358][846]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2019.10.29-14.35.01:360][846]LogSkeletalMesh: Building Skeletal Mesh rightHand2...
+[2019.10.29-14.35.01:362][846]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/Mannequin/Character/Mesh/rightHand2.rightHand2
+[2019.10.29-14.35.01:369][846]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.10.29-14.35.01:369][846]FBXImport: Warning: The following bones are missing from the bind pose:
+pinky_03_r_end_end  
+ring_03_r_end_end  
+middle_03_r_end_end  
+index_03_r_end_end  
+thumb_03_r_end_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2019.10.29-14.35.01:369][846]FBXImport: Warning: Mesh 'Hands' has no UV set. Creating a default set. 
+[2019.10.29-14.35.01:380][846]LogSkeletalMesh: Building Skeletal Mesh rightHand2...
+[2019.10.29-14.35.01:381][846]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/Mannequin/Character/Mesh/rightHand2.rightHand2
+[2019.10.29-14.35.04:502][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2019.10.29-14.35.04:502][ 27]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/VR_Maps/TestWorld' took 0.027
+[2019.10.29-14.35.04:503][ 27]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualReality/Mannequin/Animations/RightGrip_BS] ([1] browsable assets)...
+[2019.10.29-14.35.04:515][ 27]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/VirtualReality/Mannequin/Animations/RightGrip_BS.RightGrip_BS]
+[2019.10.29-14.35.04:515][ 27]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualReality/Mannequin/Animations/RightGrip_BS]
+[2019.10.29-14.35.04:573][ 27]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/RightGrip_BS_Auto2989A11B149695180EAEA12BFA8AD114A.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Autosaves/Game/VirtualReality/Mannequin/Animations/RightGrip_BS_Auto2.uasset'
+[2019.10.29-14.35.04:574][ 27]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab] ([1] browsable assets)...
+[2019.10.29-14.35.04:584][ 27]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.MannequinHand_Right_CanGrab]
+[2019.10.29-14.35.04:584][ 27]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab]
+[2019.10.29-14.35.04:643][ 27]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/MannequinHand_Right_CanGrab_Auto37DF7EC8409CB092B5C23691B13F5317.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Autosaves/Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab_Auto2.uasset'
+[2019.10.29-14.35.04:645][ 27]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_Skeleton] ([1] browsable assets)...
+[2019.10.29-14.35.04:645][ 27]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_Skeleton]
+[2019.10.29-14.35.04:695][ 27]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/MannequinHand_Right_Skeleton_Aut1EE05DC548A81330C8D1CD9B8763CC5F.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Autosaves/Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_Skeleton_Auto2.uasset'
+[2019.10.29-14.35.04:697][ 27]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab] ([1] browsable assets)...
+[2019.10.29-14.35.04:706][ 27]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.MannequinHand_Right_Grab]
+[2019.10.29-14.35.04:706][ 27]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab]
+[2019.10.29-14.35.04:767][ 27]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/MannequinHand_Right_Grab_Auto2D81CA7CB4D8684D9CF22229D5DD5BA78.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Autosaves/Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab_Auto2.uasset'
+[2019.10.29-14.35.04:768][ 27]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open] ([1] browsable assets)...
+[2019.10.29-14.35.04:778][ 27]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.MannequinHand_Right_Open]
+[2019.10.29-14.35.04:778][ 27]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open]
+[2019.10.29-14.35.04:837][ 27]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/MannequinHand_Right_Open_Auto2D16CFD8E49FEC4379C2BB2864ED208FE.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Autosaves/Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open_Auto2.uasset'
+[2019.10.29-14.35.04:839][ 27]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualReality/Mannequin/Character/Mesh/rightHand2] ([1] browsable assets)...
+[2019.10.29-14.35.04:847][ 27]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/VirtualReality/Mannequin/Character/Mesh/rightHand2.rightHand2]
+[2019.10.29-14.35.04:848][ 27]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualReality/Mannequin/Character/Mesh/rightHand2]
+[2019.10.29-14.35.04:864][ 27]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/rightHand2_Auto23CEA4B3248DFF1F48D987181DFE14D1F.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Autosaves/Game/VirtualReality/Mannequin/Character/Mesh/rightHand2_Auto2.uasset'
+[2019.10.29-14.35.04:866][ 27]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualReality/Mannequin/Character/Mesh/Material] ([1] browsable assets)...
+[2019.10.29-14.35.04:875][ 27]OBJ SavePackage:     Rendered thumbnail for [Material /Game/VirtualReality/Mannequin/Character/Mesh/Material.Material]
+[2019.10.29-14.35.04:875][ 27]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualReality/Mannequin/Character/Mesh/Material]
+[2019.10.29-14.35.04:888][ 27]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Material_Auto25642D576457EE46BC56634B7FC78BA33.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Autosaves/Game/VirtualReality/Mannequin/Character/Mesh/Material_Auto2.uasset'
+[2019.10.29-14.35.04:889][ 27]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualReality/Mannequin/Character/Mesh/rightHand2_PhysicsAsset] ([1] browsable assets)...
+[2019.10.29-14.35.04:899][ 27]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/VirtualReality/Mannequin/Character/Mesh/rightHand2_PhysicsAsset.rightHand2_PhysicsAsset]
+[2019.10.29-14.35.04:899][ 27]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualReality/Mannequin/Character/Mesh/rightHand2_PhysicsAsset]
+[2019.10.29-14.35.04:913][ 27]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/rightHand2_PhysicsAsset_Auto20163FA8A4981696C7BE55BB4E823578F.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/Autosaves/Game/VirtualReality/Mannequin/Character/Mesh/rightHand2_PhysicsAsset_Auto2.uasset'
+[2019.10.29-14.35.04:914][ 27]LogFileHelpers: Auto-saving content packages took 0.412
+[2019.10.29-14.36.01:546][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2019.10.29-14.36.04:012][418]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.29-14.36.04:019][418]LogUObjectGlobals: Force Deleting 3 Package(s):
+	Asset Name: /Game/VirtualReality/Mannequin/Character/Mesh/Material.Material
+	Asset Name: /Game/VirtualReality/Mannequin/Character/Mesh/rightHand2.rightHand2
+	Asset Name: /Game/VirtualReality/Mannequin/Character/Mesh/rightHand2_PhysicsAsset.rightHand2_PhysicsAsset
+[2019.10.29-14.36.04:166][418]LogSkeletalMesh: Building Skeletal Mesh rightHand2...
+[2019.10.29-14.36.04:167][418]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/Mannequin/Character/Mesh/rightHand2.rightHand2
+[2019.10.29-14.36.04:168][418]LogSkeletalMesh: Building Skeletal Mesh rightHand2...
+[2019.10.29-14.36.04:169][418]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/Mannequin/Character/Mesh/rightHand2.rightHand2
+[2019.10.29-14.36.04:561][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2019.10.29-14.36.06:752][528]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Kamp-Legion\Desktop\rightHand1.fbx)
+[2019.10.29-14.36.06:765][528]LogFbx: Loading FBX Scene from C:\Users\Kamp-Legion\Desktop\rightHand1.fbx
+[2019.10.29-14.36.06:777][528]LogFbx: FBX Scene Loaded Succesfully
+[2019.10.29-14.36.12:623][528]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.10.29-14.36.12:649][528]LogFbx: Valid bind pose for Pose (Plane.003) - Hands
+[2019.10.29-14.36.12:651][528]LogMaterial: Display: Material /Game/VirtualReality/Mannequin/Character/Mesh/Material.Material needed to have new flag set bUsedWithSkeletalMesh !
+[2019.10.29-14.36.12:655][528]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.10.29-14.36.12:697][528]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.10.29-14.36.12:735][528]LogFbx: Triangulating skeletal mesh Hands
+[2019.10.29-14.36.12:798][528]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 60
+[2019.10.29-14.36.12:798][528]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 50
+[2019.10.29-14.36.12:798][528]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 40
+[2019.10.29-14.36.12:798][528]LogFbx: Warning: Bones digested - 22  Depth of hierarchy - 6
+[2019.10.29-14.36.12:823][528]LogSkeletalMesh: Section 0: 615 vertices, 16 active bones
+[2019.10.29-14.36.12:823][528]LogSkeletalMesh: Section 0: Material=0, 1226 triangles
+[2019.10.29-14.36.12:824][528]LogSkeletalMesh: Building Skeletal Mesh rightHand1...
+[2019.10.29-14.36.12:825][528]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/Mannequin/Character/Mesh/rightHand1.rightHand1
+[2019.10.29-14.36.12:827][528]LogLinker: Failed to load '/Game/VirtualReality/Mannequin/Character/Mesh/rightHand1_PhysicsAsset': Can't find file.
+[2019.10.29-14.36.12:827][528]LogLinker: Failed to load '/Game/VirtualReality/Mannequin/Character/Mesh/rightHand1_PhysicsAsset': Can't find file.
+[2019.10.29-14.36.12:833][528]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2019.10.29-14.36.12:835][528]LogSkeletalMesh: Building Skeletal Mesh rightHand1...
+[2019.10.29-14.36.12:836][528]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/Mannequin/Character/Mesh/rightHand1.rightHand1
+[2019.10.29-14.36.12:842][528]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.10.29-14.36.12:843][528]FBXImport: Warning: The following bones are missing from the bind pose:
+pinky_03_r_end  
+ring_03_r_end  
+middle_03_r_end  
+index_03_r_end  
+thumb_03_r_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2019.10.29-14.36.12:843][528]FBXImport: Warning: Mesh 'Hands' has no UV set. Creating a default set. 
+[2019.10.29-14.36.12:844][528]LogSkeletalMesh: Building Skeletal Mesh rightHand1...
+[2019.10.29-14.36.12:845][528]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/Mannequin/Character/Mesh/rightHand1.rightHand1
+[2019.10.29-14.36.17:199][783]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2019.10.29-14.36.17:336][791]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 20
+[2019.10.29-14.36.19:636][925]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 13
+[2019.10.29-14.36.19:666][927]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2019.10.29-14.36.20:506][975]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/VirtualReality/Mannequin/Character/Mesh/rightHand1.rightHand1
+[2019.10.29-14.36.20:524][975]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.10.29-14.36.20:555][975]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.10.29-14.36.21:312][999]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2019.10.29-14.36.22:336][ 54]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2019.10.29-14.36.22:455][ 61]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2019.10.29-14.36.26:615][302]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.29-14.36.50:601][735]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_Skeleton.MannequinHand_Right_Skeleton
+[2019.10.29-14.36.59:023][735]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.36.59:031][735]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.MannequinHand_Right_Open
+[2019.10.29-14.36.59:031][735]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.MannequinHand_Right_Open) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.36.59:032][735]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.MannequinHand_Right_Grab
+[2019.10.29-14.36.59:032][735]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.MannequinHand_Right_Grab) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.36.59:032][735]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.MannequinHand_Right_CanGrab
+[2019.10.29-14.36.59:032][735]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.MannequinHand_Right_CanGrab) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.36.59:039][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.10.29-14.36.59:078][735]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.10.29-14.39.59:261][259]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2019.10.29-14.40.00:870][259]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.29-14.40.00:966][259]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2019.10.29-14.40.00:993][259]LogUObjectGlobals: Force Deleting 3 Package(s):
+	Asset Name: /Game/VirtualReality/Mannequin/Character/Mesh/Material.Material
+	Asset Name: /Game/VirtualReality/Mannequin/Character/Mesh/rightHand1.rightHand1
+	Asset Name: /Game/VirtualReality/Mannequin/Character/Mesh/rightHand1_PhysicsAsset.rightHand1_PhysicsAsset
+[2019.10.29-14.40.01:143][259]LogSkeletalMesh: Building Skeletal Mesh rightHand1...
+[2019.10.29-14.40.01:145][259]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/Mannequin/Character/Mesh/rightHand1.rightHand1
+[2019.10.29-14.40.01:147][259]LogSkeletalMesh: Building Skeletal Mesh rightHand1...
+[2019.10.29-14.40.01:149][259]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/Mannequin/Character/Mesh/rightHand1.rightHand1
+[2019.10.29-14.40.01:563][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2019.10.29-14.40.04:722][390]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Kamp-Legion\Desktop\rightHand2.fbx)
+[2019.10.29-14.40.04:735][390]LogFbx: Loading FBX Scene from C:\Users\Kamp-Legion\Desktop\rightHand2.fbx
+[2019.10.29-14.40.04:749][390]LogFbx: FBX Scene Loaded Succesfully
+[2019.10.29-14.41.03:884][390]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.10.29-14.41.03:924][390]LogFbx: Valid bind pose for Pose (Plane.003) - Hands
+[2019.10.29-14.41.03:927][390]LogMaterial: Display: Material /Game/VirtualReality/Mannequin/Character/Mesh/Material.Material needed to have new flag set bUsedWithSkeletalMesh !
+[2019.10.29-14.41.03:930][390]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.10.29-14.41.03:969][390]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.10.29-14.41.04:005][390]LogFbx: Triangulating skeletal mesh Hands
+[2019.10.29-14.41.04:070][390]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 60
+[2019.10.29-14.41.04:070][390]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 50
+[2019.10.29-14.41.04:070][390]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 40
+[2019.10.29-14.41.04:070][390]LogFbx: Warning: Bones digested - 27  Depth of hierarchy - 7
+[2019.10.29-14.41.04:097][390]LogSkeletalMesh: Section 0: 615 vertices, 21 active bones
+[2019.10.29-14.41.04:097][390]LogSkeletalMesh: Section 0: Material=0, 1226 triangles
+[2019.10.29-14.41.04:097][390]LogSkeletalMesh: Building Skeletal Mesh rightHand2...
+[2019.10.29-14.41.04:099][390]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/Mannequin/Character/Mesh/rightHand2.rightHand2
+[2019.10.29-14.41.06:248][390]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2019.10.29-14.41.06:367][390]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 20
+[2019.10.29-14.41.07:455][390]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 13
+[2019.10.29-14.41.07:455][390]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2019.10.29-14.41.08:285][390]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2019.10.29-14.41.08:727][390]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2019.10.29-14.41.08:744][390]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2019.10.29-14.42.04:425][390]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.42.04:434][390]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.MannequinHand_Right_Open
+[2019.10.29-14.42.04:434][390]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.MannequinHand_Right_Open) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.42.04:436][390]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.MannequinHand_Right_Grab
+[2019.10.29-14.42.04:436][390]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.MannequinHand_Right_Grab) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.42.04:437][390]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.MannequinHand_Right_CanGrab
+[2019.10.29-14.42.04:437][390]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.MannequinHand_Right_CanGrab) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.42.14:684][390]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.42.17:332][390]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.42.17:355][390]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2019.10.29-14.42.17:357][390]LogSkeletalMesh: Building Skeletal Mesh rightHand2...
+[2019.10.29-14.42.17:358][390]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/Mannequin/Character/Mesh/rightHand2.rightHand2
+[2019.10.29-14.42.17:366][390]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.10.29-14.42.17:366][390]FBXImport: Warning: The following bones are missing from the bind pose:
+pinky_03_r_end_end  
+ring_03_r_end_end  
+middle_03_r_end_end  
+index_03_r_end_end  
+thumb_03_r_end_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2019.10.29-14.42.17:366][390]FBXImport: Warning: Mesh 'Hands' has no UV set. Creating a default set. 
+[2019.10.29-14.42.17:369][390]LogSkeletalMesh: Building Skeletal Mesh rightHand2...
+[2019.10.29-14.42.17:371][390]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/Mannequin/Character/Mesh/rightHand2.rightHand2
+[2019.10.29-14.42.55:404][634]LogSlate: Window 'Message Log' being destroyed
+[2019.10.29-14.42.55:408][634]LogSlate: Window 'Message Log' being destroyed
+[2019.10.29-14.43.17:250][926]LogAssetEditorManager: Opening Asset editor for BlendSpace1D /Game/VirtualReality/Mannequin/Animations/RightGrip_BS.RightGrip_BS
+[2019.10.29-14.43.22:081][926]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.43.22:090][926]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.MannequinHand_Right_Open
+[2019.10.29-14.43.22:090][926]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.MannequinHand_Right_Open) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.43.22:090][926]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.MannequinHand_Right_Grab
+[2019.10.29-14.43.22:091][926]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.MannequinHand_Right_Grab) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.43.22:091][926]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.MannequinHand_Right_CanGrab
+[2019.10.29-14.43.22:091][926]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.MannequinHand_Right_CanGrab) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.43.22:102][926]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.10.29-14.43.22:134][926]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.10.29-14.43.22:504][926]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.10.29-14.43.35:783][670]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2019.10.29-14.43.37:105][744]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2019.10.29-14.43.38:284][807]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2019.10.29-14.43.39:660][884]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2019.10.29-14.43.55:923][805]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2019.10.29-14.43.57:356][805]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.29-14.43.57:361][805]LogUObjectGlobals: Force Deleting 3 Package(s):
+	Asset Name: /Game/VirtualReality/Mannequin/Character/Mesh/rightHand2_PhysicsAsset.rightHand2_PhysicsAsset
+	Asset Name: /Game/VirtualReality/Mannequin/Character/Mesh/rightHand2.rightHand2
+	Asset Name: /Game/VirtualReality/Mannequin/Character/Mesh/Material.Material
+[2019.10.29-14.43.57:511][805]LogSkeletalMesh: Building Skeletal Mesh rightHand2...
+[2019.10.29-14.43.57:513][805]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/Mannequin/Character/Mesh/rightHand2.rightHand2
+[2019.10.29-14.43.57:519][805]LogSkeletalMesh: Building Skeletal Mesh rightHand2...
+[2019.10.29-14.43.57:520][805]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/Mannequin/Character/Mesh/rightHand2.rightHand2
+[2019.10.29-14.43.57:928][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2019.10.29-14.44.05:239][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2019.10.29-14.44.06:897][198]LogSlate: Window 'Save Content' being destroyed
+[2019.10.29-14.44.07:006][198]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/MannequinHand_Right_CanGrab0C735FE64E71629471D2788C5783EA87.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.uasset'
+[2019.10.29-14.44.07:085][198]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/MannequinHand_Right_GrabC65D08D54C44E3F78F023D872E459909.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.uasset'
+[2019.10.29-14.44.07:163][198]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/MannequinHand_Right_Open2AC885084E528ABEA63982BA80A07E6C.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.uasset'
+[2019.10.29-14.44.07:242][198]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/RightGrip_BS719A4CAC4512BF663CA186BE13F64E02.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Mannequin/Animations/RightGrip_BS.uasset'
+[2019.10.29-14.44.07:300][198]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/MannequinHand_Right_Skeleton35BC20904E3C13DB82C2418B54C3A5ED.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_Skeleton.uasset'
+[2019.10.29-14.44.07:307][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualReality/Material" FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Material.uasset" SILENT=true
+[2019.10.29-14.44.07:312][198]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/MaterialE41971BA4B1C7777DB2861AFA70A8E6B.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/Material.uasset'
+[2019.10.29-14.44.07:318][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualReality/rightHand1" FILE="../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/rightHand1.uasset" SILENT=true
+[2019.10.29-14.44.07:326][198]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/rightHand17E8964EF4CA1D708100038A76325CFA3.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/rightHand1.uasset'
+[2019.10.29-14.44.07:337][198]LogSavePackage: Moving '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Saved/rightHand1_PhysicsAssetC100D72C4AFA482646A5A19072AF53C3.tmp' to '../../../../../../Users/Kamp-Legion/Documents/SanRockVRUE4/SanRockVR/Content/VirtualReality/rightHand1_PhysicsAsset.uasset'
+[2019.10.29-14.44.26:271][107]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Kamp-Legion\Desktop\rightHand2.fbx)
+[2019.10.29-14.44.26:284][107]LogFbx: Loading FBX Scene from C:\Users\Kamp-Legion\Desktop\rightHand2.fbx
+[2019.10.29-14.44.26:297][107]LogFbx: FBX Scene Loaded Succesfully
+[2019.10.29-14.45.06:344][107]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.10.29-14.45.06:402][107]LogFbx: Valid bind pose for Pose (Plane.003) - Hands
+[2019.10.29-14.45.06:405][107]LogMaterial: Display: Material /Game/VirtualReality/Mannequin/Character/Mesh/Material.Material needed to have new flag set bUsedWithSkeletalMesh !
+[2019.10.29-14.45.06:409][107]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.10.29-14.45.06:449][107]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2019.10.29-14.45.06:486][107]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 60
+[2019.10.29-14.45.06:486][107]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 50
+[2019.10.29-14.45.06:486][107]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 40
+[2019.10.29-14.45.06:486][107]LogFbx: Triangulating skeletal mesh Hands
+[2019.10.29-14.45.06:547][107]LogFbx: Warning: Bones digested - 27  Depth of hierarchy - 7
+[2019.10.29-14.45.06:572][107]LogSkeletalMesh: Section 0: 615 vertices, 21 active bones
+[2019.10.29-14.45.06:573][107]LogSkeletalMesh: Section 0: Material=0, 1226 triangles
+[2019.10.29-14.45.06:573][107]LogSkeletalMesh: Building Skeletal Mesh rightHand2...
+[2019.10.29-14.45.06:574][107]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/Mannequin/Character/Mesh/rightHand2.rightHand2
+[2019.10.29-14.45.08:667][107]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2019.10.29-14.45.08:770][107]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 20
+[2019.10.29-14.45.09:941][107]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 13
+[2019.10.29-14.45.10:061][107]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2019.10.29-14.45.10:943][107]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2019.10.29-14.45.11:336][107]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2019.10.29-14.45.11:421][107]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2019.10.29-14.45.15:427][107]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.45.15:441][107]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2019.10.29-14.45.15:443][107]LogSkeletalMesh: Building Skeletal Mesh rightHand2...
+[2019.10.29-14.45.15:445][107]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/Mannequin/Character/Mesh/rightHand2.rightHand2
+[2019.10.29-14.45.15:454][107]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.10.29-14.45.15:454][107]FBXImport: Warning: Mesh 'Hands' has no UV set. Creating a default set. 
+[2019.10.29-14.45.15:467][107]LogSkeletalMesh: Building Skeletal Mesh rightHand2...
+[2019.10.29-14.45.15:468][107]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/VirtualReality/Mannequin/Character/Mesh/rightHand2.rightHand2
+[2019.10.29-14.45.22:872][545]LogSlate: Window 'Message Log' being destroyed
+[2019.10.29-14.45.22:875][545]LogSlate: Window 'Message Log' being destroyed
+[2019.10.29-14.45.29:663][951]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/VirtualReality/Mannequin/Character/Mesh/rightHand2.rightHand2
+[2019.10.29-14.45.35:432][951]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.45.35:440][951]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.MannequinHand_Right_Open
+[2019.10.29-14.45.35:440][951]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.MannequinHand_Right_Open) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.45.35:441][951]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.MannequinHand_Right_Grab
+[2019.10.29-14.45.35:441][951]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.MannequinHand_Right_Grab) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.45.35:442][951]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.MannequinHand_Right_CanGrab
+[2019.10.29-14.45.35:442][951]LogAnimationCompression: Recompressing (AnimSequence /Game/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.MannequinHand_Right_CanGrab) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.10.29-14.45.35:451][951]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.10.29-14.45.35:492][951]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.10.29-14.45.52:322][935]Cmd: TRANSACTION UNDO
+[2019.10.29-14.45.52:322][935]LogEditorTransaction: Undo Rotate Bone
+[2019.10.29-14.45.52:632][935]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.10.29-14.45.56:285][935]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.45.57:326][935]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.45.57:892][935]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.45.57:915][935]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.10.29-14.45.59:538][ 18]Cmd: TRANSACTION UNDO
+[2019.10.29-14.45.59:538][ 18]LogEditorTransaction: Undo Edit Use T0 As Ref Pose
+[2019.10.29-14.45.59:856][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.10.29-14.45.59:949][ 18]Cmd: TRANSACTION UNDO
+[2019.10.29-14.45.59:949][ 18]LogEditorTransaction: Undo Edit Update Skeleton Reference Pose
+[2019.10.29-14.46.02:828][ 18]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.46.03:770][ 18]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.46.04:439][ 18]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.46.04:457][ 18]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.10.29-14.46.04:966][ 18]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.46.05:216][ 18]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.46.05:408][ 18]LogSlate: Window 'Message' being destroyed
+[2019.10.29-14.46.05:428][ 18]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.

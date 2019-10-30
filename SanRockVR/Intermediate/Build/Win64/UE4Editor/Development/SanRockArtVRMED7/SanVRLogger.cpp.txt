@@ -1,3 +1,3 @@
-C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\Definitions.SanRockArtVRMED7.h
-C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Source\SanRockArtVRMED7\Public\SanVRLogger.h
-C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Intermediate\Build\Win64\UE4Editor\Inc\SanRockArtVRMED7\SanVRLogger.generated.h
+C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\Definitions.SanRockArtVRMED7.h
+C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\Source\SanRockArtVRMED7\Public\SanVRLogger.h
+C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\Intermediate\Build\Win64\UE4Editor\Inc\SanRockArtVRMED7\SanVRLogger.generated.h
