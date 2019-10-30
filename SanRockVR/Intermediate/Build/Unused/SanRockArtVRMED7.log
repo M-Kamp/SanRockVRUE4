@@ -1,0 +1,19 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo).
+  Parsing headers for SanRockArtVRMED7Editor
+    Running UnrealHeaderTool "C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\SanRockArtVRMED7.uproject" "C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Intermediate\Build\Win64\SanRockArtVRMED7Editor\Development\SanRockArtVRMED7Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SanRockArtVRMED7Editor in 6,5731405 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 4 processes...
+    [1/5] SanVRLogger.cpp
+C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Source\SanRockArtVRMED7\Private\SanVRLogger.cpp(37): warning C4996: 'FPaths::GameSavedDir': FPaths::GameSavedDir() has been superseded by FPaths::ProjectSavedDir(). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/Paths.h(171): note: see declaration of 'FPaths::GameSavedDir'
+C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Source\SanRockArtVRMED7\Private\SanVRLogger.cpp(58): warning C4996: 'FPaths::GameSavedDir': FPaths::GameSavedDir() has been superseded by FPaths::ProjectSavedDir(). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Misc/Paths.h(171): note: see declaration of 'FPaths::GameSavedDir'
+    [2/5] SanVRLogger.gen.cpp
+    [3/5] UE4Editor-SanRockArtVRMED7-0013.lib
+       Creating library C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\UE4Editor-SanRockArtVRMED7-0013.lib and object C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\UE4Editor-SanRockArtVRMED7-0013.exp
+    [4/5] UE4Editor-SanRockArtVRMED7-0013.dll
+       Creating library C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\UE4Editor-SanRockArtVRMED7-0013.suppressed.lib and object C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\UE4Editor-SanRockArtVRMED7-0013.suppressed.exp
+    [5/5] SanRockArtVRMED7Editor.target
+  Total time in Parallel executor: 7,54 seconds
+  Total execution time: 15,26 seconds
