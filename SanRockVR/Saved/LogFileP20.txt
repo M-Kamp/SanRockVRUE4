@@ -1398,3 +1398,5 @@ ID,FPS,TimeStamp
 20,57.593075,Oct 30, 2019, 2:27:39 PM
 20,56.590214,Oct 30, 2019, 2:27:39 PM
 20,56.900948,Oct 30, 2019, 2:27:39 PM
+ID,FPS,TimeStamp,PlayerHead_X,PlayerHead_Y,PlayerHead_Z,PlayerHeadRot_X,PlayerHeadRot_Y,PlayerHeadRot_Z,PlayerHandRightPos_X,PlayerHandRightPos_Y,PlayerHandRightPos_Z,PlayerHandRightRot_X,PlayerHandRightRot_Y,PlayerHandRightRot_Z,PlayerHandLeftPos_X,PlayerHandLeftPos_Y,PlayerHandLeftPos_Z,PlayerHandLeftRot_X,PlayerHandLeftRot_Y,PlayerHandLeftRot_Z,HasPickedUpDrawTool,HasPaintedWall,HasPressedVRButton,HasCompletedTutorial
+20,2.5,Nov 3, 2019, 11:57:53 AM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,false,false,false,false
