@@ -1,1 +1,1 @@
-../../../SanRockArtVRMED7/SanRockArtVRMED7.uproject  /Game/Maps/VR_Maps/FinalMap -Messaging -SessionId=710E6C5249F3A163611AB691863D3BC3 -SessionOwner="Mikke" -SessionName="Launch On Device" -iterative
+../../../SanRockArtVRMED7/SanRockArtVRMED7.uproject  /Game/Maps/VR_Maps/FinalMap -Messaging -SessionId=0749CDF74F4F9AACC7980889081343F1 -SessionOwner="Mikke" -SessionName="Launch On Device" -iterative

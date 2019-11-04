@@ -169,8 +169,8 @@ Windows.Engine:/Script/UnrealEd.EditorEngine:SmoothedFrameRateRange:0=(LowerBoun
 Windows.Engine:/Script/UnrealEd.EditorEngine:UseOldStyleMICEditorGroups:0=true
 Windows.Engine:/Script/UnrealEd.EditorEngine:InEditorGameURLOptions:0=
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/VirtualRealityBP/Maps/TestWorld.TestWorld
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/VirtualRealityBP/Maps/TestWorld.TestWorld
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/Maps/VR_Maps/FinalMap.FinalMap
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/VR_Maps/FinalMap.FinalMap
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/VirtualRealityBP/Blueprints/VRGameMode.VRGameMode_C
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:LocalMapOptions:0=
@@ -1879,6 +1879,8 @@ Windows.Input:/Script/Engine.InputSettings:ActionMappings:9=(ActionName="Fire",b
 Windows.Input:/Script/Engine.InputSettings:ActionMappings:10=(ActionName="StartAnimation",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=SpaceBar)
 Windows.Input:/Script/Engine.InputSettings:ActionMappings:11=(ActionName="InteractL",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=MotionController_Left_Trigger)
 Windows.Input:/Script/Engine.InputSettings:ActionMappings:12=(ActionName="InteractR",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=MotionController_Right_Trigger)
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:13=(ActionName="PaintR",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=MotionController_Right_Trigger)
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:14=(ActionName="PaintL",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=MotionController_Left_Trigger)
 Windows.Input:/Script/Engine.InputSettings:AxisMappings:0=(AxisName="TeleportDirectionUp",Scale=1.000000,Key=Gamepad_LeftY)
 Windows.Input:/Script/Engine.InputSettings:AxisMappings:1=(AxisName="TeleportDirectionRight",Scale=1.000000,Key=Gamepad_LeftX)
 Windows.Input:/Script/Engine.InputSettings:AxisMappings:2=(AxisName="MotionControllerThumbLeft_Y",Scale=-1.000000,Key=MotionController_Left_Thumbstick_Y)
