@@ -43,8 +43,6 @@ SanRockArtVRMED7/Content/3DAssets/Materials/M_Rock03.uasset
 SanRockArtVRMED7/Content/3DAssets/Materials/M_Rock03.uexp
 SanRockArtVRMED7/Content/3DAssets/Materials/M_Rock03_Inst.uasset
 SanRockArtVRMED7/Content/3DAssets/Materials/M_Rock03_Inst.uexp
-SanRockArtVRMED7/Content/3DAssets/Meshes/plane.uasset
-SanRockArtVRMED7/Content/3DAssets/Meshes/plane.uexp
 SanRockArtVRMED7/Content/3DAssets/Meshes/RockPiences01_low.uasset
 SanRockArtVRMED7/Content/3DAssets/Meshes/RockPiences01_low.uexp
 SanRockArtVRMED7/Content/3DAssets/Meshes/RockPiences02_low.uasset
@@ -89,10 +87,6 @@ SanRockArtVRMED7/Content/3DAssets/Textures/RockCanvas/RockPiences_Canvas_low_Can
 SanRockArtVRMED7/Content/3DAssets/Textures/RockCanvas/RockPiences_Canvas_low_CanvasWall_OcclusionRoughnessMetallic.uasset
 SanRockArtVRMED7/Content/3DAssets/Textures/RockCanvas/RockPiences_Canvas_low_CanvasWall_OcclusionRoughnessMetallic.ubulk
 SanRockArtVRMED7/Content/3DAssets/Textures/RockCanvas/RockPiences_Canvas_low_CanvasWall_OcclusionRoughnessMetallic.uexp
-SanRockArtVRMED7/Content/Animations/AnimatedRock_M.uasset
-SanRockArtVRMED7/Content/Animations/AnimatedRock_M.uexp
-SanRockArtVRMED7/Content/Animations/Animated_Cube.uasset
-SanRockArtVRMED7/Content/Animations/Animated_Cube.uexp
 SanRockArtVRMED7/Content/Animations/AnimationScene_1_test.uasset
 SanRockArtVRMED7/Content/Animations/AnimationScene_1_test.uexp
 SanRockArtVRMED7/Content/Animations/FlipBook_LF.uasset
@@ -263,16 +257,10 @@ SanRockArtVRMED7/Content/DrawingAssets/M_RenderTargetPreview.uasset
 SanRockArtVRMED7/Content/DrawingAssets/M_RenderTargetPreview.uexp
 SanRockArtVRMED7/Content/DrawingAssets/M_Rock01_Instance.uasset
 SanRockArtVRMED7/Content/DrawingAssets/M_Rock01_Instance.uexp
-SanRockArtVRMED7/Content/DrawingAssets/M_Rock02_Instance.uasset
-SanRockArtVRMED7/Content/DrawingAssets/M_Rock02_Instance.uexp
 SanRockArtVRMED7/Content/DrawingAssets/M_RockCanvas_Instance.uasset
 SanRockArtVRMED7/Content/DrawingAssets/M_RockCanvas_Instance.uexp
 SanRockArtVRMED7/Content/DrawingAssets/PaintableRock.uasset
 SanRockArtVRMED7/Content/DrawingAssets/PaintableRock.uexp
-SanRockArtVRMED7/Content/DrawingAssets/PaintableRock_Rock01.uasset
-SanRockArtVRMED7/Content/DrawingAssets/PaintableRock_Rock01.uexp
-SanRockArtVRMED7/Content/DrawingAssets/PaintableRock_Rock02.uasset
-SanRockArtVRMED7/Content/DrawingAssets/PaintableRock_Rock02.uexp
 SanRockArtVRMED7/Content/DrawingAssets/PaintableRock_RockCanvas.uasset
 SanRockArtVRMED7/Content/DrawingAssets/PaintableRock_RockCanvas.uexp
 SanRockArtVRMED7/Content/DrawingAssets/PaintCanvas_M.uasset
@@ -320,6 +308,10 @@ SanRockArtVRMED7/Content/ParticleSystems/Fire/Textures/T_Smoke_SubUV.uexp
 SanRockArtVRMED7/Content/ParticleSystems/Fire/Textures/T_Smoke_Tiled_D.uasset
 SanRockArtVRMED7/Content/ParticleSystems/Fire/Textures/T_Smoke_Tiled_D.ubulk
 SanRockArtVRMED7/Content/ParticleSystems/Fire/Textures/T_Smoke_Tiled_D.uexp
+SanRockArtVRMED7/Content/ParticleSystems/Lightning/Lightning1_M.uasset
+SanRockArtVRMED7/Content/ParticleSystems/Lightning/Lightning1_M.uexp
+SanRockArtVRMED7/Content/ParticleSystems/Lightning/Lightning1_P.uasset
+SanRockArtVRMED7/Content/ParticleSystems/Lightning/Lightning1_P.uexp
 SanRockArtVRMED7/Content/StarterContent/Textures/T_MacroVariation.uasset
 SanRockArtVRMED7/Content/StarterContent/Textures/T_MacroVariation.uexp
 SanRockArtVRMED7/Content/StarterContent/Textures/T_Metal_Rust_D.uasset
@@ -351,6 +343,8 @@ SanRockArtVRMED7/Content/Thumbnail/BP_Thumbnail_Story_Scene4_part2.uasset
 SanRockArtVRMED7/Content/Thumbnail/BP_Thumbnail_Story_Scene4_part2.uexp
 SanRockArtVRMED7/Content/Thumbnail/BP_Thumbnail_Story_Scene5.uasset
 SanRockArtVRMED7/Content/Thumbnail/BP_Thumbnail_Story_Scene5.uexp
+SanRockArtVRMED7/Content/Thumbnail/BP_Thumbnail_Story_Scene6.uasset
+SanRockArtVRMED7/Content/Thumbnail/BP_Thumbnail_Story_Scene6.uexp
 SanRockArtVRMED7/Content/Thumbnail/BP_Thumbnail_Story_Start.uasset
 SanRockArtVRMED7/Content/Thumbnail/BP_Thumbnail_Story_Start.uexp
 SanRockArtVRMED7/Content/Thumbnail/dottedCircle.uasset
@@ -364,6 +358,8 @@ SanRockArtVRMED7/Content/Thumbnail/M_Thumbnail_instance.uasset
 SanRockArtVRMED7/Content/Thumbnail/M_Thumbnail_instance.uexp
 SanRockArtVRMED7/Content/Thumbnail/M_Thumbnail_OK.uasset
 SanRockArtVRMED7/Content/Thumbnail/M_Thumbnail_OK.uexp
+SanRockArtVRMED7/Content/Thumbnail/M_Thumbnail_Save.uasset
+SanRockArtVRMED7/Content/Thumbnail/M_Thumbnail_Save.uexp
 SanRockArtVRMED7/Content/Thumbnail/M_Thumbnail_Start.uasset
 SanRockArtVRMED7/Content/Thumbnail/M_Thumbnail_Start.uexp
 SanRockArtVRMED7/Content/Thumbnail/newdocicon.uasset
@@ -376,6 +372,9 @@ SanRockArtVRMED7/Content/Thumbnail/RenderTargetSaveGame.uasset
 SanRockArtVRMED7/Content/Thumbnail/RenderTargetSaveGame.uexp
 SanRockArtVRMED7/Content/Thumbnail/SanRockArtSaveGame.uasset
 SanRockArtVRMED7/Content/Thumbnail/SanRockArtSaveGame.uexp
+SanRockArtVRMED7/Content/Thumbnail/Save.uasset
+SanRockArtVRMED7/Content/Thumbnail/Save.ubulk
+SanRockArtVRMED7/Content/Thumbnail/Save.uexp
 SanRockArtVRMED7/Content/Thumbnail/StartIcon.uasset
 SanRockArtVRMED7/Content/Thumbnail/StartIcon.ubulk
 SanRockArtVRMED7/Content/Thumbnail/StartIcon.uexp
