@@ -1,0 +1,15 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Mikke\Documents\SanRockVRUE4).
+  Invalidating makefile for SanRockArtVRMED7Editor (source file removed)
+UnrealBuildTool : warning : Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+  Parsing headers for SanRockArtVRMED7Editor
+    Running UnrealHeaderTool "C:\Users\Mikke\Documents\SanRockVRUE4\SanRockVR\SanRockArtVRMED7.uproject" "C:\Users\Mikke\Documents\SanRockVRUE4\SanRockVR\Intermediate\Build\Win64\SanRockArtVRMED7Editor\Development\SanRockArtVRMED7Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SanRockArtVRMED7Editor in 6,0802901 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 3 actions with 4 processes...
+    [1/3] UE4Editor-SanRockArtVRMED7-0012.lib
+       Creating library C:\Users\Mikke\Documents\SanRockVRUE4\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\UE4Editor-SanRockArtVRMED7-0012.lib and object C:\Users\Mikke\Documents\SanRockVRUE4\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\UE4Editor-SanRockArtVRMED7-0012.exp
+    [2/3] UE4Editor-SanRockArtVRMED7-0012.dll
+       Creating library C:\Users\Mikke\Documents\SanRockVRUE4\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\UE4Editor-SanRockArtVRMED7-0012.suppressed.lib and object C:\Users\Mikke\Documents\SanRockVRUE4\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\UE4Editor-SanRockArtVRMED7-0012.suppressed.exp
+    [3/3] SanRockArtVRMED7Editor.target
+  Total time in Parallel executor: 1,23 seconds
+  Total execution time: 9,45 seconds

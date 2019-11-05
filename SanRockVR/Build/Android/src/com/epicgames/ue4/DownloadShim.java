@@ -1,10 +1,10 @@
 package com.epicgames.ue4;
 
-import com.YourCompany.SanRockArtVRMED7.OBBDownloaderService;
-import com.YourCompany.SanRockArtVRMED7.DownloaderActivity;
+import com.MTA19734.SanRockArtVR.OBBDownloaderService;
+import com.MTA19734.SanRockArtVR.DownloaderActivity;
 import android.app.Activity;
 import com.google.android.vending.expansion.downloader.Helpers;
-import com.YourCompany.SanRockArtVRMED7.OBBData;
+import com.MTA19734.SanRockArtVR.OBBData;
 
 
 public class DownloadShim

@@ -46,21 +46,21 @@ INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-58:12
 INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-58:12
 INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-58:12
 	package
-		ADDED from Z:\app\src\main\AndroidManifest.xml:1:70-112
+		ADDED from Z:\app\src\main\AndroidManifest.xml:1:70-105
 		INJECTED from Z:\app\src\main\AndroidManifest.xml
 		INJECTED from Z:\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from Z:\app\src\main\AndroidManifest.xml:1:176-201
+		ADDED from Z:\app\src\main\AndroidManifest.xml:1:171-196
 		INJECTED from Z:\app\src\main\AndroidManifest.xml
 		INJECTED from Z:\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from Z:\app\src\main\AndroidManifest.xml:1:11-69
 	android:versionCode
-		ADDED from Z:\app\src\main\AndroidManifest.xml:1:152-175
+		ADDED from Z:\app\src\main\AndroidManifest.xml:1:147-170
 		INJECTED from Z:\app\src\main\AndroidManifest.xml
 		INJECTED from Z:\app\src\main\AndroidManifest.xml
 	android:installLocation
-		ADDED from Z:\app\src\main\AndroidManifest.xml:1:113-151
+		ADDED from Z:\app\src\main\AndroidManifest.xml:1:106-146
 application
 ADDED from Z:\app\src\main\AndroidManifest.xml:3:3-43:17
 MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Mikke\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\8f4e7953cdad62cc0fc7c30c8392b503\AndroidManifest.xml:22:5-37:19
@@ -120,17 +120,17 @@ MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\M
 activity#com.epicgames.ue4.GameActivity
 ADDED from Z:\app\src\main\AndroidManifest.xml:4:5-10:16
 	android:screenOrientation
-		ADDED from Z:\app\src\main\AndroidManifest.xml:4:344-381
+		ADDED from Z:\app\src\main\AndroidManifest.xml:4:352-389
 	android:label
 		ADDED from Z:\app\src\main\AndroidManifest.xml:4:61-93
 	android:launchMode
-		ADDED from Z:\app\src\main\AndroidManifest.xml:4:312-343
+		ADDED from Z:\app\src\main\AndroidManifest.xml:4:320-351
 	android:debuggable
-		ADDED from Z:\app\src\main\AndroidManifest.xml:4:382-407
+		ADDED from Z:\app\src\main\AndroidManifest.xml:4:390-415
 	android:resizeableActivity
-		ADDED from Z:\app\src\main\AndroidManifest.xml:4:277-311
+		ADDED from Z:\app\src\main\AndroidManifest.xml:4:285-319
 	android:configChanges
-		ADDED from Z:\app\src\main\AndroidManifest.xml:4:159-276
+		ADDED from Z:\app\src\main\AndroidManifest.xml:4:159-284
 	android:theme
 		ADDED from Z:\app\src\main\AndroidManifest.xml:4:94-158
 	android:name
@@ -151,7 +151,7 @@ category#android.intent.category.LAUNCHER
 ADDED from Z:\app\src\main\AndroidManifest.xml:8:9-69
 	android:name
 		ADDED from Z:\app\src\main\AndroidManifest.xml:8:19-66
-activity#com.YourCompany.SanRockArtVRMED7.DownloaderActivity
+activity#com.MTA19734.SanRockArtVR.DownloaderActivity
 ADDED from Z:\app\src\main\AndroidManifest.xml:11:5-52
 	android:name
 		ADDED from Z:\app\src\main\AndroidManifest.xml:11:15-49
@@ -283,11 +283,11 @@ ADDED from Z:\app\src\main\AndroidManifest.xml:32:5-180
 		ADDED from Z:\app\src\main\AndroidManifest.xml:32:68-177
 	android:name
 		ADDED from Z:\app\src\main\AndroidManifest.xml:32:15-67
-service#com.YourCompany.SanRockArtVRMED7.OBBDownloaderService
+service#com.MTA19734.SanRockArtVR.OBBDownloaderService
 ADDED from Z:\app\src\main\AndroidManifest.xml:33:5-52
 	android:name
 		ADDED from Z:\app\src\main\AndroidManifest.xml:33:14-49
-receiver#com.YourCompany.SanRockArtVRMED7.AlarmReceiver
+receiver#com.MTA19734.SanRockArtVR.AlarmReceiver
 ADDED from Z:\app\src\main\AndroidManifest.xml:34:5-46
 	android:name
 		ADDED from Z:\app\src\main\AndroidManifest.xml:34:15-43

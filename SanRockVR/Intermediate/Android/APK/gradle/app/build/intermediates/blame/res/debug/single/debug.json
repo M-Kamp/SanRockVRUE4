@@ -28,10 +28,6 @@
         "source": "C:\\Users\\Mikke\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\f7aefc9763532da5d8b490c8dca7e3ea\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
-        "merged": "Z:\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
-        "source": "C:\\Users\\Mikke\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\8c3e0ecf16fbfbcd02d6fbda78fc0bcf\\res\\layout\\notification_action_tombstone.xml"
-    },
-    {
         "merged": "Z:\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_plusone_tall_off_client.png.flat",
         "source": "C:\\Users\\Mikke\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-plus-11.8.0.aar\\c237eff499edbc199a2c20a827842813\\res\\drawable-mdpi-v4\\ic_plusone_tall_off_client.png"
     },
@@ -304,10 +300,6 @@
         "source": "Z:\\app\\src\\main\\res\\layout-land\\downloader_progress.xml"
     },
     {
-        "merged": "Z:\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action.xml.flat",
-        "source": "C:\\Users\\Mikke\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\8c3e0ecf16fbfbcd02d6fbda78fc0bcf\\res\\layout\\notification_action.xml"
-    },
-    {
         "merged": "Z:\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_plusone_tall_off_client.png.flat",
         "source": "C:\\Users\\Mikke\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-plus-11.8.0.aar\\c237eff499edbc199a2c20a827842813\\res\\drawable-xxhdpi-v4\\ic_plusone_tall_off_client.png"
     },
@@ -370,10 +362,6 @@
     {
         "merged": "Z:\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\Mikke\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\8c3e0ecf16fbfbcd02d6fbda78fc0bcf\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
-    },
-    {
-        "merged": "Z:\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_icon_group.xml.flat",
-        "source": "C:\\Users\\Mikke\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\8c3e0ecf16fbfbcd02d6fbda78fc0bcf\\res\\layout\\notification_template_icon_group.xml"
     },
     {
         "merged": "Z:\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon.png.flat",
@@ -440,10 +428,6 @@
         "source": "C:\\Users\\Mikke\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.0.aar\\c32993f1f016c40bc3b57c2e4315bc9d\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "Z:\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\Mikke\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\8c3e0ecf16fbfbcd02d6fbda78fc0bcf\\res\\layout-v16\\notification_template_custom_big.xml"
-    },
-    {
         "merged": "Z:\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
         "source": "C:\\Users\\Mikke\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\8c3e0ecf16fbfbcd02d6fbda78fc0bcf\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
     },
@@ -454,10 +438,6 @@
     {
         "merged": "Z:\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\Mikke\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\f7aefc9763532da5d8b490c8dca7e3ea\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
-    },
-    {
-        "merged": "Z:\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\Mikke\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\8c3e0ecf16fbfbcd02d6fbda78fc0bcf\\res\\layout\\notification_template_custom_big.xml"
     },
     {
         "merged": "Z:\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",

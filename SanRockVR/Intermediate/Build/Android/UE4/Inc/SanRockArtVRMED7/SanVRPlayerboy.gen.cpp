@@ -137,6 +137,7 @@ void EmptyLinkFunctionForGeneratedCodeSanVRPlayerboy() {}
 		{ "HideCategories", "Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "SanVRPlayerboy.h" },
 		{ "ModuleRelativePath", "Public/SanVRPlayerboy.h" },
+		{ "ObjectInitializerConstructorDeclared", "" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ASanVRPlayerboy_Statics::StaticCppClassTypeInfo = {
@@ -166,7 +167,7 @@ void EmptyLinkFunctionForGeneratedCodeSanVRPlayerboy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASanVRPlayerboy, 1863324206);
+	IMPLEMENT_CLASS(ASanVRPlayerboy, 196135709);
 	template<> SANROCKARTVRMED7_API UClass* StaticClass<ASanVRPlayerboy>()
 	{
 		return ASanVRPlayerboy::StaticClass();
