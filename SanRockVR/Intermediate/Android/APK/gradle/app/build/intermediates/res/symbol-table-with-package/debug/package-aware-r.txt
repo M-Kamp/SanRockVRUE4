@@ -1,4 +1,4 @@
-com.YourCompany.SanRockArtVRMED7
+com.MTA19734.SanRockArtVR
 anim noaction
 attr buttonSize
 attr circleCrop

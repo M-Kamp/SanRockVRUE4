@@ -4,21 +4,18 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
-
-#include "FileHelper.h"
-#include "Paths.h"
-
 #include "SanVRPlayerboy.generated.h"
 
 /**
  * 
  */
-UCLASS()
+UCLASS(config = Game)
 class SANROCKARTVRMED7_API ASanVRPlayerboy : public APlayerController
 {
 	GENERATED_BODY()
 	
 public:
+	ASanVRPlayerboy(const FObjectInitializer& ObjectInitializer);
 
 	UFUNCTION(BlueprintCallable, Category = "SaveLoad")
 		void InitilizeCSVTextFile(TArray<FString> Text, FString FileName);

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SanRockArtVRMED7.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F2106D0B-2C55-4B33-8DA9-FB707E53ECD0}</UniqueIdentifier>
+      <UniqueIdentifier>{3F2296AB-85F0-46F4-922F-3595410801BC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SanRockArtVRMED7.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D77C7E7C-568F-4A57-AD34-6133134447D9}</UniqueIdentifier>
+      <UniqueIdentifier>{C0BD6E3A-2B06-45A9-A3E7-7D6808AA1BA2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,55 +27,55 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Config\Android">
-      <UniqueIdentifier>{90C856F5-1661-4E05-87CF-094654792717}</UniqueIdentifier>
+      <UniqueIdentifier>{AABCD97E-6472-41E1-BA8C-7EAE29CFD75D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Android\AndroidEngine.ini">
       <Filter>Config\Android</Filter>
     </None>
     <Filter Include="Config\IOS">
-      <UniqueIdentifier>{46905350-00E7-473C-9428-C4B5CB803352}</UniqueIdentifier>
+      <UniqueIdentifier>{E97E97B8-02F9-40EA-A643-CAAE8B8AFB7F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\IOS\IOSEngine.ini">
       <Filter>Config\IOS</Filter>
     </None>
     <Filter Include="Config\Linux">
-      <UniqueIdentifier>{C7F656D3-1053-4DAE-BD90-37024A8C2B68}</UniqueIdentifier>
+      <UniqueIdentifier>{DEDE0E45-B6F0-4E1B-BB1D-14D3E037AC6F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Linux\LinuxEngine.ini">
       <Filter>Config\Linux</Filter>
     </None>
     <Filter Include="Config\Mac">
-      <UniqueIdentifier>{4F60F48B-A753-4817-BEA6-2A7C281C6E90}</UniqueIdentifier>
+      <UniqueIdentifier>{0C78A9A8-B120-4612-96C8-48E815E57F0E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Mac\MacEngine.ini">
       <Filter>Config\Mac</Filter>
     </None>
     <Filter Include="Config\PS4">
-      <UniqueIdentifier>{05F13855-2FF8-440E-AC4A-DECBC2372A8C}</UniqueIdentifier>
+      <UniqueIdentifier>{6E4EFF98-8C13-46F2-AA72-CCF1E55D93C7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\PS4\PS4Engine.ini">
       <Filter>Config\PS4</Filter>
     </None>
     <Filter Include="Config\Switch">
-      <UniqueIdentifier>{186AC5C9-B8FC-48C3-8271-870B05B53786}</UniqueIdentifier>
+      <UniqueIdentifier>{ECE5C79E-5818-4E8C-8566-5D3811432960}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Switch\SwitchEngine.ini">
       <Filter>Config\Switch</Filter>
     </None>
     <Filter Include="Config\Windows">
-      <UniqueIdentifier>{F6081493-02BF-4BFF-8813-E8F53646C97D}</UniqueIdentifier>
+      <UniqueIdentifier>{4FBB9088-BE9D-4186-B48C-0BD8CE96B3CC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Windows\WindowsEngine.ini">
       <Filter>Config\Windows</Filter>
     </None>
     <Filter Include="Config\XboxOne">
-      <UniqueIdentifier>{D5EBC4FE-31B6-40C0-8164-E4C8FF9C7760}</UniqueIdentifier>
+      <UniqueIdentifier>{5F2B99B5-176A-4F8E-BDBC-A99D2828505E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
       <Filter>Config\XboxOne</Filter>
     </None>
     <Filter Include="Source\SanRockArtVRMED7">
-      <UniqueIdentifier>{CD3D84D1-D6CF-4FD8-9AB0-7563D633A8B0}</UniqueIdentifier>
+      <UniqueIdentifier>{B1347388-8843-4F73-9E41-B7EECDA82F69}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SanRockArtVRMED7\SanRockArtVRMED7.Build.cs">
       <Filter>Source\SanRockArtVRMED7</Filter>
@@ -87,28 +87,32 @@
       <Filter>Source\SanRockArtVRMED7</Filter>
     </ClInclude>
     <Filter Include="Source\SanRockArtVRMED7\Private">
-      <UniqueIdentifier>{DDE5EC44-BC30-4D56-98CE-84B4262195B1}</UniqueIdentifier>
+      <UniqueIdentifier>{A3F1C0F7-4EB4-4B37-9086-0D6E196C7145}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SanRockArtVRMED7\Private\ImageSaveLoad.cpp">
-      <Filter>Source\SanRockArtVRMED7\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\SanRockArtVRMED7\Private\SanVRLogger.cpp">
       <Filter>Source\SanRockArtVRMED7\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\SanRockArtVRMED7\Private\SanVRPlayerboy.cpp">
       <Filter>Source\SanRockArtVRMED7\Private</Filter>
     </ClCompile>
     <Filter Include="Source\SanRockArtVRMED7\Public">
-      <UniqueIdentifier>{C336DFC3-D7F0-46B6-99E0-0FA51E9F9071}</UniqueIdentifier>
+      <UniqueIdentifier>{6344DDCE-79E9-4545-AEBF-E402E5B69D13}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\SanRockArtVRMED7\Public\ImageSaveLoad.h">
-      <Filter>Source\SanRockArtVRMED7\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\SanRockArtVRMED7\Public\SanVRLogger.h">
       <Filter>Source\SanRockArtVRMED7\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\SanRockArtVRMED7\Public\SanVRPlayerboy.h">
       <Filter>Source\SanRockArtVRMED7\Public</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\SanRockArtVRMED7\Public\MyLogger.h">
+      <Filter>Source\SanRockArtVRMED7\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\SanRockArtVRMED7\Private\MyLogger.cpp">
+      <Filter>Source\SanRockArtVRMED7\Private</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

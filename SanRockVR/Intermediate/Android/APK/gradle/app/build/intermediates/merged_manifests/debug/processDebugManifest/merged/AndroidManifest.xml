@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.YourCompany.SanRockArtVRMED7"
-    android:installLocation="internalOnly"
+    package="com.MTA19734.SanRockArtVR"
+    android:installLocation="preferExternal"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="14"
+        android:minSdkVersion="25"
         android:targetSdkVersion="26" />
     <!-- Requirements -->
     <uses-feature
@@ -40,7 +40,7 @@
         android:label="@string/app_name" >
         <activity
             android:name="com.epicgames.ue4.GameActivity"
-            android:configChanges="mcc|mnc|uiMode|screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:configChanges="mcc|mnc|uiMode|density|screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden|keyboard"
             android:debuggable="true"
             android:label="@string/app_name"
             android:launchMode="singleTask"
@@ -57,11 +57,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.YourCompany.SanRockArtVRMED7.DownloaderActivity" />
+        <activity android:name="com.MTA19734.SanRockArtVR.DownloaderActivity" />
 
         <meta-data
             android:name="com.epicgames.ue4.GameActivity.EngineVersion"
-            android:value="4.23.0" />
+            android:value="4.23.1" />
         <meta-data
             android:name="com.epicgames.ue4.GameActivity.EngineBranch"
             android:value="++UE4+Release-4.23" />
@@ -124,9 +124,9 @@
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
 
-        <service android:name="com.YourCompany.SanRockArtVRMED7.OBBDownloaderService" />
+        <service android:name="com.MTA19734.SanRockArtVR.OBBDownloaderService" />
 
-        <receiver android:name="com.YourCompany.SanRockArtVRMED7.AlarmReceiver" />
+        <receiver android:name="com.MTA19734.SanRockArtVR.AlarmReceiver" />
         <receiver android:name="com.epicgames.ue4.LocalNotificationReceiver" />
         <receiver
             android:name="com.epicgames.ue4.MulticastBroadcastReceiver"
@@ -159,7 +159,7 @@
 
         <provider
             android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.YourCompany.SanRockArtVRMED7.lifecycle-trojan"
+            android:authorities="com.MTA19734.SanRockArtVR.lifecycle-trojan"
             android:exported="false"
             android:multiprocess="true" />
 

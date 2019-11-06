@@ -1,3 +1,3 @@
-C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Source\SanRockArtVRMED7\SanRockArtVRMED7.Build.cs
-C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Source\SanRockArtVRMED7.Target.cs
-C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Source\SanRockArtVRMED7Editor.Target.cs
+C:\Users\Mikke\Documents\SanRockVRUE4\SanRockVR\Source\SanRockArtVRMED7\SanRockArtVRMED7.Build.cs
+C:\Users\Mikke\Documents\SanRockVRUE4\SanRockVR\Source\SanRockArtVRMED7.Target.cs
+C:\Users\Mikke\Documents\SanRockVRUE4\SanRockVR\Source\SanRockArtVRMED7Editor.Target.cs
