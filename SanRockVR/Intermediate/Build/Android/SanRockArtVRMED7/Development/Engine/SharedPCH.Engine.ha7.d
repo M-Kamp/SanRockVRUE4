@@ -1,5 +1,5 @@
-C:/Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Intermediate/Build/Android/SanRockArtVRMED7/Development/Engine/SharedPCH.Engine-armv7-es2.h.gch: \
-  C:/Users/Mikke/Documents/SanRockVRUE4/SanRockVR/Intermediate/Build/Android/SanRockArtVRMED7/Development/Engine/SharedPCH.Engine.h \
+C:/Users/Mikke/Documents/Unreal\ Projects/SanRockArt-repo/SanRockVR/Intermediate/Build/Android/SanRockArtVRMED7/Development/Engine/SharedPCH.Engine-armv7-es2.h.gch: \
+  C:/Users/Mikke/Documents/Unreal\ Projects/SanRockArt-repo/SanRockVR/Intermediate/Build/Android/SanRockArtVRMED7/Development/Engine/SharedPCH.Engine.h \
   C:/Program\ Files/Epic\ Games/UE_4.23/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h \
   C:/Program\ Files/Epic\ Games/UE_4.23/Engine/Source/Runtime/Core/Public\Containers/ContainersFwd.h \
   C:/Program\ Files/Epic\ Games/UE_4.23/Engine/Source/Runtime/Core/Public\CoreTypes.h \

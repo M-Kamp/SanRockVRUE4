@@ -1,5 +1,5 @@
-C:\Users\Mikke\Documents\SanRockVRUE4\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\Definitions.SanRockArtVRMED7.h
+C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\Definitions.SanRockArtVRMED7.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Mikke\Documents\SanRockVRUE4\SanRockVR\Source\SanRockArtVRMED7/Public/MyLogger.h
-c:\users\mikke\documents\sanrockvrue4\sanrockvr\intermediate\build\win64\ue4editor\inc\sanrockartvrmed7\MyLogger.generated.h
+C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Source\SanRockArtVRMED7/Public/MyLogger.h
+c:\users\mikke\documents\unreal projects\sanrockart-repo\sanrockvr\intermediate\build\win64\ue4editor\inc\sanrockartvrmed7\MyLogger.generated.h
