@@ -1,5 +1,5 @@
-C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\Definitions.SanRockArtVRMED7.h
-C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\Source\SanRockArtVRMED7\Public\ImageSaveLoad.h
+C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Intermediate\Build\Win64\UE4Editor\Development\SanRockArtVRMED7\Definitions.SanRockArtVRMED7.h
+C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Source\SanRockArtVRMED7\Public\ImageSaveLoad.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/TextureRenderTarget2D.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/TextureRenderTarget.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextureRenderTarget.generated.h
@@ -8,5 +8,5 @@ C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\ImageWriteQueue/Public
 c:\program files\epic games\ue_4.23\engine\source\runtime\imagewritequeue\public\ImageWriteTask.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\ImageWrapper\Public\IImageWrapper.h
 c:\program files\epic games\ue_4.23\engine\source\runtime\imagewritequeue\public\ImagePixelData.h
-C:\Users\Kamp-Legion\Documents\SanRockVRUE4\SanRockVR\Intermediate\Build\Win64\UE4Editor\Inc\SanRockArtVRMED7\ImageSaveLoad.generated.h
+C:\Users\Mikke\Documents\Unreal Projects\SanRockArt-repo\SanRockVR\Intermediate\Build\Win64\UE4Editor\Inc\SanRockArtVRMED7\ImageSaveLoad.generated.h
 C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Public\HighResScreenshot.h
